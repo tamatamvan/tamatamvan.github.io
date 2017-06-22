@@ -90,9 +90,9 @@
     
       <category term="Software" scheme="http://tamatamvan.web.id/tags/Software/"/>
     
-      <category term="GitHub" scheme="http://tamatamvan.web.id/tags/GitHub/"/>
-    
       <category term="git" scheme="http://tamatamvan.web.id/tags/git/"/>
+    
+      <category term="GitHub" scheme="http://tamatamvan.web.id/tags/GitHub/"/>
     
       <category term="version system controller" scheme="http://tamatamvan.web.id/tags/version-system-controller/"/>
     
@@ -204,19 +204,19 @@ Pada dasarnya untuk menginstall Composer secara global, kita cukup mendownload [
     
       <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
     
-      <category term="Mac OSX" scheme="http://tamatamvan.web.id/tags/Mac-OSX/"/>
-    
-      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
-    
-      <category term="Windows" scheme="http://tamatamvan.web.id/tags/Windows/"/>
-    
       <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
     
       <category term="composer" scheme="http://tamatamvan.web.id/tags/composer/"/>
     
+      <category term="Mac OSX" scheme="http://tamatamvan.web.id/tags/Mac-OSX/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
       <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
     
       <category term="PHP" scheme="http://tamatamvan.web.id/tags/PHP/"/>
+    
+      <category term="Windows" scheme="http://tamatamvan.web.id/tags/Windows/"/>
     
   </entry>
   
@@ -446,13 +446,11 @@ Pada dasarnya untuk menginstall Composer secara global, kita cukup mendownload [
       <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
     
     
-      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
-    
       <category term="belajar" scheme="http://tamatamvan.web.id/tags/belajar/"/>
     
       <category term="situs" scheme="http://tamatamvan.web.id/tags/situs/"/>
     
-      <category term="ruby" scheme="http://tamatamvan.web.id/tags/ruby/"/>
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
     
       <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
     
@@ -473,6 +471,8 @@ Pada dasarnya untuk menginstall Composer secara global, kita cukup mendownload [
       <category term="HTML" scheme="http://tamatamvan.web.id/tags/HTML/"/>
     
       <category term="kelaskita" scheme="http://tamatamvan.web.id/tags/kelaskita/"/>
+    
+      <category term="ruby" scheme="http://tamatamvan.web.id/tags/ruby/"/>
     
       <category term="sekolahkoding" scheme="http://tamatamvan.web.id/tags/sekolahkoding/"/>
     
@@ -526,9 +526,9 @@ Pada dasarnya untuk menginstall Composer secara global, kita cukup mendownload [
       <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
     
     
-      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
-    
       <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
     
       <category term="JavaScript" scheme="http://tamatamvan.web.id/tags/JavaScript/"/>
     
@@ -584,9 +584,9 @@ Pada dasarnya untuk menginstall Composer secara global, kita cukup mendownload [
     
       <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
     
-      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
-    
       <category term="android studio" scheme="http://tamatamvan.web.id/tags/android-studio/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
     
       <category term="alacarte" scheme="http://tamatamvan.web.id/tags/alacarte/"/>
     
@@ -637,15 +637,15 @@ Pada dasarnya untuk menginstall Composer secara global, kita cukup mendownload [
     
       <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
     
-      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
-    
       <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
-    
-      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
     
       <category term="android studio" scheme="http://tamatamvan.web.id/tags/android-studio/"/>
     
       <category term="java" scheme="http://tamatamvan.web.id/tags/java/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
     
       <category term="Andoid" scheme="http://tamatamvan.web.id/tags/Andoid/"/>
     
@@ -876,9 +876,9 @@ Sepuluh hal diatas adalah beberapa hal yang perlu dilakukan setelah install Ubun
     
       <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
     
-      <category term="Xenial Xerus" scheme="http://tamatamvan.web.id/tags/Xenial-Xerus/"/>
-    
       <category term="16.04" scheme="http://tamatamvan.web.id/tags/16-04/"/>
+    
+      <category term="Xenial Xerus" scheme="http://tamatamvan.web.id/tags/Xenial-Xerus/"/>
     
   </entry>
   
@@ -936,11 +936,11 @@ Sepuluh hal diatas adalah beberapa hal yang perlu dilakukan setelah install Ubun
     
       <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
     
-      <category term="LTS" scheme="http://tamatamvan.web.id/tags/LTS/"/>
-    
       <category term="Download" scheme="http://tamatamvan.web.id/tags/Download/"/>
     
       <category term="Indonesia" scheme="http://tamatamvan.web.id/tags/Indonesia/"/>
+    
+      <category term="LTS" scheme="http://tamatamvan.web.id/tags/LTS/"/>
     
       <category term="Mirror" scheme="http://tamatamvan.web.id/tags/Mirror/"/>
     
@@ -1016,13 +1016,13 @@ Sepuluh hal diatas adalah beberapa hal yang perlu dilakukan setelah install Ubun
     
       <category term="Software" scheme="http://tamatamvan.web.id/tags/Software/"/>
     
-      <category term="Windows" scheme="http://tamatamvan.web.id/tags/Windows/"/>
-    
       <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
     
-      <category term="Sistem Operasi" scheme="http://tamatamvan.web.id/tags/Sistem-Operasi/"/>
+      <category term="Windows" scheme="http://tamatamvan.web.id/tags/Windows/"/>
     
       <category term="Bash" scheme="http://tamatamvan.web.id/tags/Bash/"/>
+    
+      <category term="Sistem Operasi" scheme="http://tamatamvan.web.id/tags/Sistem-Operasi/"/>
     
       <category term="windows 10" scheme="http://tamatamvan.web.id/tags/windows-10/"/>
     
@@ -1069,6 +1069,12 @@ Sepuluh hal diatas adalah beberapa hal yang perlu dilakukan setelah install Ubun
       <category term="Open Source Software" scheme="http://tamatamvan.web.id/categories/Linux/Open-Source-Software/"/>
     
     
+      <category term="Cloud" scheme="http://tamatamvan.web.id/tags/Cloud/"/>
+    
+      <category term="Infografik" scheme="http://tamatamvan.web.id/tags/Infografik/"/>
+    
+      <category term="IoT" scheme="http://tamatamvan.web.id/tags/IoT/"/>
+    
       <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
     
       <category term="Open Source" scheme="http://tamatamvan.web.id/tags/Open-Source/"/>
@@ -1076,12 +1082,6 @@ Sepuluh hal diatas adalah beberapa hal yang perlu dilakukan setelah install Ubun
       <category term="server" scheme="http://tamatamvan.web.id/tags/server/"/>
     
       <category term="Software" scheme="http://tamatamvan.web.id/tags/Software/"/>
-    
-      <category term="Cloud" scheme="http://tamatamvan.web.id/tags/Cloud/"/>
-    
-      <category term="Infografik" scheme="http://tamatamvan.web.id/tags/Infografik/"/>
-    
-      <category term="IoT" scheme="http://tamatamvan.web.id/tags/IoT/"/>
     
       <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
     
@@ -1277,11 +1277,11 @@ Setelah memasukkan perintah di atas anda akan diminta untuk memasukkan password 
     
       <category term="debian" scheme="http://tamatamvan.web.id/tags/debian/"/>
     
-      <category term="OpenSuse" scheme="http://tamatamvan.web.id/tags/OpenSuse/"/>
-    
       <category term="Fedora" scheme="http://tamatamvan.web.id/tags/Fedora/"/>
     
       <category term="Command Line" scheme="http://tamatamvan.web.id/tags/Command-Line/"/>
+    
+      <category term="OpenSuse" scheme="http://tamatamvan.web.id/tags/OpenSuse/"/>
     
   </entry>
   
@@ -1402,9 +1402,9 @@ Setelah memasukkan perintah di atas anda akan diminta untuk memasukkan password 
     
       <category term="Open Source" scheme="http://tamatamvan.web.id/tags/Open-Source/"/>
     
-      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
-    
       <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
     
       <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
     
@@ -1505,9 +1505,9 @@ Setelah memasukkan perintah di atas anda akan diminta untuk memasukkan password 
       <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
     
     
-      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
-    
       <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
     
       <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
     
