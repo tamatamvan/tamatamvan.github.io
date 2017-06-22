@@ -1,0 +1,856 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="oKWy6pxgYm91OjXcnDKKUiAd37HnjQEyTXi7_XbEgpA" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="OOP,Pemrograman Web,PHP,class,PHP-OOP,function,Hello World,Sintaks Dasar PHP-OOP," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="TamaTamvan" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="Assalamu’alaikum Wr. Wb., Kali ini saya akan membagikan sebuah artikel mengenai PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP. Ini merupakan kelanjutan  dari artikel “PHP OOP Untuk Pemula Bag. 1">
+<meta name="keywords" content="OOP,Pemrograman Web,PHP,class,PHP-OOP,function,Hello World,Sintaks Dasar PHP-OOP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP">
+<meta property="og:url" content="http://tamatamvan.web.id/php-oop-untuk-pemula-bag-2-sintaks-dasar-php-oop 10.08.49 PM/index.html">
+<meta property="og:site_name" content="TamaTamvan">
+<meta property="og:description" content="Assalamu’alaikum Wr. Wb., Kali ini saya akan membagikan sebuah artikel mengenai PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP. Ini merupakan kelanjutan  dari artikel “PHP OOP Untuk Pemula Bag. 1">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-12-02-22-44-41-1024x576.png">
+<meta property="og:updated_time" content="2017-06-21T14:49:06.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP">
+<meta name="twitter:description" content="Assalamu’alaikum Wr. Wb., Kali ini saya akan membagikan sebuah artikel mengenai PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP. Ini merupakan kelanjutan  dari artikel “PHP OOP Untuk Pemula Bag. 1">
+<meta name="twitter:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-12-02-22-44-41-1024x576.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://tamatamvan.web.id/php-oop-untuk-pemula-bag-2-sintaks-dasar-php-oop 10.08.49 PM/"/>
+
+
+
+
+
+  <title>PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP | TamaTamvan</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">TamaTamvan</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Eat, Pray, Code <br/> Assalamu'alaikum 🙏</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://tamatamvan.web.id/php-oop-untuk-pemula-bag-2-sintaks-dasar-php-oop 10.08.49 PM/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Septian A Tama">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TamaTamvan">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-12-02T14:13:58+07:00">
+                2015-12-02
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2017-06-21T21:49:06+07:00">
+                2017-06-21
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Pemrograman/" itemprop="url" rel="index">
+                    <span itemprop="name">Pemrograman</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Pemrograman/Pemrograman-Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Pemrograman Web</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/php-oop-untuk-pemula-bag-2-sintaks-dasar-php-oop 10.08.49 PM/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count fb-comments-count" data-href="http://tamatamvan.web.id/php-oop-untuk-pemula-bag-2-sintaks-dasar-php-oop 10.08.49 PM/" itemprop="commentCount">0</span> comments
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time</span>
+                
+                <span title="Reading time">
+                  3
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Assalamu’alaikum Wr. Wb., Kali ini saya akan membagikan sebuah artikel mengenai <strong>PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP. </strong>Ini merupakan kelanjutan  dari artikel “<a href="http://tamatamvan.web.id/pemrograman/php-oop-untuk-pemula-bag-1-memahami-konsep-oop/">PHP OOP Untuk Pemula Bag. 1 : Memahami Konsep OOP</a>“.  Setelah memahami konsep dasar dari OOP, kita akan melangkah dan mulai mempelajari <strong>sintaks dasar dari PHP OOP.
+</strong></p>
+<hr>
+<h2 id="Membuat-Sebuah-Class-pada-PHP-OOP"><a href="#Membuat-Sebuah-Class-pada-PHP-OOP" class="headerlink" title="Membuat Sebuah Class pada PHP OOP"></a>Membuat Sebuah Class pada PHP OOP</h2><p>Untuk membuat sebuah class pada PHP OOP, sintaks yang akan kita gunakan cukuplah sederhana, jelas, dan mudah untuk dipahami. Di mana kita untuk mendeklarasikan sebuah akan menggunakan keyword <strong><code>class</code></strong>_<strong>, </strong> _yang kemudian akan diikuti dengan nama class tersebut, serta sepasang kurung kurawal (<code>{}</code>) . Perhatikan pada source code di bawah ini :</p>
+<p>[snippet id=”64”]</p>
+<p>Pada line 3 source code diatas, kita bisa melihat bahwa kita telah mendeklarasikan sebuah <code>class</code> bernama <code>HelloWorld</code>_, _dan diantara sepasang kurung kurawal itulah property, dan fungsi dari sebuah class akan di letakkan. Namun, kali ini kita belum menambahkan apapun kedalam <code>class HelloWorld</code> tersebut.</p>
+<p>Selanjutnya kita coba untuk menambahkan sebuah fungsi untuk menapilkan teks “Hello World!” pada <code>class HelloWorld</code>. Untuk mendeklarasikan sebuah <em>function</em>, kita gunakan keyword <code>function</code>diikuti dengan nama function tersebut dan sepasang tanda kurung (<code>()</code>) yang akan berisi parameter sebuah function, lalu di ikuti sepasang kurung kurawal (<code>{}</code>) yang di dalamnya akan berisi aksi atau sebuah function yang akan di eksekusi. Perhatikan pada source code di bawah ini :</p>
+<p>[snippet id=”63”]</p>
+<p>Pada source code di atas kita bisa lihat bahwa pada <code>class HelloWorld</code> kini sudah terdapat sebuah function bernama <code>Hello(),</code>pada function ini kita tidak menambahkan parameter apapun melaikan hanya sebuah perintah untuk berupa <code>echo &quot;Hello World!&quot;;</code>, yang berarti apabila di eksekusi <code>function Hello()</code> pada <code>class HelloWorld</code> akan menampilkan pesan teks “Hello World!”.</p>
+<p>Perntanyaanya sekarang ialah, apabila suatu class dan function telah dideklarasikan, apakah bisa langsung tereksekusi? Jawabnya adalah tidak. Untuk mengeksekusi sebuah function pada class tertentu, kita perlu melakukan instance pada sebuah class dimana suatu function yang ingin kita eksekusi berada. Instance sendiri merupakan cara untuk mengubah suatu class menjadi sebuah objek supaya dapat digunakan.</p>
+<p>Untuk menginstance suatu kelas digunakan perintah “<code>$namaobjek = new namaclass();&quot;.</code></p>
+<p>Pada line 12 source code program HelloWorld di atas menunjukkan bahwa <code>class HelloWorld</code> di-instance dengan dimasukkan pada sebuah variable bernama <code>$HelloWorld</code>, menggunakan keyword <code>new</code>. Jadi untuk menginstace suatu class, yang kemudian kita masukkan <code>new</code>di ikuti dengan <code>namaclass(),</code>yaitu <code>HelloWorld()</code> yang akan kita instance atau kita ubah menjadi sebuah objek, dan tidak lupa ditutup dengan semicolon <code>;</code>.</p>
+<p>Nama suatu objek yang dideklarasikan tidak harus sama dengan nama class yang di instance, jadi boleh saja kita instance atau ubah <code>class HelloWorld</code> menjadi suatu objek dengan perintah seperti “<code>$hw = new HelloWorld();</code>“.</p>
+<p>Kemudian, untuk mengeksekusi sebuah function pada sebuah class yang telah di instance atau dijadikan objek, kita gunakan perintah “<code>$namaobjek-&amp;gt;namafungsi();</code>“</p>
+<p>Seperti contohnya pada line 14, kita bisa melihat perintah “<code>$HelloWorld-&amp;gt;Hello();</code>“, yang berarti kita memanggil <code>function Hello()</code> pada objek <code>HelloWorld</code>. Dan apabila source code diatas anda jalankan pada local webserver anda, dan anda akses melalui web browser, akan muncul pesan “Hello World!” seperti pada gambar dibawah.</p>
+<p>[caption id=”attachment_168” align=”aligncenter” width=”1024”]<a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-12-02-22-44-41.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-12-02-22-44-41-1024x576.png" alt="Hello World PHP-OOP, sintaks dasar php oop"></a> Hello World PHP OOP[/caption]</p>
+<p>Baiklah, sekian untuk tutorial <strong>PHP OOP Untuk Pemula Bag.2 : Sintaks Dasar PHP OOP. </strong>Apabila ada pertanyaan, kritik ata saran, silakan untuk menyampaikannya melalui kolom komentar dibawah ini.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><strong>Artikel ini berlanjut ke <a href="http://tamatamvan.web.id/pemrograman/class-property-php-oop/">PHP OOP Bag. 3 : Class Property PHP OOP</a></strong></p>
+<script src="//eclkmpbn.com/adServe/banners?tid=84538_136482_4" type="text/javascript"></script>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/OOP/" rel="tag"># OOP</a>
+          
+            <a href="/tags/Pemrograman-Web/" rel="tag"># Pemrograman Web</a>
+          
+            <a href="/tags/PHP/" rel="tag"># PHP</a>
+          
+            <a href="/tags/class/" rel="tag"># class</a>
+          
+            <a href="/tags/PHP-OOP/" rel="tag"># PHP-OOP</a>
+          
+            <a href="/tags/function/" rel="tag"># function</a>
+          
+            <a href="/tags/Hello-World/" rel="tag"># Hello World</a>
+          
+            <a href="/tags/Sintaks-Dasar-PHP-OOP/" rel="tag"># Sintaks Dasar PHP-OOP</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/jangan-hanya-jadi-orang-baik-tapi-jadilah-orang-yang-berani-berjuang/" rel="next" title="Jangan Hanya Jadi Orang Baik, Tapi Jadilah Orang Yang Berani Berjuang">
+                <i class="fa fa-chevron-left"></i> Jangan Hanya Jadi Orang Baik, Tapi Jadilah Orang Yang Berani Berjuang
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/cara-install-paket-deb-ubuntu 10.08.49 PM/" rel="prev" title="Cara Install Paket .Deb Di Ubuntu">
+                Cara Install Paket .Deb Di Ubuntu <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Septian A Tama" />
+          <p class="site-author-name" itemprop="name">Septian A Tama</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+           
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">37</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">169</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://facebook.com/s.ai.tama.adhi" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/tamaadhi1" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/tamatamvan" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Membuat-Sebuah-Class-pada-PHP-OOP"><span class="nav-number">1.</span> <span class="nav-text">Membuat Sebuah Class pada PHP OOP</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Septian A Tama</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.1"></script>
+
+
+  
+
+</body>
+</html>

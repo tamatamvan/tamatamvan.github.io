@@ -1,0 +1,842 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="oKWy6pxgYm91OjXcnDKKUiAd37HnjQEyTXi7_XbEgpA" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Ubuntu,Tutorial,apache2,web server,debian," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="TamaTamvan" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="Assalamu’alaikum Wr. Wb. Web server Apache merupakan salah satu web server paling populer yang paling di gunakan saat ini. Web Server Apache memiliki berbagai fitur dan kelebihan yang bisa kita manfaa">
+<meta name="keywords" content="Ubuntu,Tutorial,apache2,web server,debian">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mengganti Document Root Apache Di Debian">
+<meta property="og:url" content="http://tamatamvan.web.id/mengganti-document-root-apache-di-debian/index.html">
+<meta property="og:site_name" content="TamaTamvan">
+<meta property="og:description" content="Assalamu’alaikum Wr. Wb. Web server Apache merupakan salah satu web server paling populer yang paling di gunakan saat ini. Web Server Apache memiliki berbagai fitur dan kelebihan yang bisa kita manfaa">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-20-57-33.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-12-55.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-13-14.png">
+<meta property="og:updated_time" content="2017-06-21T14:49:06.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mengganti Document Root Apache Di Debian">
+<meta name="twitter:description" content="Assalamu’alaikum Wr. Wb. Web server Apache merupakan salah satu web server paling populer yang paling di gunakan saat ini. Web Server Apache memiliki berbagai fitur dan kelebihan yang bisa kita manfaa">
+<meta name="twitter:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-20-57-33.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://tamatamvan.web.id/mengganti-document-root-apache-di-debian/"/>
+
+
+
+
+
+  <title>Mengganti Document Root Apache Di Debian | TamaTamvan</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">TamaTamvan</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Eat, Pray, Code <br/> Assalamu'alaikum 🙏</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://tamatamvan.web.id/mengganti-document-root-apache-di-debian/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Septian A Tama">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TamaTamvan">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Mengganti Document Root Apache Di Debian</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-03-30T14:58:14+07:00">
+                2016-03-30
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2017-06-21T21:49:06+07:00">
+                2017-06-21
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/mengganti-document-root-apache-di-debian/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count fb-comments-count" data-href="http://tamatamvan.web.id/mengganti-document-root-apache-di-debian/" itemprop="commentCount">0</span> comments
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time</span>
+                
+                <span title="Reading time">
+                  3
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Assalamu’alaikum Wr. Wb. Web server Apache merupakan salah satu web server paling populer yang paling di gunakan saat ini. Web Server Apache memiliki berbagai fitur dan kelebihan yang bisa kita manfaatkan. Kali ini saya akan membahas mengenai cara untuk mengganti document root Apache di Debian. Document Root adalah sebuah direktori atau folder tempat semua data aplikasi web atau website disimpan pada sebuah web server. Tutorial ini selain dapat diterapkan pada debian juga dapat diterapkan pada distro Linux lain berbasis Debian seperti Ubuntu.</p>
+<p>Secara default lokasi document root pada web server Apache biasanya berada pada direktori atau folder “<code>/var/www&quot;</code>, akan tetapi apabila kita inginkan kita dapat mengganti lokasi document root Apache  pada direktori atau folder yang lain. Untuk mengetahui caranya, silakan ikuti langkah-langkah di bawah ini untuk mengganti document root Apache di Debian dan turunannya.</p>
+<h2 id="Mengganti-Document-Root-Apache-di-Debian"><a href="#Mengganti-Document-Root-Apache-di-Debian" class="headerlink" title="Mengganti Document Root Apache di Debian"></a>Mengganti Document Root Apache di Debian</h2><ol>
+<li><strong>Pastikan anda memiliki web server Apache terinstall pada sistem operasi Debian atau turunanya</strong> (contoh : Ubuntu) yang anda miliki. Apabila belum, anda dapat mengikuti <a href="http://tamatamvan.web.id/linux/tutorial-cara-install-lamp-di-ubuntu-dan-konfigurasinya/">tutorial berikut</a> yang dapat anda terapkan pada sistem operasi Linux Debian beserta turunannya.</li>
+<li><strong>Login sebagai user root atau administrator</strong> pada sistem operasi Debian milik anda.</li>
+<li><strong>Masuk ke direktori “<code>/etc/Apache2/sites-available/&quot;</code> </strong> dengan perintah <kbd><strong>cd /etc/Apache2/sites-available/</strong></kbd>, direktori ini merupakan lokasi site atau virtual host yang dijalankan pada web server Apache, kita bisa memilih site mana yang akan kita ganti lokasi document root-nya.</li>
+<li><p><strong>Periksa file konfigurasi site</strong> yang akan kita ganti pada direktori “<code>/etc/Apache2/sites-available/&quot;</code> menggunakan perintah <strong><kbd>ls</kbd></strong>, pada web server saya terdapat file “<code>default</code>“ yang merupakan site bawaan atau default dari Apache, beberapa dari anda mungkin memilikinya dengan nama file “<code>000-default</code>“, silakan menyesuaikan jika terdapat perbedaan.</p>
+<p>[caption id=”attachment_477” align=”aligncenter” width=”639”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-20-57-33.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-20-57-33.png" alt="Isi Direktori Sites Avaiable - mengganti document root apache di debian"></a> Isi Direktori Sites Avaiable[/caption]</p>
+</li>
+<li><strong>Edit file konfigurasi site yang akan kita ganti lokasi document root-nya</strong>. Di sini saya akan mengganti lokasi document root dari site “<code>default&quot;</code>,  jadi file default tersebut saya edit dengan menggunakan text editor nano dengan perintah <strong><kbd>nano default</kbd></strong>, apabila anda ingin menggunakan text editor lain silakan menyesuaikan perintahnya.</li>
+<li><p><strong>Ganti tulisan “/var/www” setelah “Document Root” dan “Directory”</strong> dengan lokasi document root baru yang kita inginkan. Misalkan di sini saya ingin mengganti lokasi document root dari “<code>/var/www</code>“ menjadi “<code>/var/www-data</code>“<strong> </strong>. Misalkan anda ingin lokasinya ke direktori “<code>/usr/share/www</code>“, tinggal mengganti tulisan “<code>/var/www</code>“ setelah tulisan “Document Root” dan “Directory” dengan “<code>/usr/share/www</code>“. Berikut contoh perbandingan file konfigurasi site default sebelum dan sesudah diganti lokasi document root-nya. Anda dapat mengabaikan bagian Server Admin, ServerName, dan ServerAlias pada gambar.</p>
+<p>[caption id=”attachment_480” align=”aligncenter” width=”629”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-12-55.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-12-55.png" alt="File Site Default Sebelum di Edit - mengganti document root apache di debian"></a> File Site Default Sebelum di Edit[/caption]</p>
+<p>[caption id=”attachment_478” align=”aligncenter” width=”633”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-13-14.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-13-14.png" alt="File Site Default Sesudah di Edit - mengganti document root apache di debian"></a> File Site Default Sesudah di Edit[/caption]</p>
+</li>
+<li><strong>Simpan file site default yang telah kita edit</strong>, apabila menggunakan nano tekan tombol <kbd>Ctrl+O<span style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;">, </span></kbd><kbd>Enter </kbd>untuk menyimpan file, lalu tekan <kbd>Ctrl+X</kbd> untuk keluar dari text editor nano.</li>
+<li><strong>Restart Web Server Apache</strong> dengan perintah <strong><kbd>service Apache2 restart</kbd></strong>. Selesai, lakukan pengujian dengan memasukkan file web site atau aplikasi web anda ke document root yang baru. Selamat mencoba!</li>
+</ol>
+<p>Baiklah, itu dia tutorial mengenai cara mengganti document root Apache di Debian. Semoga tutorial ini dapat bermanfaat bagi kita semua. Apabila anda memiliki pertanyaan, kritik, atau saran, silakan sampaikan pada kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p>&nbsp;</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
+          
+            <a href="/tags/Tutorial/" rel="tag"># Tutorial</a>
+          
+            <a href="/tags/apache2/" rel="tag"># apache2</a>
+          
+            <a href="/tags/web-server/" rel="tag"># web server</a>
+          
+            <a href="/tags/debian/" rel="tag"># debian</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/cara-redirect-url-dengan-htaccess 10.08.49 PM/" rel="next" title="Cara Redirect URL Dengan .Htaccess">
+                <i class="fa fa-chevron-left"></i> Cara Redirect URL Dengan .Htaccess
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/mengganti-batasan-ukuran-upload-file-php/" rel="prev" title="Mengganti Batasan Ukuran Upload File Pada PHP">
+                Mengganti Batasan Ukuran Upload File Pada PHP <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Septian A Tama" />
+          <p class="site-author-name" itemprop="name">Septian A Tama</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+           
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">37</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">169</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://facebook.com/s.ai.tama.adhi" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/tamaadhi1" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/tamatamvan" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Mengganti-Document-Root-Apache-di-Debian"><span class="nav-number">1.</span> <span class="nav-text">Mengganti Document Root Apache di Debian</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Septian A Tama</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.1"></script>
+
+
+  
+
+</body>
+</html>

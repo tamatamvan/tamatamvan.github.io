@@ -1,0 +1,907 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="oKWy6pxgYm91OjXcnDKKUiAd37HnjQEyTXi7_XbEgpA" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Linux,Open Source,Software,Ubuntu,Tutorial,apache2,web server,mysql,LAMP,phpmyadmin," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="TamaTamvan" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="Assalamu’alaikum Wr. Wb. Bagi seorang web programmer, kehadiran sebuah local web server pasti sangatlah dibutuhkan. Local web server ini nantinya akan digunakan untuk menguji coba apakah aplikasi berb">
+<meta name="keywords" content="Linux,Open Source,Software,Ubuntu,Tutorial,apache2,web server,mysql,LAMP,phpmyadmin">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tutorial Cara Install LAMP Di Ubuntu, Dan Konfigurasinya">
+<meta property="og:url" content="http://tamatamvan.web.id/tutorial-cara-install-lamp-di-ubuntu-dan-konfigurasinya/index.html">
+<meta property="og:site_name" content="TamaTamvan">
+<meta property="og:description" content="Assalamu’alaikum Wr. Wb. Bagi seorang web programmer, kehadiran sebuah local web server pasti sangatlah dibutuhkan. Local web server ini nantinya akan digunakan untuk menguji coba apakah aplikasi berb">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-28-51.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-10.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-23.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-39.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-53.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-23-24-19-300x300.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-42-1024x576.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-32-11-e1446396092600-1024x489.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-46-11-1024x576.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-27-1024x576.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-35-1024x576.png">
+<meta property="og:updated_time" content="2017-06-21T14:49:06.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tutorial Cara Install LAMP Di Ubuntu, Dan Konfigurasinya">
+<meta name="twitter:description" content="Assalamu’alaikum Wr. Wb. Bagi seorang web programmer, kehadiran sebuah local web server pasti sangatlah dibutuhkan. Local web server ini nantinya akan digunakan untuk menguji coba apakah aplikasi berb">
+<meta name="twitter:image" content="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-28-51.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://tamatamvan.web.id/tutorial-cara-install-lamp-di-ubuntu-dan-konfigurasinya/"/>
+
+
+
+
+
+  <title>Tutorial Cara Install LAMP Di Ubuntu, Dan Konfigurasinya | TamaTamvan</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">TamaTamvan</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Eat, Pray, Code <br/> Assalamu'alaikum 🙏</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://tamatamvan.web.id/tutorial-cara-install-lamp-di-ubuntu-dan-konfigurasinya/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Septian A Tama">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TamaTamvan">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Tutorial Cara Install LAMP Di Ubuntu, Dan Konfigurasinya</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-11-01T17:08:12+07:00">
+                2015-11-01
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2017-06-21T21:49:06+07:00">
+                2017-06-21
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/Open-Source-Software/" itemprop="url" rel="index">
+                    <span itemprop="name">Open Source Software</span>
+                  </a>
+                </span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/Open-Source-Software/Pemrograman-Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Pemrograman Web</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/tutorial-cara-install-lamp-di-ubuntu-dan-konfigurasinya/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count fb-comments-count" data-href="http://tamatamvan.web.id/tutorial-cara-install-lamp-di-ubuntu-dan-konfigurasinya/" itemprop="commentCount">0</span> comments
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time</span>
+                
+                <span title="Reading time">
+                  5
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Assalamu’alaikum Wr. Wb.</p>
+<p>Bagi seorang web programmer, kehadiran sebuah local web server pasti sangatlah dibutuhkan. Local web server ini nantinya akan digunakan untuk menguji coba apakah aplikasi berbasis web yang kita buat apakah sudah berjalan dengan baik atau belum.</p>
+<p>Nah, kali ini saya akan berbagi mengenai <strong>cara install dan konfigurasi LAMP (Linux, Apache, MySQL, PHP, phpmyadmin) di Ubuntu</strong>.</p>
+<hr>
+<p>&nbsp;</p>
+<h2 id="1-Cara-Install-LAMP-di-Ubuntu"><a href="#1-Cara-Install-LAMP-di-Ubuntu" class="headerlink" title="1. Cara Install LAMP di Ubuntu"></a>1. Cara Install LAMP di Ubuntu</h2><p>Hal pertama yang perlu kita lakukan adalah <strong>menginstall LAMP</strong> itu sendiri. Berikut ini adalah <strong>cara install **</strong>LAMP di Ubuntu :**</p>
+<ol>
+<li><p>Buka terminal, ketikkan perintah :</p>
+<p><code>sudo apt-get install apache2 mysql-server php5 phpmyadmin`</code></p>
+</li>
+<li>Selanjutnya masukkan password user anda, dan tekan enter. Tunggu proses download dan instalasi.</li>
+<li>Pada saat proses instalasi, akan muncul perintah untuk mengonfigurasi phpmyadmin seperti pada gambar dibawah. Tekan tombol ‘Tab’ untuk memilih ‘Yes’, lalu tekan ‘Enter’.<br><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-28-51.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-28-51.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a></li>
+<li>Selanjutnya masukkan MySQL application password untuk phpmyadmin seperti pada gambar dibawah ini sesuai dengan keinginan anda.Tekan ‘Tab’ untuk memilih ‘Ok’, lalu tekan ‘Enter’<br><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-10.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-10.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a></li>
+<li>Selanjutnya lakukan konfirmasi password dengan memasukkan password yang sama dengan yang anda masukka sebelumnya. Tekan ‘Tab’ untuk memilih ‘Ok’, lalu tekan ‘Enter’.<a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-23.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-23.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a></li>
+<li>Langkah berikutnya, masukkan password untuk database phpmyadmin anda. Password inilah yang akan anda gunakan untuk mengakses phpmyadmin nantinya. Tekan ‘Tab’ untuk memilih ‘Ok’, lalu tekan ‘Enter’.<img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-39.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></li>
+<li>Selanjunya pilih web server yang akan digunakan untuk menjalankan phpmyadmin, tekan ‘spasi’ untuk memilih <strong>apache2, </strong>Tekan ‘Tab’ untuk memilih ‘Ok’, lalu tekan ‘Enter’.<img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-29-53.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></li>
+<li><p>Selanjutnya tunggu hingga proses instalasi selesai.</p>
+<hr>
+<h2 id="2-Konfigurasi-Direktori-public-html-pada-Apache2"><a href="#2-Konfigurasi-Direktori-public-html-pada-Apache2" class="headerlink" title="2. Konfigurasi Direktori public_html pada Apache2"></a>2. Konfigurasi Direktori public_html pada Apache2</h2><p>Setelah instalasi selesai sebenarnya LAMP web server di Ubuntu kita sudah bisa digunakan. Namun disini saya akan menambahkan beberapa konfigurasi untuk memudahkan perkerjaan kita kedepannya. :)</p>
+</li>
+<li><p>Buatlah folder/direktori <code>public_html</code>pada direktori home. Untuk hal ini kita bisa menggunakan perintah <code>mkdir /home/username_anda/public_html/,</code>atau langsung menggunakan file manager nautilus atau yang lainnya. Folder/direktori ini nantinya akan menjadi tempat penyimpanan semua file project yang berupa website atau aplikasi berbasi web milik kita.</p>
+</li>
+<li>Ubah permissions pada folder <code>public_html</code>yang telah kita buat dengan mengetikkan perintah <code>sudo chmod 777 /home/username_anda/public_html/</code>pada terminal, atau menggunakan file manajer nautilus dengan cara _klik kanan pada folder public<em>html –&gt; Properties –&gt; Permissions –&gt; Ubah semua hak akses menjadi ‘Create and delete files’ –&gt; klik ‘Change Pemissions for Enclosed Files’.<br><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-23-24-19.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-23-24-19-300x300.png" alt="cara install lamp di ubuntu"></a></em></li>
+<li><p>Selanjutnya buat link menuju folder/direktori <code>public_html</code>pada folder/direktori <code>/var/www/html/</code>, dengan mengetikkan perintah pada terminal :</p>
+<pre>`sudo ln -s /home/username_anda/public_html/ /var/www/html/public_html/`</pre>
+
+<hr>
+<h2 id="3-Pengujian-Instalasi-LAMP-pada-Ubuntu"><a href="#3-Pengujian-Instalasi-LAMP-pada-Ubuntu" class="headerlink" title="3. Pengujian Instalasi LAMP pada Ubuntu"></a>3. Pengujian Instalasi LAMP pada Ubuntu</h2><p>Setelah proses instalasi selesai, selanjutnya kita lakukan pengujian untuk memeriksa apakah hasil <strong>instalasi dan konfigurasi LAMP pada Ubuntu</strong> milik kita telah berhasil dan dapat berjalan dengan baik.</p>
+</li>
+<li><p>Langkah pertama, buka web browser anda. Lalu ketikkan “localhost” atau “<a href="http://localhost" target="_blank" rel="external">http://localhost</a>“ pada address bar di browser anda, lalu tekan enter. Jika browser anda menampilkan halaman web seperti pada gambar dibawah ini, itu berarti <strong>web server apache2</strong> telah berjalan dengan baik di <strong>Ubuntu</strong> kita.<br>[caption id=”attachment_112” align=”aligncenter” width=”1024”]<a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-42.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-42-1024x576.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a> Halaman default apache2 pada Ubuntu[/caption]<br>&nbsp;</p>
+</li>
+<li>Selanjutnya ketikkan alamat “localhost/public_html” atau “<a href="http://localhost/public_html" target="_blank" rel="external">http://localhost/public_html</a>“ pada address bar browser anda. Jika konfigurasi direktori <code>public_html</code> berhasil, akan muncul halaman web bertuliskan “Index of public_html” pada browser anda seperti pada gambar dibawah.<br><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-32-11.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-32-11-e1446396092600-1024x489.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a></li>
+<li><p>Langkah selanjutnya adalah memeriksa instalasi PHP. Buka terminal anda, kemudian ketikkan perintah :<br><pre><code>sudo nano /var/www/html/info.php</code></pre><br>Lalu, pada editor nano masukkan script php di bawah ini :<br><pre>`&lt;?php<br> phpinfo();``<br> ?&gt;</pre></p>
+<p>Kemudian tekan ‘Ctrl+O’, lalu ‘Enter’ untuk menyimpan file <code>info.php</code>. Kemudian ‘Ctrl+X’ untuk keluar dari nano.</p>
+</li>
+<li>Akses file <code>info.php</code>dengan mengetikkan ‘localhost/info.php’ pada address bar di browser anda. Maka akan muncul tampilan seperti dibawah ini.<br><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-46-11.png">
+</a><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-46-11.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-46-11-1024x576.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a></li>
+<li>Terakhir, kita uji mysql-server dan phpmyadmin yang telah kita install dan konfigurasi, dengan mengetikkan alamat “localhost/phpmyadmin” atau “<a href="http://localhost/phpmyadmin" target="_blank" rel="external">http://localhost/phpmyadmin</a>“. Jika muncul tampilan seperti dibawah, masukkan “root” sebagai username, dan password database phpmyadmin yang telah anda isikan di konfigurasi phpmyadmin pada saat instalasi sebagai passwordnya, lalu klik “Go”.<br><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-27.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-27-1024x576.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a></li>
+<li>Jika muncul tampilan seperti gambaw dibawah itu berarti mysql-server dan phpmyadmin telah berjalan dengan baik. Serta <strong>Instalasi dan Konfigurasi LAMP di Ubuntu</strong> secara keseluruhan telah berhasil dilakukan.<br><a href="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-35.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2015/11/Screenshot-from-2015-11-01-22-31-35-1024x576.png" alt="instalasi dan konfigurasi LAMPP di Ubuntu, cara install lamp di ubuntu"></a></li>
+</ol>
+<hr>
+<p>Nah, itulah <strong>Tutorial Cara Install LAMP di Ubuntu, dan Konfigurasinya</strong> yang telah saya bagikan. Apabila ada tambahan atau pertanyaan silakan untuk anda sampaikan melalui kolom komentar di bawah.</p>
+<p>Cukup sekian tutorial kali ini, semoga tutorial ini dapat bermanfaat bagi kita semua.</p>
+<p>Wassalamu’alaikum Wr. Wb.</p>
+<p>&nbsp;</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
+          
+            <a href="/tags/Open-Source/" rel="tag"># Open Source</a>
+          
+            <a href="/tags/Software/" rel="tag"># Software</a>
+          
+            <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
+          
+            <a href="/tags/Tutorial/" rel="tag"># Tutorial</a>
+          
+            <a href="/tags/apache2/" rel="tag"># apache2</a>
+          
+            <a href="/tags/web-server/" rel="tag"># web server</a>
+          
+            <a href="/tags/mysql/" rel="tag"># mysql</a>
+          
+            <a href="/tags/LAMP/" rel="tag"># LAMP</a>
+          
+            <a href="/tags/phpmyadmin/" rel="tag"># phpmyadmin</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/php-oop-untuk-pemula-bag-1-memahami-konsep-oop 10.08.49 PM/" rel="next" title="PHP OOP Untuk Pemula Bag. 1  : Memahami Konsep OOP">
+                <i class="fa fa-chevron-left"></i> PHP OOP Untuk Pemula Bag. 1  : Memahami Konsep OOP
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/cara-install-java-8-di-ubuntu/" rel="prev" title="Cara Mudah Install Oracle Java 8 Pada Ubuntu Atau Linux Mint">
+                Cara Mudah Install Oracle Java 8 Pada Ubuntu Atau Linux Mint <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Septian A Tama" />
+          <p class="site-author-name" itemprop="name">Septian A Tama</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+           
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">37</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">169</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://facebook.com/s.ai.tama.adhi" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/tamaadhi1" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/tamatamvan" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Cara-Install-LAMP-di-Ubuntu"><span class="nav-number">1.</span> <span class="nav-text">1. Cara Install LAMP di Ubuntu</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Konfigurasi-Direktori-public-html-pada-Apache2"><span class="nav-number">2.</span> <span class="nav-text">2. Konfigurasi Direktori public_html pada Apache2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Pengujian-Instalasi-LAMP-pada-Ubuntu"><span class="nav-number">3.</span> <span class="nav-text">3. Pengujian Instalasi LAMP pada Ubuntu</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Septian A Tama</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.1"></script>
+
+
+  
+
+</body>
+</html>

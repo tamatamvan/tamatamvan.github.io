@@ -1,0 +1,852 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="oKWy6pxgYm91OjXcnDKKUiAd37HnjQEyTXi7_XbEgpA" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Linux,Open Source,Ubuntu,Tutorial,sofware," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="TamaTamvan" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="Asslamu’alaikum Wr. Wb. Fitur hibernate merupakan sebuah fitur yang cukup bermanfaat dan memudahkan pengguna dalam bekerja dengan komputer. Fitur ini memungkinkan kita untuk mematikan PC atau komputer">
+<meta name="keywords" content="Linux,Open Source,Ubuntu,Tutorial,sofware">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mengaktifkan Fitur Hibernate Pada Ubuntu">
+<meta property="og:url" content="http://tamatamvan.web.id/mengaktifkan-fitur-hibernate-ubuntu/index.html">
+<meta property="og:site_name" content="TamaTamvan">
+<meta property="og:description" content="Asslamu’alaikum Wr. Wb. Fitur hibernate merupakan sebuah fitur yang cukup bermanfaat dan memudahkan pengguna dalam bekerja dengan komputer. Fitur ini memungkinkan kita untuk mematikan PC atau komputer">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-13-05.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-16-29.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-23-14.png">
+<meta property="og:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-23-40-39.png">
+<meta property="og:updated_time" content="2017-06-21T14:49:06.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mengaktifkan Fitur Hibernate Pada Ubuntu">
+<meta name="twitter:description" content="Asslamu’alaikum Wr. Wb. Fitur hibernate merupakan sebuah fitur yang cukup bermanfaat dan memudahkan pengguna dalam bekerja dengan komputer. Fitur ini memungkinkan kita untuk mematikan PC atau komputer">
+<meta name="twitter:image" content="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-13-05.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://tamatamvan.web.id/mengaktifkan-fitur-hibernate-ubuntu/"/>
+
+
+
+
+
+  <title>Mengaktifkan Fitur Hibernate Pada Ubuntu | TamaTamvan</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">TamaTamvan</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Eat, Pray, Code <br/> Assalamu'alaikum 🙏</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://tamatamvan.web.id/mengaktifkan-fitur-hibernate-ubuntu/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Septian A Tama">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TamaTamvan">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Mengaktifkan Fitur Hibernate Pada Ubuntu</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-01-20T17:00:37+07:00">
+                2016-01-20
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2017-06-21T21:49:06+07:00">
+                2017-06-21
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/mengaktifkan-fitur-hibernate-ubuntu/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count fb-comments-count" data-href="http://tamatamvan.web.id/mengaktifkan-fitur-hibernate-ubuntu/" itemprop="commentCount">0</span> comments
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time</span>
+                
+                <span title="Reading time">
+                  5
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Asslamu’alaikum Wr. Wb. Fitur <em>hibernate</em> merupakan sebuah fitur yang cukup bermanfaat dan memudahkan pengguna dalam bekerja dengan komputer. Fitur ini memungkinkan kita untuk mematikan <em>PC</em> atau komputer secara total, akan tetapi dengan tetap menyimpan sesi sebelummnya ketika <em>PC</em> memasuki mode <em>hibernate</em>, sehingga ketika kita menghidupkan <em>PC</em> atau komputer tersebut kembali, ia akan langsung menampilkan kembali atau melanjutkan sesi dari sistem operasi tersebut sebelum masuk ke mode <em>hibernate</em>. Hal ini dimungkinkan karena ketika sebuah PC akan memasuki mode <em>hibernate</em>, sistem operasi akan menyimpan data sesinya, meliputi program-program yang berjalan ke dalam <em>file</em> yang disimpan di <em>harddisk</em>. Selanjutnya, ketika PC yang dalam mode <em>hibernate</em> dihidupkan kembali, sistem operasi akan secara otomatis membaca file data hibernate yang telah disimpan, dan melanjutkan sesi sebelum PC dimatikan (dalam mode <em>hibernate</em>) berdasarkan data dari file tersebut. Kali ini saya akan berbagi mengenai cara mengaktifkan fitur hibernate pada Ubuntu.</p>
+<p>Nah, permasalahan yang akan kita bahas kali ini adalah tidak tersedianya secara default fitur hibernate pada sistem operasi Ubuntu. Kita bisa melihat hal tersebut melalui menu yang akan muncul ketika kita klik menu <em>power</em> pada sudut kanan atas layar <em>PC</em> atau komputer kita. Pada menu tersebut secara <em>default</em> hanya akan ditampilkan pilihan : <em>Log Out, Suspend (sleep)</em>, dan <em>Shut Down</em>. Selain itu, apabila kita menekan tombol fisik <em>power</em> komputer atau <em>PC</em> kita secara langsung akan muncul tampilan prompt dialog, akan tetapi sekali lagi secara _default _tidak menampilkan pilihan <em>hibernate. </em></p>
+<p>[caption id=”attachment_345” align=”aligncenter” width=”488”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-13-05.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-13-05.png" alt="mengaktifkan fitur hibernate pada ubuntu"></a> Menu tombol power tidak menampilkan pilihan Hibernate.[/caption]</p>
+<p>[caption id=”attachment_346” align=”aligncenter” width=”825”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-16-29.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-16-29.png" alt="mengaktifkan fitur hibernate pada ubuntu"></a> Tampilan prompt dialog ketika menekan tombol fisik power pada PC tidak menampilkan pilihan hibernate.[/caption]</p>
+<p>Pilihan untuk melakukan hibernate melalui antartmuka grafis dapat kita munculkan pada sistem operasi Ubuntu, kita hanya perlu mengaktifkan fitur hibernate pada Ubuntu secara manual dengan membuat sebuah file konfigurasi tertentu. <span style="text-decoration: underline;">Namun, sebelumnya kita juga harus memastikan bahwa terdapat partisi swap yang berukuran paling tidak sama besar  dengan kapasitas RAM yang ada pada komputer kita untuk digunakan oleh sistem operasi Ubuntu sebagai tempat penyimpanan data atau </span>_<span style="text-decoration: underline;">hibernate Ubuntu</span>. _Untuk mengaktifkan fitur hibernate pada Ubuntu silakan ikuti langkah-langkah dibawah ini.</p>
+<h2 id="Cara-Mengaktifkan-Fitur-Hibernate-pada-Ubuntu"><a href="#Cara-Mengaktifkan-Fitur-Hibernate-pada-Ubuntu" class="headerlink" title="Cara Mengaktifkan Fitur Hibernate pada Ubuntu"></a>Cara Mengaktifkan Fitur Hibernate pada Ubuntu</h2><ol>
+<li>Lakukan _test <em>untuk memastikan fitur hibernate dapat bekerja pada komputer atau PC dengan sistem operasi Ubuntu anda dengan mengetikkan perintah </em><strong><code>sudo pm-hibernate</code></strong>_<code>`pada terminal anda</code>.`</li>
+<li>Setelah komputer atau PC anda mati, nyalakan kembali PC anda, apabila aplikasi yang sebelumnya anda jalankan tetap berkerja, itu berarti fitur hibernate bekerja dengan baik. Apabila tidak, silakan cek ketersediaan partisi _swap _anda.</li>
+<li>Langkah selanjutnya, buka <em>teminal emulator</em> anda, ketikkan perintah di bawah ini untuk membuat file konfigurasi yang berfungsi mengaktifkan fitur hibernate melalui antarmuka grafis.<br><pre class="contents "><strong><code>sudo nano /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla</code></strong></pre><br>_*ket :_Di sini saya menggunakan teks editor <em>nano</em> yang berbasis _CLI _supaya cepat, anda juga bisa menggunakan teks editor GUI seperti _gedit, geany, _dsb. dengan menyesuaikan perintah pada terminal tersebut.</li>
+<li><p>Kemudian copy dan paste isi file konfigurasi di bawah ini ke dalam file tersebut. Jika anda menggunakan _nano _seperti yang saya sarankan, tekan <code>_Ctrl+O,_</code> lalu<code>_ Enter, _</code><em>kemudian</em><code>_ Ctrl+X _</code><em>untuk menyimpannya.</em></p>
+<pre class="contents ">**`[Re-enable hibernate by default in upower]
+Identity=unix-user:*
+Action=org.freedesktop.upower.hibernate
+ResultActive=yes
+
+[Re-enable hibernate by default in logind]
+Identity=unix-user:*
+Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.hibernate-multiple-sessions
+ResultActive=yes`**</pre>
+</li>
+<li><p>Terakhir restart komputer anda, lalu cek, pada menu tombol power  panel unity pojok kanan atas layar akan muncul pilihan hibernate. Begitu juga pada <em>prompt dialog</em> yang muncul ketika kta menekan tombol power fisik komputer atau PC kita.</p>
+</li>
+</ol>
+<p>Gambar di bawah ini menunjukkan perubahan setelah menambahkan file konfigurasi di atas, pilihan hibernate muncul pada menu tombol power yang berada di pojok kanan atas layar, dan juga pada prompt dialog ketika kita menakan tombol fisik power pada PC atau komputer kita.</p>
+<p>[caption id=”attachment_344” align=”aligncenter” width=”1021”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-23-14.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-22-23-14.png" alt="mengaktifkan fitur hibernate pada ubuntu"></a> Tampilan prompt dialog ketika menekan tombol fisik power pada PC menampilkan pilihan hibernate.[/caption]</p>
+<p>[caption id=”attachment_347” align=”aligncenter” width=”483”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-23-40-39.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/01/Screenshot-from-2016-01-20-23-40-39.png" alt="mengaktifkan fitur hibernate pada ubuntu"></a> Menu tombol power menampilkan pilihan Hibernate.[/caption]</p>
+<p>Baiklah, itu dia langkah-langkah yang dapat kita lakukan untuk mengaktifkan fitur hibernate pada Ubuntu secara manual. Saya ingatkan kembali, untuk memastikan bahwa kita sudah memiliki partisi swap pada PC atau komputer kita untuk digunakan. Selain sebagai cadangan RAM, partisi swap ini juga sangat bermanfaat untuk menyimpan data hibernate pada sistem operasi berbasis Linux secara umum, dan Ubuntu pada khususnya.</p>
+<p>Sekian artikel kali ini, semoga dapat bermanfaat bagi kita semua. Apabila ada kritik, saran, atau pertanyaan silakan sampaikan melalu kolom komentar di bawah ini.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
+          
+            <a href="/tags/Open-Source/" rel="tag"># Open Source</a>
+          
+            <a href="/tags/Ubuntu/" rel="tag"># Ubuntu</a>
+          
+            <a href="/tags/Tutorial/" rel="tag"># Tutorial</a>
+          
+            <a href="/tags/sofware/" rel="tag"># sofware</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/cara-install-paket-deb-ubuntu 10.08.49 PM/" rel="next" title="Cara Install Paket .Deb Di Ubuntu">
+                <i class="fa fa-chevron-left"></i> Cara Install Paket .Deb Di Ubuntu
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/class-property-php-oop/" rel="prev" title="PHP OOP Untuk Pemula Bag. 3 : Class Property PHP OOP">
+                PHP OOP Untuk Pemula Bag. 3 : Class Property PHP OOP <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Septian A Tama" />
+          <p class="site-author-name" itemprop="name">Septian A Tama</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+           
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">37</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">169</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://facebook.com/s.ai.tama.adhi" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/tamaadhi1" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/tamatamvan" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Cara-Mengaktifkan-Fitur-Hibernate-pada-Ubuntu"><span class="nav-number">1.</span> <span class="nav-text">Cara Mengaktifkan Fitur Hibernate pada Ubuntu</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Septian A Tama</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.1"></script>
+
+
+  
+
+</body>
+</html>

@@ -42,4 +42,1481 @@
     
   </entry>
   
+  <entry>
+    <title>Mengenal Git Dan GitHub</title>
+    <link href="http://tamatamvan.web.id/mengenal-git-dan-github/"/>
+    <id>http://tamatamvan.web.id/mengenal-git-dan-github/</id>
+    <published>2016-09-04T12:04:47.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><span style="line-height: 24px; font-size: 16px;">Assalamu’alaikum Wr. Wb.   Dalam sebuah proses software development sering kali dilakukan update, berupa revisi, perubahan, atau perbaikan sebuah source code. Kali ini saya akan membahas sebuah tool yang bisa kita gunakan untuk memanage berbagai revisi pada sebuah source code, dan biasa digunakan pada sebuah project kolaborasi yang disebut sebagai git, dan juga github.</span></p>
+<p>Nah untuk mengetahui lebih lanjut mengenai git, dan github, kita akan membahas keduanya satu-persatu.</p>
+<h3 id="Apa-itu-Git"><a href="#Apa-itu-Git" class="headerlink" title="Apa itu Git?"></a>Apa itu Git?</h3><p>Git adalah sebuah software version control system (VCS) yang bersifat free dan open source yg dikembangkan oleh Linus Torvalds.</p>
+<p>Version Control System (VCS) sendiri merupakan sebuah software yang berfungsi untuk mencatat setiap perubahan pada sebuah file, folder, disertai dengan catatan mengenai perubahan tersebut, kapan dan siapa yang melakukannya perubahan tersebut.</p>
+<p>Git sendiri merupakan jenis _distributed VCS, _yang berarti setiap programmer atau orang yang terlibat dalam penggembangan sebuah software yang dimanage dengan git dapat menyimpan setiap file dan source code ke dalam komputer mereka masing-masing. Dan dapat melakukan revisi tanpa harus terkoneksi dengan internet.</p>
+<p>Git sendiri merupakan software yang berupa command-line tool, walaupun anda juga dapat mengakses nya dengan beberapa GUI Front-end yang tersedia.</p>
+<p>Git dirancang untuk menangani proyek berskala kecil hingga skala yang sangat besar dengan performa cepat dan efisien. Dengan penggunaan Git, seorang programmer dapat dengan mudah berpindah dari satu revisi ke revisi lain.</p>
+<h3 id="Apa-itu-GitHub"><a href="#Apa-itu-GitHub" class="headerlink" title="Apa itu GitHub"></a>Apa itu GitHub</h3><p>Jika Git sendiri merupakan sebuah VCS dengan performa andal dan cepat, lalu apa yang membuat GitHub menjadi sebuah hal yang spesial.GitHub sendiri sesuai dengan namanya, meruapakan Hub atau penghubung dari Git. GitHub merupakan website atau service yang memberikan kita layanan untuk menyimpan sebuah repository yang dapat diakses publik sehingga memudahkan project kolaborasi secara gratis. Berbagai macam command dari git dan bash dapat kita gunakan pada GitHub.</p>
+<p>Adapun<span style="font-size: 16px; line-height: 24px;"> fitur-fitur yang dimiliki GitHub antara lain : </span></p>
+<ul>
+<li><strong>Repository</strong>Repository merupakan lokasi tenpat berbagai file dari suatu project tertentu akan di simpan. Repository biasa juga disingkat sebagi “repo”. Setiap project memiliki repository-nya masing-masing dan dapat diakses melalui URL atau link yang unik.</li>
+<li><strong>Forking</strong><br>Fitur forking memungkinkan kita untuk melakukan fork, atau membuat sebuah project baru berdasarkan pada sebuah project yang sudah ada sebelumnya. Jika anda menemukan sebuah project yang membuat anda ingin berkontribusi, anda dapat melakukan fork terhadap repository tersebut, kemudian melakukan berbagai perubahan yang anda inginkan, dan apabila project yang anda fork mendapatkan update, anda dapat dengan mudah menamparkan update tersebut ke project anda.</li>
+<li><strong>Pull request</strong><br>Ketika anda telah melakukan Forking terhadap suatu repository dari sebuah project, membuat sebuah revisi atau perubahan yang baik dan ingin pemiliki project yang asli mengetahuinya, anda dapat melakukan pull request. Setelah itu pemilik asli dari project tersebut dapat memilih untuk menerima atau menolak revisi dari anda.</li>
+<li><strong>Social Networking
+</strong>Setiap user di GitHub memiliki profil nya masing-masing yang dapat berfungsi sebagai sebuah resume. Profil tersebut akan menampilkan berbagai pekerjaann serta kontribusi mereka pada project-pproject tertentu.Dengan github anda dapat melakukan diskusi secara publik, dimana begitu banyak ahli yang berkumpul dan saling bertukar ide dalam mengembangkan sebuah project.</li>
+<li><strong>Changelogs
+</strong>Berkolaborasi dengan banyak orang terkadang menjadi sulit bagi kita untuk terus memantau apa saja perubahan yang telah dilakukan, dan siapa saja yang melakukannya. Untungnya, GitHub mengatasi masalah ini dengan terus mencatat berbagai berbagai perubahan pada sebuah repository.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Oke, itu dia sedikit pengetahuan mengenai Git dan juga GitHub. Untuk selanjutnya saya akan segera posting artikel mengenai Instalasi Git, dan juga perintah-perintah dasar pada Git.</p>
+<p>Semoga artikel ini dapat bermanfaat bagi kita semua, apabila anda memiliki pertanyaan, kritik, atau saran, silakan sampaikan pada kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><strong>Referensi : </strong></p>
+<p><a href="http://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/" target="_blank" rel="external">http://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/</a></p>
+<p><a href="https://github.com/about" target="_blank" rel="external">https://github.com/about</a></p>
+<p><a href="https://git-scm.com/" target="_blank" rel="external">https://git-scm.com/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;span style=&quot;line-height: 24px; font-size: 16px;&quot;&gt;Assalamu’alaikum Wr. Wb.   Dalam sebuah proses software development sering kali dilakuk
+    
+    </summary>
+    
+      <category term="Open Source Software" scheme="http://tamatamvan.web.id/categories/Open-Source-Software/"/>
+    
+    
+      <category term="Open Source" scheme="http://tamatamvan.web.id/tags/Open-Source/"/>
+    
+      <category term="Software" scheme="http://tamatamvan.web.id/tags/Software/"/>
+    
+      <category term="GitHub" scheme="http://tamatamvan.web.id/tags/GitHub/"/>
+    
+      <category term="git" scheme="http://tamatamvan.web.id/tags/git/"/>
+    
+      <category term="version system controller" scheme="http://tamatamvan.web.id/tags/version-system-controller/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cara Install Laravel Dengan Mudah</title>
+    <link href="http://tamatamvan.web.id/cara-install-laravel-dengan-mudah%2010.08.49%20PM/"/>
+    <id>http://tamatamvan.web.id/cara-install-laravel-dengan-mudah 10.08.49 PM/</id>
+    <published>2016-07-10T13:47:42.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Beberapa tahun terakhir Laravel telah menjadi framework PHP yang sangat populer dan semakin banyak dipakai oleh para web developer di seluruh dunia. Dengan segala kelebihan dan berbagai fitur menariknya, Laravel mampu memikat para web developer untuk mempelajarinya, serta menggunakannnya untuk memudahkan proses pengembangan website. Oleh karena itu kali ini saya akan membahas mengenai cara install Laravel dengan mudah.</p>
+<p>Pada tutorial kali ini kita akan menggunakan bantuan software Composer PHP dependency manager, apabila anda belum memiliki Composer terinstall pada sistem anda, anda dapat menginstallnya terlebih dahulu. Untuk menginstall composer sendiri, anda dapat mengikuti <a href="https://tamatamvan.web.id/open-source-software/cara-install-composer-php-dependency-manager/">tutorial berikut ini</a>.</p>
+<p>Jika anda sudah menginstall Composer pada sistem anda, anda dapat memulai menginstall laravel dengan mengikuti tutorial di bawah. Oh ya, pastikan juga anda terhubung dengan koneksi internet saat melakukan instalasi laravel.</p>
+<h3 id="Cara-install-Laravel-dengan-mudah"><a href="#Cara-install-Laravel-dengan-mudah" class="headerlink" title="Cara install Laravel dengan mudah"></a>Cara install Laravel dengan mudah</h3><ol>
+<li>Setelah anda selesai menginstall Composer silakan anda buka Terminal apabila anda menggunakan Linux atau Mac OSX, atau Command Prompt jika anda menggunakan Windows.</li>
+<li>Selanjutnya, ketikkan perintah untuk masuk ke root directory pada web server lokal anda (seperti public_html, /var/www, atau htdocs) dengan menggunakan perintah <strong><code>cd</code></strong>. Contoh, apabila root directory saya berada pada folder <code>Documents/public_html</code>, maka saya ketikkan perintah <strong><code>cd Documents/public_html</code>.</strong></li>
+<li>Jika sudah masuk ke root directory pada web server lokal, ketikkan perintah composer untuk menginstall laravel sebagai berikut : <strong><code>composer create&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;project &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;prefer&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;dist laravel&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;laravel nama-folder</code></strong>. (<em>Ket: opsi <code>--prefer-dist</code> menunjukkan versi laravel yang akan kita install adalah versi stabil. Parameter <span style="color: #dd1144; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;"><span style="font-size: 12px; white-space: nowrap; background-color: #f7f7f9;">nama-folder</span></span> adalah folder lokasi setiap file aplikasi laravel akan disimpan. Parameter tersebut namanya dapat anda ubah dan sesuaikan sesuai kebutuhan dan keperluan anda. Sebagai contoh jika akan menginstall laravel pada folder <code>belajar-laravel</code>,  perintah yang diketikkan adalah  <em>*<code>composer create&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;project &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;prefer&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;dist laravel&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;laravel belajar-laravel</code>)</em></em></li>
+<li>Setelah itu jalankan perintah tersebut, dan tunggu hingga proses selesai secara otomatis.</li>
+</ol>
+<h3 id="Cara-akses-Laravel-setelah-instalasi-selesai"><a href="#Cara-akses-Laravel-setelah-instalasi-selesai" class="headerlink" title="Cara akses Laravel setelah instalasi selesai"></a>Cara akses Laravel setelah instalasi selesai</h3><p>Setelah instalasi selesai, anda dapat langsung mencoba mengakses hasil instalasi laravel anda melalui browser dengan mengetikkan URL <code>localhost/nama_folder_laravel/public/</code>, jika berhasil akan muncul tulisan “Laravel 5” dengan tampilan seperti pada gambar di bawah.</p>
+<p>[caption id=”attachment_825” align=”aligncenter” width=”940”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/07/belajar-cara-mudah-install-laravel.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/07/belajar-cara-mudah-install-laravel-1024x640.png" alt="Belajar Cara Install Laravel dengan Mudah"></a> Belajar Cara install Laravel dengan mudah[/caption]</p>
+<p>&nbsp;</p>
+<p>Jadi sebagai contoh, apabila nama folder yang saya gunakan ketika instalasi adalah <code>belajar-laravel</code>, maka untuk mengakses hasil instalasi laravel cukup dengan mengetikkan URL <code>localhost/belajar-laravel/public/</code> pada address bar web browser.</p>
+<p>&nbsp;</p>
+<p>Nah, itu dia tutorial singkat mengenai cara install Laravel dengan mudah dengan Composer. Semoga tutorial kali ini dapat bermanfaat bagi kita semua. Apabila anda memiliki pertanyaan, tambahan, kritik, atau saran silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><em><strong>Referensi :</strong></em> <em>Dokumentasi resmi Laravel 5.2 (<a href="https://laravel.com/docs/5.2#installing-laravel" target="_blank" rel="external">https://laravel.com/docs/5.2#installing-laravel</a>)</em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Beberapa tahun terakhir Laravel telah menjadi framework PHP yang sangat populer dan semakin banyak dipakai oleh 
+    
+    </summary>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
+    
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="PHP" scheme="http://tamatamvan.web.id/tags/PHP/"/>
+    
+      <category term="Framework" scheme="http://tamatamvan.web.id/tags/Framework/"/>
+    
+      <category term="install" scheme="http://tamatamvan.web.id/tags/install/"/>
+    
+      <category term="Laravel" scheme="http://tamatamvan.web.id/tags/Laravel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cara Install Composer PHP Dependency Manager</title>
+    <link href="http://tamatamvan.web.id/cara-install-composer-php-dependency-manager/"/>
+    <id>http://tamatamvan.web.id/cara-install-composer-php-dependency-manager/</id>
+    <published>2016-07-03T08:01:12.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. PHP merupakan salah satu bahasa pemrograman yang paling populer di dunia. Di Indonesia sendiri developer dan programmer yang menggunakannya pun sangatlah banyak. Bahkan komunitas PHP Indonesia sendiri merupakan salah satu komunitas pemrograman terbesar di negeri ini. Dengan popularitas PHP yang cukup tinggi, tentu tidak mengherankan jika terdapat banyak PHP package yang dapat kita install dan gunakan. Untuk menginstall package PHP sendiri kita dapat menggunakan sebuah tool yang disebut dependency manager, salah satunya yaitu Composer. Karena itulah kali ini saya akan membahas mengenai cara Install Composer PHP dependency manager.</p>
+<p>Composer adalah sebuah tool yang berfungsi sebagai dependency management pada PHP. Dengan composer anda dapat mendeklarasikal library yang dibutuhkan oleh project anda dan composer akan mengelola (menginstall/mengupdate) berbagai library yang dibutuhkan oleh project anda.</p>
+<h3 id="Cara-Install-Composer-di-Linux-dan-Mac-OSX"><a href="#Cara-Install-Composer-di-Linux-dan-Mac-OSX" class="headerlink" title="Cara Install Composer di Linux dan Mac OSX"></a>Cara Install Composer di Linux dan Mac OSX</h3><p>Secara teknis, untuk menginstall Composer, yang perlu kita lakukan hanyalah mendownload <a href="https://getcomposer.org/installer" target="_blank" rel="external">installer composer</a> berupa file PHP dan menjalankannya pada server kita.</p>
+<p>Selain itu ada dua cara untuk menginstall composer, yaitu secara lokal sebagai bagian dari project anda, atau secara global sebagai executable pada sistem anda.</p>
+<h4 id="Secara-Lokal"><a href="#Secara-Lokal" class="headerlink" title="Secara Lokal"></a>Secara Lokal</h4><p>Apabila anda ingin menginstall Composer secara lokal sebagai bagian dari project anda, cukup letakkan installer composer yang sudah anda download pada folder project anda. Misal saya menempatkan file installer composer pada sebuah folder project bernama  “contoh” pada server lokal saya, maka saya hanya perlu menjalankan file installer.php dari composer dengan mengaksesnya menggunakan  web browser, misal dengan mengakses melalui link <strong>localhost/contoh/installer.php</strong>. Kemudian secara otomatis file tersebut akan memeriksa beberapa setting pada PHP yang terpasang pada server anda, dan kemudian mendownload file <strong><code>composer.phar</code>.</strong></p>
+<p>File composer.phar merupakan file binary dari Composer yang berupa file PHAR (PHP Archive)<strong> </strong>yang merupakan format untuk arsip PHP yang dapat dijalankan melalui command line.</p>
+<p>Setelah itu anda dapat menjalankan Composer melalui command line dengan masuk pada folder project anda dan menjalankan perintah <code>php composer.phar</code>.</p>
+<p>Selain itu anda juga dapat menginstall Composer pada direktori lain dengan menggunakan option <strong><code>--install-dir</code> </strong>untuk menentukan lokasi instalasi Composer, dan option <code>--filename</code> untuk menentukan nama filenya. Misal anda menjalankan perintah instalasi composer dengan option dan parameter sebagai berikut :</p>
+<pre><code>**php composer&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;setup&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;php &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;install&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;dir&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;bin &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;filename&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;composer**`&lt;/pre&gt;
+
+maka untuk menjalankannya cukup dengan menjalankan perintah **`php bin/composer`.**
+
+#### Secara Global
+
+Selain dapat diinstall secara lokal sebagai bagian dari project anda, Composer juga dapat diinstall secara global sebagai system wide executable. Saya sendiri juga lebih memilih untuk menginstall Composer secara global karena lebih mudah dan praktis.
+
+Pada dasarnya untuk menginstall Composer secara global, kita cukup mendownload [installer composer,](https://getcomposer.org/installer) dan menjalankannya sama seperti saat install composer secara lokal. Kemudian copy atau pindahkan file `composer.phar` pada lokasi `/usr/local/bin/` dengan perintah :
+
+&lt;pre class=&quot; language-bash&quot;&gt;`mv composer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;phar &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;usr&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;local&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;bin&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;composer
+</code></pre><blockquote>
+<p><span style="font-size: 10pt;"><strong>Catatan : </strong>Jika perintah di atas gagal karena masalah hak akses atau permissions, jalankan perintah di atas dengan menggunakan <code>sudo</code>.</span></p>
+<p><span style="font-size: 10pt;"><strong>Catatan : </strong> Pada beberapa versi Mac OSX direktori atau folder <code>/usr</code> tidaklah tersedia secara default. Sehingga apabila anda mendapatkan pesan error”/usr/local/bin/composer: No such file or directory”, anda perlu mebuat direktori tersebut secara manual menggunakan perintah <strong><code>mkdir -p /usr/local/bin</code></strong>.</span></p>
+</blockquote>
+<p>Setelah itu, anda dapat menjalankan composer cukup dengan mengetikkan perintah <code>**composer**</code> pada command line atau terminal anda.</p>
+<h3 id="Cara-Install-Composer-pada-Windows"><a href="#Cara-Install-Composer-pada-Windows" class="headerlink" title="Cara Install Composer pada Windows"></a>Cara Install Composer pada Windows</h3><p>Cara termudah untuk menginstall Composer pada Windows adalah dengan mendownload installer composer <a href="https://getcomposer.org/Composer-Setup.exe" target="_blank" rel="external">di sini</a>, dan menjalankannya dengan biasa. Secara otomatis installer akan mendownload <code>composer.phar</code>, dan mensetting PATH atau lokasi-nya. Setelah proses instalasi selesai Composer dapat anda jalankan cukup dengan menjalankan perintah <strong><code>composer</code></strong> pada terminal anda.</p>
+<blockquote>
+<p><strong><span style="font-size: 10pt;">Catatan : </span></strong><span style="font-size: 10pt;">Jika sebelumnya anda membuka command line interface pada Windows, tutup terlebih dahulu, dan buka setelah proses instalasi selesai, baru kemudian lakukan pengujian dengan menjalankan perintah <strong><code>composer.</code></strong></span></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>Baiklah, itu dia sekilas mengenai petunjuk cara install Composer PHP dependecy manager pada Linux, Mac OSX, dan Windows. Semoga artikel ini dapat bermanfaat bagi kita semua.</p>
+<p>Bagi anda yang memiliki, tambahan, kritik, atau saran silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><strong>Referensi : </strong><em><a href="https://getcomposer.org/doc/00-intro.md" target="_blank" rel="external">https://getcomposer.org/doc/00-intro.md</a></em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. PHP merupakan salah satu bahasa pemrograman yang paling populer di dunia. Di Indonesia sendiri developer dan pro
+    
+    </summary>
+    
+      <category term="Open Source Software" scheme="http://tamatamvan.web.id/categories/Open-Source-Software/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Open-Source-Software/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Open-Source-Software/Pemrograman/Pemrograman-Web/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Mac OSX" scheme="http://tamatamvan.web.id/tags/Mac-OSX/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
+      <category term="Windows" scheme="http://tamatamvan.web.id/tags/Windows/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="composer" scheme="http://tamatamvan.web.id/tags/composer/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
+    
+      <category term="PHP" scheme="http://tamatamvan.web.id/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Framework PHP Permudah Web Development</title>
+    <link href="http://tamatamvan.web.id/framework-php-permudah-web-development/"/>
+    <id>http://tamatamvan.web.id/framework-php-permudah-web-development/</id>
+    <published>2016-06-28T01:38:43.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Saat ini begitu banyak web programmer atau developer yang menggunakan berbagai macam framework PHP untuk mempermudah dan mempercepat proses pembuatan website atau aplikasi web. Dari sekian banyak framework PHP yang ada sering kali membuat banyak pemula yang ingin mempelajari framework kebingungan menentukan pilihan. Oleh karena itu kali ini saya akan memberikan beberapa contoh framework PHP yang dapat anda coba untuk pelajari.</p>
+<p>Framework sendiri merupakan sebuah software atau program yang merupakan kumpulan fungsi-fungsi, modul, prosedur, class-class yang siap untuk digunakan. Dengan menggunakan framework proses development suatu aplikasi dapat lebih cepat dan mudah.</p>
+<p>Dibawah ini ada beberapa contoh framework PHP yang cukup populer untuk anda coba. Tidak perlu memperdebatkan framework mana yang lebih baik atau paling baik, karena pada dasarnya setiap framework memiliki kelebihan dan kekurangan masing-masing. Silakan untuk memilih framework yang anda rasa paling nyaman untuk digunakan.</p>
+<h2 id="Daftar-Framework-PHP"><a href="#Daftar-Framework-PHP" class="headerlink" title="Daftar Framework PHP"></a>Daftar Framework PHP</h2><h3 id="CodeIgniter"><a href="#CodeIgniter" class="headerlink" title="CodeIgniter"></a><a href="https://www.codeigniter.com/" target="_blank" rel="external">CodeIgniter</a></h3><div class="mceTemp"><br><br><a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/codeigniter-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/codeigniter-framework-php-1024x589.png" alt="CodeIgniter PHP Framework"></a><br><br>CodeIgniter PHP Framework<br><br></div>
+
+<p>Codeigniter merupakan salah satu framework PHP yang saat ini digunakan oleh banyak web developer di Indonesia. Codeigniter memiliki performa yang cukup impresif dan mampu mengungguli beberapa PHP Framework pesaingnya. Selain itu CodeIgniter memiliki _small foot-print _atau ukuran file yang relatif kecil, serta cukup mudah dipelajari.</p>
+<h3 id="Yii-Framework"><a href="#Yii-Framework" class="headerlink" title="[Yii Framework"></a>[Yii Framework</h3><p>](<a href="http://www.yiiframework.com" target="_blank" rel="external">http://www.yiiframework.com</a>)</p>
+<p>[caption id=”attachment_783” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/yii-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/yii-framework-php-1024x589.png" alt="yii framework php"></a> Yii Framework[/caption]</p>
+<p>YiiFramework dibangun berdasarkan teknologi web 2.0 dengan tingkat keamanan yang cukup tinggi. Yii Framework memiliki cukup banyak fitur menarik seperti Input Validation, output filtering, dan SQL Injection</p>
+<h3 id="Phalcon"><a href="#Phalcon" class="headerlink" title="Phalcon"></a><a href="http://phalconphp.com" target="_blank" rel="external">Phalcon</a></h3><p>[caption id=”attachment_781” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/phalcon-framewor-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/phalcon-framewor-php-1024x589.png" alt="phalcon framework php"></a> Phalcon PHP Framework[/caption]</p>
+<p>Phalcon merupakan salah satu framework PHP dengan performa terbaik dan tercepat, dibangun dengan menggunakan pola konsep MVC seperti framework lainnya dan dibangun dengan bahasa pemrograman C, C++, dan PHP. Yang menjadikan framework ini menarik ialah framework ini merupakan sebuah C extension.</p>
+<h3 id="Laravel"><a href="#Laravel" class="headerlink" title="Laravel"></a><a href="http://laravel.com" target="_blank" rel="external">Laravel</a></h3><p>[caption id=”attachment_779” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/laravel-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/laravel-framework-php-1024x589.png" alt="laravel framework php"></a> Laravel[/caption]</p>
+<p>Laravel merupakan salah satu framework palng populer yang belakangan ini terus naik daun. Laravel sendiri memiliki berbagai fitur menarik seperti artisan, blade templating, eloquent, homestead, dan berbagai fitur menarik lainnya.</p>
+<h3 id="Panada"><a href="#Panada" class="headerlink" title="Panada"></a><a href="http://panadaframework.com/" target="_blank" rel="external">Panada</a></h3><p>[caption id=”attachment_780” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/panada-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/panada-framework-php-1024x589.png" alt="Panada Framework PHP"></a> Panada Framework[/caption]</p>
+<p>Panada merupakan framework lokal Indonesia yang dikembangkan oleh Iskandar Soesman. Panada adalah high performance PHP development framework namun tetap sederhana. Tidak hanya sederhana dalam pengertian cara penggunaanya, tetapi juga bagaimana core system-nya bekerja. <strong>KISS</strong> atau <em><strong>Keep it Simple Son!</strong></em> selalu menjadi prinsip utama Panada dalam setiap pengembangan.</p>
+<h3 id="Helium"><a href="#Helium" class="headerlink" title="Helium"></a><a href="https://github.com/andhikanugraha/helium" target="_blank" rel="external">Helium</a></h3><p>Helium juga merupakan framework MVC asal Indonesia yang dibangun oleh Andhika Nugraha (founder www.benangmerah.net) menggunakan bahasa pemrograman PHP.</p>
+<h3 id="Kecik-Framework"><a href="#Kecik-Framework" class="headerlink" title="Kecik Framework"></a><a href="http://kecik-framework.com/" target="_blank" rel="external">Kecik Framework</a></h3><p>[caption id=”attachment_778” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/kecik-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/kecik-framework-php-1024x589.png" alt="kecik framework php"></a> Kecik Framework[/caption]</p>
+<p>Kecik Framework merupakan framework PHP sederhana asal Indonesia yang dapat anda bangun dan kembangkan untuk menjadi framwork yang lebih kompleks untuk anda gunakan. Kecik Framework dibangun dengan konsep MVC yang sederhana.</p>
+<h3 id="FuelPHP"><a href="#FuelPHP" class="headerlink" title="FuelPHP"></a><a href="http://fuelphp.com" target="_blank" rel="external">FuelPHP</a></h3><p>[caption id=”attachment_777” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/fuelphp-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/fuelphp-framework-php-1024x589.png" alt="fuelphp framework php"></a> FuelPHP[/caption]</p>
+<p>FuelPHP berkerja dengan konsep MVC dan didukung dengan adanya berbagai plug-in inovative. FuelPHP mendukung <em>router based theory</em> dimana anda dapat melakukan routing secara langsung menuju input url terdekat, membuat controller lebih dekat dan memberikan kontrol terhadap eksekusi selanjutnya.</p>
+<h3 id="Zend"><a href="#Zend" class="headerlink" title="Zend"></a><a href="http://framework.zend.com" target="_blank" rel="external">Zend</a></h3><p>[caption id=”attachment_784” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/zend-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/zend-framework-php-1024x589.png" alt="Zend Framework PHP"></a> Zend Framework[/caption]</p>
+<p>Zend merupakan framework PHP modern yang difokuskan untuk membangun aplikasi web tingkat tinggi. Zend bekerja berdasarkan Cryptographic and secure coding tools.</p>
+<h3 id="Flight-PHP"><a href="#Flight-PHP" class="headerlink" title="Flight PHP"></a><a href="http://flightphp.com" target="_blank" rel="external">Flight PHP</a></h3><p>[caption id=”attachment_776” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/flight-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/flight-framework-php-1024x589.png" alt="Flight framework php"></a> Flight[/caption]</p>
+<p>Flight PHP merupakan framework yang sangat baik untuk mengembangkan aplikasi RESTful web service, dan menggunakan MIT Software License.</p>
+<h3 id="Cake-PHP"><a href="#Cake-PHP" class="headerlink" title="Cake PHP"></a><a href="http://cakephp.org" target="_blank" rel="external">Cake PHP</a></h3><p>[caption id=”attachment_774” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/cakephp-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/cakephp-framework-php-1024x589.png" alt="CakePHP Framework PHP"></a> CakePHP[/caption]</p>
+<p>Cake PHP merupakan framework PHP yang bagus untuk mengembangkan aplkasi web yang sederhana dan bagus.CakePHP memiliki berbagai fitur bawaan menarik seperti validation, SQL injection prevention yang membuat aplikasi web anda lebih aman. Keunggulan CakePHP antara lain : dibangun cepat, tidak memperlukan konfigurasi, menggunakan MIT license, MVC, dan aman.</p>
+<h3 id="PHPixie"><a href="#PHPixie" class="headerlink" title="PHPixie"></a><a href="https://phpixie.com" target="_blank" rel="external">PHPixie</a></h3><p>[caption id=”attachment_782” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/phpixie-framework-php.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/phpixie-framework-php-1024x589.png" alt="phpixie framework php"></a> PHPixie Framework[/caption]</p>
+<p>PHPixie berkerja dengan konsep MVC, dan didesign untuk membangun aplikasi web dengan cepat dan mudah.</p>
+<p>&nbsp;</p>
+<p>Nah, itu dia daftar dari beberapa framework PHP yang mungkin dapat menjadi referensi bagi anda untuk menentukan framework yang akan anda pelajari. Sekali lagi, setiap framework memiliki kelebihan dan kekurangan masing-masing. Cukup pilih yang paling nayaman untuk anda gunakan dan sesuai dengan kebutuhan anda.</p>
+<p>Semoga informasi ini dapat bermanfaat bagi kita semua, apabila anda memiliki tambahan, pertanyaan, kritik, atau saran, silakan sampaikan melalui kolom komentar dibawah ini.</p>
+<p>Wassalamu’alaikum Wr. Wb.</p>
+<p><em><strong>Refrensi :</strong></em></p>
+<p>_<strong><a href="http://www.tutorialspoint.com/php/php_frame_works.htm" target="_blank" rel="external">http://www.tutorialspoint.com/php/php_frame_works.htm</a></strong>_</p>
+<p><em><strong><a href="http://karyalokal.com/search?keyword=framework" target="_blank" rel="external">http://karyalokal.com/search?keyword=framework</a></strong></em></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Saat ini begitu banyak web programmer atau developer yang menggunakan berbagai macam framework PHP untuk memperm
+    
+    </summary>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
+    
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
+    
+      <category term="PHP" scheme="http://tamatamvan.web.id/tags/PHP/"/>
+    
+      <category term="Framework" scheme="http://tamatamvan.web.id/tags/Framework/"/>
+    
+      <category term="Laravel" scheme="http://tamatamvan.web.id/tags/Laravel/"/>
+    
+      <category term="CakePHP" scheme="http://tamatamvan.web.id/tags/CakePHP/"/>
+    
+      <category term="CodeIgniter" scheme="http://tamatamvan.web.id/tags/CodeIgniter/"/>
+    
+      <category term="Flight PHP" scheme="http://tamatamvan.web.id/tags/Flight-PHP/"/>
+    
+      <category term="Helium" scheme="http://tamatamvan.web.id/tags/Helium/"/>
+    
+      <category term="Kecik Framework" scheme="http://tamatamvan.web.id/tags/Kecik-Framework/"/>
+    
+      <category term="MVC" scheme="http://tamatamvan.web.id/tags/MVC/"/>
+    
+      <category term="Panada" scheme="http://tamatamvan.web.id/tags/Panada/"/>
+    
+      <category term="Phalcon" scheme="http://tamatamvan.web.id/tags/Phalcon/"/>
+    
+      <category term="PHPixie" scheme="http://tamatamvan.web.id/tags/PHPixie/"/>
+    
+      <category term="Yii Framework" scheme="http://tamatamvan.web.id/tags/Yii-Framework/"/>
+    
+      <category term="Zend" scheme="http://tamatamvan.web.id/tags/Zend/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Belajar Linux Di Situs Linux Journey</title>
+    <link href="http://tamatamvan.web.id/belajar-linux-di-situs-linux-journey%2010.08.49%20PM/"/>
+    <id>http://tamatamvan.web.id/belajar-linux-di-situs-linux-journey 10.08.49 PM/</id>
+    <published>2016-06-18T17:49:49.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Linux merupakan salah satu sistem open source yang sangat powerful dan cukup populer. Linux sendiri banyak digunakan sebagai sistem operasi komputer server, desktop, atau bahkan sistem operasi mobile seperti Android dan Ubuntu Phone. Sistem Linux sendiri tentu berbeda dengan sistem operasi yang banyak digunakan seperti Windows. Jika anda ingin mempelajari Linux dengan mudah dan menyenangkan, sekarang anda dapat belajar linux melalui situs <a href="https://tamatamvan.web.id/linux/cara-mengaktifkan-htaccess-apache-ubuntu/">Linux Journey</a>.</p>
+<p>Linux Journey sendiri merupakan sebuah website yang dibangun oleh pengguna forum Reddit bernama <a href="https://www.reddit.com/user/warbydarby" target="_blank" rel="external">WarbyDarby</a>, dan didesign untuk membantu anda belajar bagaimana cara Linux bekerja.</p>
+<p>Situs ini tidak menggunakan cara belajar tradisional dengan melalui artikel yang klise. Situs ini lebih fokus untuk memberikan pelajaran mengenai apa yang penting dari sistem Linux itu sendiri. Dengan belajar di situs Linux Journey ini sendiri anda akan belajar bagaimana bagian-bagian penting dari Linux tersebut bekerja (tidak tergantung distro apa yang anda gunakan, dan bersifat Linux secara umum), bagaimana anda bisa memanfaatkannya, menguasainya dan/atau belajar dari hal tersebut.</p>
+<p>&nbsp;</p>
+<h4 id="Mengapa-Belajar-Linux-di-Linux-Journey"><a href="#Mengapa-Belajar-Linux-di-Linux-Journey" class="headerlink" title="Mengapa Belajar Linux di Linux Journey?"></a>Mengapa Belajar Linux di Linux Journey?</h4><p>Dengan membagikan link nya melalui forum Reddit,<a href="https://www.reddit.com/r/linux/comments/4m4mko/i_made_a_site_to_learn_linux_what_do_you_think/" target="_blank" rel="external"> WarbyDarby</a> mengatakan bahwa:  “<em>[Saya membuat website ini untuk] membantu pemula mempelajari Linux, dan saya sangat mengapresiasi beberapa masukan.”</em></p>
+<p><em>”Ini lebih mendalam dibandingkan dengan situs pembelajaran Linux yang lainnya, tapi alasan saya membuatnya adalah untuk menghasilkan pemahaman yang lebih baik mengenai Linux dengan mengajarkannya pada orang lain.”</em></p>
+<p><em>“Ada beberapa bagian untuk setiap bab untuk latihan dan kuis (yang mengg)</em></p>
+<p><em>There are portions for each section for exercises and quizzes (yang bisa memelukan banyak usaha). Saya sendiri ingin menambahkan konsol interaktif, akan tetapi terlalu berat untuk sebuah situs hobby.__“</em></p>
+<h2 id="Didesign-dengan-Indah-dan-Sangat-Berguna"><a href="#Didesign-dengan-Indah-dan-Sangat-Berguna" class="headerlink" title="Didesign dengan Indah, dan Sangat Berguna"></a>Didesign dengan Indah, dan Sangat Berguna</h2><p>[caption id=”attachment_764” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/belajar_command_line_di_linux_journey.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/belajar_command_line_di_linux_journey-1024x589.png" alt="Belajar Command Linux di Situs Linux Journey"></a> Belajar Command Line Linux di Situs Linux Journey[/caption]</p>
+<p>Keseluruhan design dari situs ini terlihat indah dengan sedikit sentuhan Material Design, layout, warna, dan iconography yang baik.</p>
+<p>Setiap subjek pembelajaran dikategorikan dengan rapi dan dijabarkan kedalam pelajaran yang mudah dicerna. Kebanyakan pembelajaran memiliki kumpulan dari beberapa latihan dan interaktif kuis untuk membantu anda menerapkan apa yang baru saja anda baca dan pelajari kedalam sebuah praktik.</p>
+<p>&nbsp;</p>
+<p>[caption id=”attachment_767” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/kategori_bab_di_linux_journey.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/kategori_bab_di_linux_journey-1024x589.png" alt="Kategori Bab di Linux Journey"></a> Kategori Bab di Linux Journey[/caption]</p>
+<p>Anda dapat memilih materi untuk dipelajari tidak peduli anda mau belajar Linux mulai darimana. Entah anda ingin belajar vim atau emacs, mempelajari lebih banyak tentang Linux, atau belajar mengenai penggunaan praktikal tool pada Linux, anda tetap dapat memilihnya. Anda juga dapat belajar bagaimana melakukan troubleshooting terhadap instalasi Linux anda. Anda bisa mengunjungi situs Linux Journey sekarang juga, dan memberikan masukkan atau juga pujian untuk pembuatnya melalui <a href="https://www.reddit.com/r/linux/comments/4m4mko/i_made_a_site_to_learn_linux_what_do_you_think/" target="_blank" rel="external">Reddit</a>.</p>
+<p>Baiklah, itu dia sekilas mengenai situs Linux Journey, sekarang saya akan merangkum setiap kelebihan dan kekurangan dari situs Linux Journey sebagai berikut :</p>
+<h4 id="Kelebihan"><a href="#Kelebihan" class="headerlink" title="Kelebihan :"></a>Kelebihan :</h4><ul>
+<li>Materi pembelajaran cukup lengkap dan dikelompokkan secara rapi.</li>
+<li>Penyampaian materi to the point dan cukup jelas sehingga mudah dipahami.</li>
+<li>Bersifat <a href="https://github.com/cindyq/linuxjourney" target="_blank" rel="external">open source</a><a href="https://github.com/cindyq/linuxjourney" target="_blank" rel="external"> sehingga setiap orang dapat berkontribusi</a>.</li>
+<li>Terdapat latihan dan kuis dalam setiap bab.</li>
+<li>Design menawan.</li>
+</ul>
+<h4 id="Kekurangan"><a href="#Kekurangan" class="headerlink" title="Kekurangan :"></a>Kekurangan :</h4><ul>
+<li>Belum tersedia dalam Bahasa Indonesia.</li>
+<li>Belum ada konsol interaktif.</li>
+</ul>
+<p>Bagi anda yang ingin belajar Linux serta memiliki kemampuan berbahasa Inggris yang cukup baik, maka situs Linux Journey ini patut untuk anda coba.</p>
+<p>Sekian informasi mengenai situs Linux Journey, semoga dapat bermanfaat bagi kita semua. Apabila anda memiliki tambahan, pertanyaan, kritik, atau saran, silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><em><strong>Referensi :</strong></em></p>
+<ul>
+<li><a href="http://www.omgubuntu.co.uk/2016/06/learn-linux-great-new-website-linux-journey" target="_blank" rel="external">http://www.omgubuntu.co.uk/2016/06/learn-linux-great-new-website-linux-journey</a></li>
+<li><a href="https://linuxjourney.com/" target="_blank" rel="external">https://linuxjourney.com/</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Linux merupakan salah satu sistem open source yang sangat powerful dan cukup populer. Linux sendiri banyak digun
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+      <category term="Open Source Software" scheme="http://tamatamvan.web.id/categories/Linux/Open-Source-Software/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Open Source" scheme="http://tamatamvan.web.id/tags/Open-Source/"/>
+    
+      <category term="belajar" scheme="http://tamatamvan.web.id/tags/belajar/"/>
+    
+      <category term="Linux Journey" scheme="http://tamatamvan.web.id/tags/Linux-Journey/"/>
+    
+      <category term="situs" scheme="http://tamatamvan.web.id/tags/situs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Daftar Situs Untuk Belajar Pemrograman</title>
+    <link href="http://tamatamvan.web.id/situs-untuk-belajar-pemrograman/"/>
+    <id>http://tamatamvan.web.id/situs-untuk-belajar-pemrograman/</id>
+    <published>2016-06-12T09:50:07.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Pada masa kini perkembangan teknologi semakin berkembang dengan begitu pesat. Begitu banyak inovasi-inovasi yang diciptakan oleh banyak orang yang berkecimpung di dunia teknologi. Dunia teknologi informasi pun juga terus berkembang dan semakin banyak peminatnya. Banyak orang yang ingin mendalami bidang ini, baik pada bidang jaringan ataupun bidang pemrograman. Kali ini saya akan berbagi mengenai daftar situs untuk belajar pemrograman yang saya rekomendasikan untuk anda.</p>
+<p>Dari sekian banyak orang yang ingin mendalami atau sekadar belajar dunia pemrograman banyak di antara mereka yang merasa sedikit kesulitan untuk mempelajarinya. Banyak faktor yang menyebabkan hal ini, seperti keterbatasan biaya, waktu, atau bahkan materi yang diberikan melalui lembaga pendidikan yang dirasakan masih kurang memadai. Jika anda adalah salah satu dari orang-orang yang ingin mendalami pemrograman akan tetapi merasakan beberapa kendala dan kesulitan, maka daftar situs untuk belajar pemrograman di bawah ini mungkin dapat membantu anda.</p>
+<h2 id="Daftar-Situs-untuk-Belajar-Pemrograman"><a href="#Daftar-Situs-untuk-Belajar-Pemrograman" class="headerlink" title="Daftar Situs untuk Belajar Pemrograman"></a>Daftar Situs untuk Belajar Pemrograman</h2><h3 id="Situs-untuk-belajar-pemrograman-berbahasa-Indonesia"><a href="#Situs-untuk-belajar-pemrograman-berbahasa-Indonesia" class="headerlink" title="Situs untuk belajar pemrograman berbahasa Indonesia"></a>Situs untuk belajar pemrograman berbahasa Indonesia</h3><ul>
+<li><h4 id="Codepolitan"><a href="#Codepolitan" class="headerlink" title="Codepolitan"></a><a href="https://codepolitan.com" target="_blank" rel="external">Codepolitan</a></h4><p>[caption id=”attachment_742” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/codepolitan.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/codepolitan-1024x558.png" alt="codepolitan - situs untuk belajar pemrograman"></a> codepolitan.com[/caption]</p>
+<p>CodePolitan adalah media edukasi online yang ditujukan untuk programmer Indonesia sebagai tempat belajar dan sumber informasi dunia pemrograman dan teknologi.Konten-konten yang ada di CodePolitan antara lain berisi berita, review komunitas, review &amp; wawancara tokoh, review tools, review event, catatan rilis framework, tips &amp; trik, serta komik dan meme seputar pemrograman.</p>
+<p>Selain itu Codepolitan juga merilis majalah bertema pemrograman yang dulu dinamai <a href="http://www.codertalk.id/" target="_blank" rel="external">NyankodMagz</a> dan sekarang menjadi <a href="http://www.codertalk.id/" target="_blank" rel="external">Codertalk</a>, dan juga rilis terakhir bernama <a href="https://www.codepolitan.com/magazine/" target="_blank" rel="external">Codepolitan Magazine</a>.</p>
+</li>
+<li><h4 id="SekolahKoding"><a href="#SekolahKoding" class="headerlink" title="SekolahKoding"></a><a href="https://sekolahkoding.com" target="_blank" rel="external">SekolahKoding</a></h4><p>[caption id=”attachment_736” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/sekolahkoding.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/sekolahkoding-1024x558.png" alt="sekolahkoding - situs untuk belajar pemrograman"></a> sekolahkoding.com[/caption]</p>
+<p>SekolahKoding merupakan situs yang menyediakan video tutorial web development dan programming dalam bahasa Indonesia. Latar belakang dibuatnya SekolahKoding sendiri adalah karena masih minimnya tutorial web development dan programming dalam bahasa Indonesia baik secara kuantitas maupun kualitas.<strong><a href="https://sekolahkoding.com" target="_blank" rel="external">
+</a></strong><br>Tutorial di SekolahKoding dapat di akses secara gratis, selain itu anda dapat mengupgrade akun anda menjadi akun <a href="https://sekolahkoding.com/premium" target="_blank" rel="external">premium</a> untuk mendapatkan akses download source code dan juga tutorial tingkat lanjut yang cukup sulit hanya dengan Rp 50.000,00/bulan atau Rp 150.000,00/6 bulan. Selain itu juga ada <a href="https://sekolahkoding.com/beasiswa" target="_blank" rel="external">program beasiswa</a> untuk mereka yang belum memiliki penghasilan akan tetapi serius ingin belajar pemrograman.</p>
+</li>
+<li><h4 id="CodeSaya"><a href="#CodeSaya" class="headerlink" title="CodeSaya["></a><a href="https://codesaya.com" target="_blank" rel="external">CodeSaya</a>[</h4><p>](<a href="https://codesaya.com" target="_blank" rel="external">https://codesaya.com</a>)</p>
+<p>[caption id=”attachment_743” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/codesaya.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/codesaya-1024x558.png" alt="codesaya - situs untuk belajar pemrograman"></a> codesaya.com[/caption]</p>
+<p>CodeSaya adalah sebuah wadah  bagi para insan yang mendambakan untuk menjadi mahir dan lihai dalam <a href="https://codesaya.com/python/" target="_blank" rel="external">Python</a>, <a href="https://codesaya.com/php/" target="_blank" rel="external">PHP</a>, <a href="https://codesaya.com/javascript/" target="_blank" rel="external">JavaScript</a>, dan lain-lain. Sistem pembelajaran pada CodeSaya sendiri bersifat interaktif dimana setelah mempelajari suatu topik, anda akan menghadapi sebuah soal coding yang jawabannya langsung diperiksa oleh software.Selain itu pada CodeSaya juga terdapat forum diskusi dan juga artikel yang ditulis oleh beberapa member CodeSaya yang dapat meningkatkan pengetahuan kita mengenai pemrograman.</p>
+</li>
+<li><h4 id="KelasKita"><a href="#KelasKita" class="headerlink" title="[KelasKita**"></a>[KelasKita**</h4><p>**](<a href="https://kelaskita.com/" target="_blank" rel="external">https://kelaskita.com/</a>)</p>
+<p>[caption id=”attachment_740” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/kelaskita.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/kelaskita-1024x558.png" alt="kelaskita - situs untuk belajar pemrograman"></a> kelaskita.com[/caption]</p>
+<p>Kelaskita adalah media online untuk memudahkan Anda membuat dan mengikuti kelas belajar secara online bersama peserta didik, teman, tim atau komunitas Anda.Kelaskita bertujuan untuk berkontribusi mencerdaskan Indonesia dengan membuat media belajar online yang mudah, murah, menyenangkan dan bisa diakses dari mana dan oleh siapa saja di seluruh dunia.Konten pada KelasKita sendiri memang tidak berfokus pada <a href="https://kelaskita.com/index/kategori/pemrograman/" target="_blank" rel="external">pemrograman</a>, melainkan pada ilmu pengetahuan secara umum. Akan tetapi saya rasa kelas pemrograman pada Kelas kita dapat menjadi referensi yang cukup bagus apabila kita ingin <a href="https://kelaskita.com/index/kategori/pemrograman/" target="_blank" rel="external">belajar pemrograman</a>.</p>
+</li>
+</ul>
+<p><strong>situs untuk belajar pemrograman berbahasa Inggris</strong></p>
+<p>Bagi anda yang memiliki kemampuan bahasa Inggris yang cukup baik, ada baiknya juga untuk mencoba beberapa situs untuk belajar pemrograman berbasa Inggris di bawah ini.</p>
+<ul>
+<li><h4 id="Codecademy"><a href="#Codecademy" class="headerlink" title="[Codecademy**"></a>[Codecademy**</h4><p>**](<a href="https://codecademy.com" target="_blank" rel="external">https://codecademy.com</a>)</p>
+<p>[caption id=”attachment_741” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/codecademy.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/codecademy-1024x589.png" alt="codecademy - situs untuk belajar pemrograman"></a> codecademy.com[/caption]</p>
+<p>Codecademy adalah sebuah situs pembelajaran pemrograman bersifat Interaktif sama seperti CodeSaya dimana setelah anda selesai mempelajari sebuah topik, anda akan dihadapkan pada soal coding dan diminta untuk menyelesaikannya dan akan dikoreksi secara otomatis oleh software Codecademy.Materi pembelajaran di Codecademy sangatlah banyak dan lebih kompleks, meliputi HTML&amp;CSS, JavaScript, PHP, Ruby, dan masih banyak lainnya. Selain itu juga terdapat forum untuk tanya jawab seputar soal coding yang ada pada Codecademy. Konten di codecademy bersifat gratis, dan sebagian ada yang bersifat premium atau berbayar.</p>
+</li>
+<li><h4 id="W3schools"><a href="#W3schools" class="headerlink" title="[**W3schools"></a>[**W3schools</h4><p>**](<a href="https://w3schools.com" target="_blank" rel="external">https://w3schools.com</a>)</p>
+<p>[caption id=”attachment_737” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/w3schools.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/w3schools-1024x589.png" alt="w3schools - situs untuk belajar pemrograman"></a> w3schools.com[/caption]</p>
+<p>W3schools adalah sebuah situs web developer berisi tutorial dan referensi mengenai bahasa pemrograman untuk web development seperti HTML, CSS, JavaScript, PHP, SQL, dan JQuery, yang meliputi sebagian besar aspek mengenai pemrograman web.Tutorial  dan referensi pada W3schools tersedia mulai dari tingkat paling dasar sampai tingkatan lanjut. Cocok bagi anda yang ingin belajar dan berfokus pada bidang web development.</p>
+</li>
+<li><h4 id="Tutorialspoint"><a href="#Tutorialspoint" class="headerlink" title="Tutorialspoint "></a><a href="http://www.tutorialspoint.com" target="_blank" rel="external">Tutorialspoint </a></h4><p>[caption id=”attachment_735” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/tutorialspoint.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/tutorialspoint-1024x558.png" alt="tutorialspoint - situs untuk belajar pemrograman"></a> Tutorialspoint.com[/caption]</p>
+<p>Tutorialspoint merupakan situs yang di dedikasikan untuk meningkatkan kualitas konten pendidikan online. Materi pada Tutorialspoint sendiri meliputi Computer Science, Information Technology, bahasa pemrograman, dan beberapa materi engineering dan juga materi manajemen. Di Tutorialspoint anda dapat mencoba memodifikasi contoh kode dalam setiap tutorial dan mengeksekusinya untuk melihat hasil keluarannya.</p>
+</li>
+<li><h4 id="Tuts"><a href="#Tuts" class="headerlink" title="[Tuts+"></a>[Tuts+</h4><p>](<a href="http://tutsplus.com" target="_blank" rel="external">http://tutsplus.com</a>)</p>
+<p>[caption id=”attachment_738” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/tutsplus.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/tutsplus-1024x589.png" alt="tutsplus - situs untuk belajar pemrograman"></a> tutsplus.com[/caption]</p>
+<p>Tuts+ merupakan penyedia materi kursus dan ‘How to tutorial’. Konten pda Tuts+ berupa video ataupun materi tertulis. Dengan konten tersebut anda dapat mempelajari skill kreatif dan teknikal. Ada banyak sekali materi kursus yang tersedia di situs Tuts+.Contoh materi yang terdapat pada situs Tuts+ antara lain meliputi web design, web development, mobile development, photography, game development, dan lain sebagainya. Beberapa konten bersifat gratis, dan beberapa lainnya bersifat premium atau berbayar.</p>
+</li>
+<li><h4 id="Codeschool"><a href="#Codeschool" class="headerlink" title="[Codeschool"></a>[Codeschool</h4><p>](<a href="https://www.codeschool.com" target="_blank" rel="external">https://www.codeschool.com</a>)</p>
+<p>[caption id=”attachment_739” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/codeschool.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/codeschool-1024x589.png" alt="codeschool - situs untuk belajar pemrograman"></a> codeschool.com[/caption]</p>
+<p>Codeschool adalah media pembelajaran online yang menyediakan konten yang tidak hanya mendidik tapi juga menyenangkan untuk diikuti. Setiap materi kursus dikemas dalam tema dan jalan cerita yang kreatif sehingga ketika anda belajar seolah anda sedang bermain game. Codeschool mengombinasikan game mechanic dengan instruksi dari video dan in-browser coding challenges untuk menciptakan suasana belajar coding yang menyenangkan dan berkesan. Dengan lebih dari 50 materi kursus meliputi Ruby, JavaScript, HTML/CSS, iOS, Git, dan database.</p>
+</li>
+<li><h4 id="Sitepoint"><a href="#Sitepoint" class="headerlink" title="[Sitepoint"></a>[Sitepoint</h4><p>](<a href="https://www.sitepoint.com/" target="_blank" rel="external">https://www.sitepoint.com/</a>)</p>
+<p>[caption id=”attachment_734” align=”aligncenter” width=”840”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/sitepoint.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/sitepoint-1024x589.png" alt="sitepoint - situs untuk belajar pemrograman"></a> Sitepoint.com[/caption]</p>
+<p>Sitepoint merupakan tempat berkumpulnya para web developer untuk saling berbagi mengenai passion mereka untuk membangun sebuah “Internet Things” yang luar biasa.Pada sitepoint anda dapat menemukan berbagai materi kursus, screencast, tutorial, tips &amp; trik, dan ebook mengenai pemrograman, terutama web development. Konten pada sitepoint sendiri memiliki beragam materi meliputi HTML/CSS, Ruby, PHP, Mobile, Design UI/UX, Wordpress, dan lain sebagainya.Selain itu pada situs Sitepoint juga terdapat forum untuk tanya jawab seputar web development.</p>
+</li>
+</ul>
+<p>Nah itu dia sekilas mengenai beberapa situs atau website yang dapat anda gunakan untuk belajar pemrograman. Menurut saya sendiri situs-situs di atas memiliki kualitas konten yang patut untuk anda coba apabila anda ingin belajar mengenai pemrograman.</p>
+<p>Sesungguhnya, di luar sana masih terdapat begitu banyak situs yang dapat kita gunakan untuk mulai belajar pemrograman. Namun, karena keterbatasan pengetahuan mengenai situs untuk belajar pemrograman dan waktu yang saya miliki, untuk sementara hanya ke sepuluh situs itulah yang dapat saya tuliskan. Mungkin seiring berjalannya waktu artikel ini akan terus saya update.</p>
+<p>Sekian artikel mengenai situs untuk belajar pemrograman. Semoga artikel kali ini dapat bermanfaat bagi kita semua, terutama yang ingin serius belajar pemrograman. Apabila anda memiliki pertanyaan, tambahan, kritik, atau saran, silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Pada masa kini perkembangan teknologi semakin berkembang dengan begitu pesat. Begitu banyak inovasi-inovasi yang
+    
+    </summary>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
+    
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
+      <category term="belajar" scheme="http://tamatamvan.web.id/tags/belajar/"/>
+    
+      <category term="situs" scheme="http://tamatamvan.web.id/tags/situs/"/>
+    
+      <category term="ruby" scheme="http://tamatamvan.web.id/tags/ruby/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
+    
+      <category term="PHP" scheme="http://tamatamvan.web.id/tags/PHP/"/>
+    
+      <category term="JavaScript" scheme="http://tamatamvan.web.id/tags/JavaScript/"/>
+    
+      <category term="codecademy" scheme="http://tamatamvan.web.id/tags/codecademy/"/>
+    
+      <category term="codepolitan" scheme="http://tamatamvan.web.id/tags/codepolitan/"/>
+    
+      <category term="codesaya" scheme="http://tamatamvan.web.id/tags/codesaya/"/>
+    
+      <category term="codeschool" scheme="http://tamatamvan.web.id/tags/codeschool/"/>
+    
+      <category term="CSS" scheme="http://tamatamvan.web.id/tags/CSS/"/>
+    
+      <category term="HTML" scheme="http://tamatamvan.web.id/tags/HTML/"/>
+    
+      <category term="kelaskita" scheme="http://tamatamvan.web.id/tags/kelaskita/"/>
+    
+      <category term="sekolahkoding" scheme="http://tamatamvan.web.id/tags/sekolahkoding/"/>
+    
+      <category term="sitepoint" scheme="http://tamatamvan.web.id/tags/sitepoint/"/>
+    
+      <category term="tutorialspoint" scheme="http://tamatamvan.web.id/tags/tutorialspoint/"/>
+    
+      <category term="tutsplus" scheme="http://tamatamvan.web.id/tags/tutsplus/"/>
+    
+      <category term="w3schools" scheme="http://tamatamvan.web.id/tags/w3schools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cara Redirect Halaman Web Dengan Javascript</title>
+    <link href="http://tamatamvan.web.id/cara-redirect-halaman-web-dengan-javascript/"/>
+    <id>http://tamatamvan.web.id/cara-redirect-halaman-web-dengan-javascript/</id>
+    <published>2016-06-11T16:08:18.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Javacript merupakan sebuah bahasa pemrograman yang kini terus berkembang dan semakin banyak digunakan oleh banyak programmer. Javascript sendiri sering digunakan untuk membuat sebuah website sebagai client side language dan biasa dipadukan dengan framework javascript seperti JQuery. Kali ini saya akan sedikit berbagi tentang JavaScript, yaitu tentang cara redirect halaman web dengan JavaScript.</p>
+<p>Untuk redirect atau mengalihkan halaman web sendiri kita dapat melakukannya dengan banyak cara, seperti menggunakan .htaccess seperti pada tutorial yang pernah saya tulis sebelumnya, menggunakan PHP, atau menggunakna JavaScript sepeti yang akan kita bahas saat ini.</p>
+<p>Redirect halaman web dengan JavaScript sendiri kita dapat menggunakan beberapa variasi, seperti contohnya menggunakan tombol atau button yang akan mengeksekusi fungsi redirect, atau redirect secara otomatis setelah halaman dimuat, redirect otomatis setelah beberapa detik.</p>
+<p>Semua fungsi redirect tersebut dapat kita kustomisasi sesuai dengan keperluan dan kebutuhan kita masing-masing. Berikut ini adalah contoh penerapan page redirection atau mengalihkan halaman web dengan JavaScript.</p>
+<h2 id="Redirect-Halaman-Web-dengan-JavaScript"><a href="#Redirect-Halaman-Web-dengan-JavaScript" class="headerlink" title="Redirect Halaman Web dengan JavaScript"></a>Redirect Halaman Web dengan JavaScript</h2><ul>
+<li><strong>Redirect halaman web dengan JavaScript menggunakan tombol
+</strong>Contoh penggunaan sederhana page redirection dengan JavaScript adalah dengan menggunakan tombol yang akan mengeksekusi. Contoh adalah seperti kode HTML dengan JavaScript yang saya cantumkan di bawah ini :<script src="https://gist.github.com/tamatamvan/f5a65b15c66ce23aa11b2954f5c7c087.js"></script><br>Maka kode html di atas akan menghasilkan tampilan seperti gambar dibawah ini :</li>
+</ul>
+<p>[caption id=”attachment_726” align=”aligncenter” width=”454”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/redirect_javascript_1.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/redirect_javascript_1.png" alt=" mengalihkan halaman web dengan javascript"></a> Redirect menggunakan tombol[/caption]</p>
+<p>Bagian paling penting yang perlu kita perhatikan adalah pada bagian fungsi JavaScript yang kita namakan <code>Redirect() pada baris ke 5-7\.</code>Kemudian pada tag html<code>&amp;lt;button&amp;gt;</code>kita beri atribut <code>onclick=&quot;Redirect();</code>yang tujuannya adalah menunjukkan event atau fungsi yang akan dieksekusi (dalam hal ini fungsi <code>Redirect()</code>)</p>
+<ul>
+<li><p><strong>Redirect halaman web dengan JavaScript setelah beberap detik
+</strong>Dalam beberapa kasus seringkali kita membuka sebuah website dan pada website tersebut muncul pesan “Anda akan dialihkan menuju halaman blablabla pada 5 detik” atau “You will be redirected in 5 sec . . .”. Untuk membuat page redirection seperti itu anda bisa mencontoh kode html dengan fungsi JavaScript seperti di bawah :<br><script src="https://gist.github.com/tamatamvan/f2eeeba52f8fe3f7223f83f22e5e390a.js"></script><br>Maka kode HTML di atas akan menghasilkan tampilan seperti di bawah ini :</p>
+<p>[caption id=”attachment_727” align=”aligncenter” width=”523”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/06/redirect_javascript_2.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/06/redirect_javascript_2.png" alt="redirect halaman web dengan javascript"></a> Redirect otomatis setelah beberapa detik[/caption]</p>
+<p>Bagian yang berbeda dari contoh kedua ini dari contoh yang pertama ialah adanya tambahan penggunaan fungsi <code>document.write()</code> dan juga <code>setTimeout()</code>. document.write() berfungsi menampilkan pesan pada body HTML, sedangkan <code>setTimeout()</code> ialah fungsi untuk menentukan waktu kapan sebuah fungsi akan dieksekusi.</p>
+</li>
+</ul>
+<p>Itu dia sedikit contoh dan pembahasan mengenai page redirection atau mengalihkan halaman web dengan JavaScript. Apa yang saya bahas di sini hanyalah contoh penerapan paling sederhana, dimana anda masih bisa mengembangkannya sesuai dengan kebutuhan dan keinginan  anda.</p>
+<p>Semoga pembahasan sederhana mengenai page redirection dengan JavaScript kali ini dapat bermanfaat untuk kita semua. Apabila anda memiliki pertanyaan, kritik, atau saran, silakan untuk sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Javacript merupakan sebuah bahasa pemrograman yang kini terus berkembang dan semakin banyak digunakan oleh banya
+    
+    </summary>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
+    
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="JavaScript" scheme="http://tamatamvan.web.id/tags/JavaScript/"/>
+    
+      <category term="web" scheme="http://tamatamvan.web.id/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Membuat Launcher Aplikasi Pada Ubuntu</title>
+    <link href="http://tamatamvan.web.id/membuat-launcher-aplikasi-pada-ubuntu/"/>
+    <id>http://tamatamvan.web.id/membuat-launcher-aplikasi-pada-ubuntu/</id>
+    <published>2016-05-17T09:33:51.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr Wb., Sebelumnya saya telah menulis sebuah artikel mengenai <a href="https://tamatamvan.web.id/open-source-software/tutorial-install-android-studio-pada-ubuntu/">cara menginstall Android Studio</a> pada Ubuntu, pada praktik instalasi Android Studio tersebut kita ketahui bahwa setelah instalasi selesai belum terdapat launcher yang bisa kita gunakan untuk menjalankan Android Studio, sehingga kita perlu menjalankan Android Studio tersebut melalui command line pada terminal emulator. Jika kita ingin menjalankan beberapa aplikasi di Ubuntu yang tidak membuat launcher secara otomatis setelah instalasi selesai, kita perlu membuat launcher secara manual. Untuk itulah kali ini kita akan membahas cara membuat launcher aplikasi pada Ubuntu.</p>
+<h2 id="Membuat-Launcher-Aplikasi-pada-Ubuntu"><a href="#Membuat-Launcher-Aplikasi-pada-Ubuntu" class="headerlink" title="Membuat Launcher Aplikasi pada Ubuntu"></a>Membuat Launcher Aplikasi pada Ubuntu</h2><p>Untuk membuat launcher aplikasi pada Ubuntu kita perlu sebuah aplikasi bernama Alacarte. Alacarte merupakan main menu editor yang dapat digunakan untuk menambah, menghapus, atau mengedit daftar aplikasi pada launcher distro Linux, salah satunya ialah Ubuntu.</p>
+<p>Untuk menginstall Alacarte silakan jalankan perintah berikut pada terminal anda :</p>
+<pre><code>sudo apt-get install alacarte
+</code></pre><p>Setelah itu ikuti langkah di bawah untuk membuat launcher aplikasi (saya membuat launcher Android Studio sebagai contoh.) :</p>
+<ol>
+<li><p>Buka unity dash atau menu, ketikkan “Main Menu” pada kolom pencarian, dan jalankan aplikasi bernama “Main Menu” tersebut.</p>
+<p>[caption id=”attachment_690” align=”aligncenter” width=”652”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-22-53-54.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-22-53-54.png" alt="Jalankan Aplikasi Main Menu - membuat launcher aplikasi pada ubuntu"></a> Jalankan Aplikasi Main Menu[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Selanjutnya setelah window Main Menu terbuka, klik pada tombol “New Item” di bagian kanan.</p>
+<p>[caption id=”attachment_693” align=”aligncenter” width=”679”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-01-01.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-01-01.png" alt="Klik New Item - Membuat Launcher Aplikasi pada Ubuntu"></a> Klik New Item[/caption]</p>
+</li>
+<li>Kemudian isikan detail pada “Launcher Properties”, masukkan nama aplikasi yang anda ingin buat launchernya, dan juga perintah atau command yang digunakan untuk menjalankan aplikasi yang anda inginkan.</li>
+<li><p>Jika anda ingin mengubah icon-nya, anda dapat klik pada gambar roket di sisi kiri, dan memilih icon untuk launcher aplikasi yang anda inginkan.</p>
+<p>[caption id=”attachment_692” align=”aligncenter” width=”433”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-01-52.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-01-52.png" alt="Klik Rocket untuk ganti icon -  Membuat Launcher Aplikasi pada Ubuntu"></a> Klik Rocket untuk ganti icon[/caption]</p>
+</li>
+<li><p>Terakhir, pastikan semua data terutama command atau perintah untuk menjalankan aplikasi benar. Jika sudah, klik OK.</p>
+<p>[caption id=”attachment_691” align=”aligncenter” width=”430”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-03-00.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-03-00.png" alt="Klik OK - Membuat Launcher Aplikasi pada Ubuntu"></a> Klik OK[/caption]</p>
+</li>
+<li><p>Sekarang periksa pada menu dan ketikkan nama launcher aplikasi yang baru saja anda buat, jika anda berhasil anda akan menemukannya.</p>
+<p>[caption id=”attachment_694” align=”aligncenter” width=”642”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-03-31.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-17-23-03-31.png" alt="Cari launcher Anda - Membuat Launcher Aplikasi pada Ubuntu"></a> Cari launcher Anda[/caption]</p>
+</li>
+</ol>
+<p>Nah, itu dia cara untuk membuat launcher aplikasi pada Ubuntu. Semoga tutorial kali ini cukup jelas dan dapat anda pahami, serta dapat memberi manfaat bagi kita semua. Apabila anda memiliki pertanyaan, tambahan, kritik, atau saran, silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr Wb., Sebelumnya saya telah menulis sebuah artikel mengenai &lt;a href=&quot;https://tamatamvan.web.id/open-source-software/tu
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="android studio" scheme="http://tamatamvan.web.id/tags/android-studio/"/>
+    
+      <category term="alacarte" scheme="http://tamatamvan.web.id/tags/alacarte/"/>
+    
+      <category term="Launcher" scheme="http://tamatamvan.web.id/tags/Launcher/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tutorial Install Android Studio Pada Ubuntu</title>
+    <link href="http://tamatamvan.web.id/tutorial-install-android-studio-pada-ubuntu%2010.08.49%20PM/"/>
+    <id>http://tamatamvan.web.id/tutorial-install-android-studio-pada-ubuntu 10.08.49 PM/</id>
+    <published>2016-05-14T11:34:17.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb., Android merupakan sistem operasi mobile dengan pangsa pasar terbesar saat ini. Begitu banyak orang menggunakan smartphone, tablet PC, atau perangkat lain yang ditenagai oleh sistem operasi Android. Hal ini membuat banyak orang ingin belajar tentang bagaimana cara membuat aplikasi Android, mengingat potensi pasar yang terus berkembang. Ada banyak hal yang bisa anda lakukan untuk membuat aplikasi Android, salah satunya ialah dengan menggunakan Android Studio. Kali ini kita akan membahas cara install Android Studio  pada Ubuntu Linux.</p>
+<p>Android Studio merupakan sebuah software Integrated Development Environment (IDE) untuk mengembangkan aplikasi untuk sistem operasi Android. Android Studi sendiri memiliki fitur code editing, debugging, performance tooling, flexible build system, dan sebuah instant build/deploy system yang memungkinkan anda untuk lebih fokus mengembangkan aplikasi yang unik dan berkualitas tinggi.</p>
+<h2 id="Tutorial-Install-Android-Studio-pada-Ubuntu-Linux"><a href="#Tutorial-Install-Android-Studio-pada-Ubuntu-Linux" class="headerlink" title="Tutorial Install Android Studio pada Ubuntu Linux"></a>Tutorial Install Android Studio pada Ubuntu Linux</h2><p>Android Studio merupakan sebuah software IDE yang berjalan pada Oracle Java 1.8 atau lebih tinggi. Jadi pastikan sebelum menginstall Android Studio anda telah memiliki Oracle Java terinstall pada sistem anda. Jika belum, anda dapat mengikuti <a href="https://tamatamvan.web.id/linux/cara-install-java-8-di-ubuntu/">tutorial berikut</a> untuk <a href="https://tamatamvan.web.id/linux/cara-install-java-8-di-ubuntu/">menginstall Oracle Java pada Ubuntu</a>.</p>
+<p>Oke, jika anda sudah memiliki Oracle Java pada sistem Ubuntu anda mari kita memulai untuk menginstall Android Studio. Ikuti langkah-langkah berikut.</p>
+<ol>
+<li><strong>Download Android Studio</strong> untuk Linux <a href="http://developer.android.com/sdk/index.html" target="_blank" rel="external">di sini</a>.</li>
+<li>Ekstrak file .zip yang telah anda download pada lokasi yang cocok  yang anda inginkan, misalnya di <code>/usr/local/</code> , untuk user profile anda, atau <code>/opt/</code> untuk beberapa user. Atau anda bisa juga menempatkannya pada folder home anda.</li>
+<li>Selanjutnya, buka terminal Ubuntu anda, dan arahkan ke lokasi direktori <code>android-studio/bin/</code>, dan jalankan file <code>studio.sh</code>di dalamnya.<br><em>Contoh:</em> saya sendiri menempatkan file hasil ekstrak .zip android studio pada direktori <code>/opt/</code>maka saya akan menjalankan perintah<code>cd /opt/android-studio/bin/</code> untuk masuk ke lokasi file android studio berada, dan <code>./studio.sh</code> untuk menjalankan file <code>studio.sh</code>.</li>
+<li>Kemudian, pilih dan tentukan apakah anda ingin mengimport setting Android Studio yang sebelumnya atau tidak, jika anda baru pertama kali menginstall Android Studio, pilih tidak, laluk klik <strong>OK.</strong></li>
+<li>Setelah itu akan muncul Android Studio Setup Wizard, ikuti setiap instruksinya. Yang pertama pilih tipe instalasi yang kita inginkan, Stadard atau Custom. Jika sudah silakan klik ‘Next’.<img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-15.png" alt="Install Android Studio pada Ubuntu"></li>
+<li>Selanjutnya akan muncul tampilan yang meminta anda untuk memastikan atau memverifikasi konfigurasi yang anda inginkan. Jika semuanya OK, silakan klik ‘Next’.<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-31.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-31.png" alt="Install Android Studio pada Ubuntu"></a></li>
+<li>Selanjutnya, Android Studio Setup Wizard akan mendownload segala file yang dibutuhkan Android Studio untuk berjalan. Silakan bersabar menunggu hingga proses download selesai.<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-54.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-54.png" alt="Install Android Studio pada Ubuntu"></a></li>
+<li>Setelah proses download selesai, silakan klik finish. Untuk menjalankan Android Studio anda cukup melakukan langkah ketiga dari tutorial ini.<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-42.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-42.png" alt="Install Android Studio pada Ubuntu"></a></li>
+</ol>
+<p>Nah, itu dia cara install Android Studio pada Ubuntu Linux. Pada tutorial ini setelah proses intallasi berhasil, kita perlu membuka terminal dan mengetikkan beberapa perintah untuk menjalankan Android Studio. Namun, saya akan segera mengupdate pada artikel selanjutnya tentang cara membuat launcher aplikasi pada Ubuntu yang juga bisa kita terapkan pada Android Studio.</p>
+<p>Semoga tutorial ini dapat bermanfaat bagi kita semua. Apabila anda memiliki tambahan, pertanyaan, kritik, atau saran, silakan sampaikan melalui kolom komentar di bawah ini.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><em><strong>Sumber Referensi:</strong></em><br><em><strong><a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-26-15-50-15.png">http://developer.android.com/sdk/installing/index.html</a></strong></em></p>
+<p>&nbsp;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb., Android merupakan sistem operasi mobile dengan pangsa pasar terbesar saat ini. Begitu banyak orang menggunakan 
+    
+    </summary>
+    
+      <category term="Open Source Software" scheme="http://tamatamvan.web.id/categories/Open-Source-Software/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Open-Source-Software/Pemrograman/"/>
+    
+      <category term="Pemrograman Mobile" scheme="http://tamatamvan.web.id/categories/Open-Source-Software/Pemrograman/Pemrograman-Mobile/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="android studio" scheme="http://tamatamvan.web.id/tags/android-studio/"/>
+    
+      <category term="java" scheme="http://tamatamvan.web.id/tags/java/"/>
+    
+      <category term="Andoid" scheme="http://tamatamvan.web.id/tags/Andoid/"/>
+    
+      <category term="pemrograman mobile" scheme="http://tamatamvan.web.id/tags/pemrograman-mobile/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mengaktifkan .Htaccess Apache Pada Ubuntu</title>
+    <link href="http://tamatamvan.web.id/cara-mengaktifkan-htaccess-apache-ubuntu/"/>
+    <id>http://tamatamvan.web.id/cara-mengaktifkan-htaccess-apache-ubuntu/</id>
+    <published>2016-05-08T05:33:35.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb., <em>.htaccess</em> (hypertext access) file adalah sebuah _directory-level configuration file, <em>yang dapat digunakan pada beberapa jenis web server, salah satunya ialah Apache. File </em>.htaccess<em> sendiri biasa digunakan untuk berbagai keperluan seperti mengalihkan URL (URL Redirection), pemendekan URL (URL shortening), Access-security control (untuk beberapa halaman web dan file yang berbeda), dan berbegai penggunaan lainnya. Dalam artikel kali ini, kita akan membahas sedikit mengenai </em>.htaccess<em>, yaitu tentang cara mengaktifkan </em>.htaccess_ Apache pada Ubuntu.</p>
+<p>Dalam beberapa kasus, terkadang kita mencoba untuk menggunakan .htaccess untuk mengganti URL dari sebuah halaman web, mengalihkan URL, atau memendekkan URL, akan tetapi terkadang hal tersebut gagal dan memunculkan pesan error dari web server kita. Mungkin saja hal tersebut dikarenakan fitur .htaccess yang belum aktif pada web server yang kita gunakan.</p>
+<p>Berikut ini saya menyusun artikel berisi tutorial cara mengaktifkan .htaccess Apache pada Ubuntu. Sebagai catatan, tutorial kali ini mungkin bisa saja anda terapkan pada distro Linux lain dengan menyesuaikan beberapa langkah yang ada sesuai dengan keperluan anda.</p>
+<h2 id="Cara-Mengaktifkan-htaccess-Apache-pada-Ubuntu"><a href="#Cara-Mengaktifkan-htaccess-Apache-pada-Ubuntu" class="headerlink" title="Cara Mengaktifkan .htaccess Apache pada Ubuntu"></a>Cara Mengaktifkan .htaccess Apache pada Ubuntu</h2><p>&nbsp;</p>
+<ol>
+<li><p>Buka file _apache2.conf _dengan mengektikkan perintah di bawah pada terminal anda :</p>
+<pre>**`sudo nano /etc/apache2/apache2.conf
+`**</pre>
+</li>
+<li><p>Tekan tombol <code>Ctrl+W,</code> lalu masukkan “<code>AccessFileName .htaccess</code>“, apabila ada tanda pagar/comment (#) didepannya, hapus tanda itu.</p>
+</li>
+<li><p>Kemudian temukan line atau baris dengan script seperti di bawah ini :</p>
+<pre>**`&lt;Directory /var/www/&gt;
+ Options Indexes FollowSymLinks
+ AllowOverride None
+ Require all granted
+&lt;/Directory&gt;
+`**</pre>
+ganti "None" dengan "All"
+<pre>**`AllowOverride All
+`**</pre>
+</li>
+<li><p>Selanjutnya, coba check pada file <em>000-default.conf </em> pada ‘<code>/etc/apache2/sites-available/000-default.conf&#39;</code>, dengan memasukkan perintah :</p>
+<pre>**`sudo nano /etc/apache2/sites-available/000-default.conf`**</pre>
+</li>
+<li><p>Kemudian lakukan hal yang sama seperti pada langkah ke tiga pada file _000-default.conf _tersebut.<br>(ket : Langkah 4 dan 5 dilakukan tergantung pada versi Ubuntu yang anda gunakan, pada Ubutnu 16.04 seperti yang saya gunakan sendiri tidak perlu melakukan langkah nomor 4 dan 5 ).</p>
+</li>
+<li><p>Selanjutnya aktifkan ModRewrite dengan mengetikkan perintah :</p>
+<pre>**`sudo a2enmod rewrite`**</pre>
+</li>
+<li><p>Restart apache dengan perintah :</p>
+<pre>**`sudo service apache2 restart`**</pre>
+</li>
+<li><p>Selesai, silakan coba gunakan .htaccess pada aplikasi web di web server anda.</p>
+</li>
+</ol>
+<p>Nah, itu dia tutorial mengenai cara mengaktifkan .htaccess Apache pada Ubuntu.  Semoga tutorial kali ini dapat dengan mudah anda mengerti dan dapat bermanfaat bagi kita semua.</p>
+<p>Apabila anda memiliki pertanyaan, kritik, atau saran, silakan untuk jangan ragu menyampaikannya melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><strong>Sumber referensi :</strong></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/.htaccess" target="_blank" rel="external">https://en.wikipedia.org/wiki/.htaccess</a></li>
+<li><a href="http://webmasters.stackexchange.com/questions/61009/how-to-enable-use-of-htaccess-in-apache-on-ubuntu" target="_blank" rel="external">http://webmasters.stackexchange.com/questions/61009/how-to-enable-use-of-htaccess-in-apache-on-ubuntu</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb., &lt;em&gt;.htaccess&lt;/em&gt; (hypertext access) file adalah sebuah _directory-level configuration file, &lt;em&gt;yang dapat di
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term=".htaccess" scheme="http://tamatamvan.web.id/tags/htaccess/"/>
+    
+      <category term="apache" scheme="http://tamatamvan.web.id/tags/apache/"/>
+    
+      <category term="apache2" scheme="http://tamatamvan.web.id/tags/apache2/"/>
+    
+      <category term="web server" scheme="http://tamatamvan.web.id/tags/web-server/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hal Yang Perlu Dilakukan Setelah Install Ubuntu 16.04 LTS</title>
+    <link href="http://tamatamvan.web.id/hal-yang-perlu-dilakukan-setelah-install-ubuntu-16-04-lts/"/>
+    <id>http://tamatamvan.web.id/hal-yang-perlu-dilakukan-setelah-install-ubuntu-16-04-lts/</id>
+    <published>2016-05-05T03:28:27.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alikum Wr. Wb. Bagi anda yang baru saja selesa menginstall Ubuntu 16.04 LTS Xenial Xerus mungkin masih mencari tahu tentang hal yang perlu dilakukan setelah Install Ubuntu 16.04 LTS. Memang pada dasarnya setelah menginstall Ubuntu 16.04 LTS masih ada beberapa hal yang perlu kita lakukan untuk menjadikan sistem operasi Ubuntu 16.04 LTS milik kita menjadi benar-benar siap pakai untuk berbagai keperluan kita, dan semua itu bersifat relatif tergantung pada kebutuhan kita. Akan tetapi, berikut saya jelaskan beberapa hal yang mungkin anda perlukan untuk menjadikan Ubuntu 16.04 LTS menjadi Ubuntu yang anda butuhkan dan inginkan.</p>
+<h2 id="Hal-Yang-Perlu-Dilakukan-Setelah-Install-Ubuntu-16-04-LTS-Xenial-Xerus"><a href="#Hal-Yang-Perlu-Dilakukan-Setelah-Install-Ubuntu-16-04-LTS-Xenial-Xerus" class="headerlink" title="Hal Yang Perlu Dilakukan Setelah Install Ubuntu 16.04 LTS Xenial Xerus"></a>Hal Yang Perlu Dilakukan Setelah Install Ubuntu 16.04 LTS Xenial Xerus</h2><ol>
+<li><strong>Telusuri <a href="https://tamatamvan.web.id/linux/fitur-baru-ubuntu-16-04-xenial-xerus/">segala hal yang baru dari Ubuntu 16.04 LTS Xenial Xerus
+</a></strong>Ada baiknya bagi anda jika belum mengetahui apa saja yang baru dari rilis Ubuntu terbaru ini untuk menelusuri apa saja yang baru dari Ubuntu 16.04 LTS ini. Anda dapat membaca artikel yang saya baca sebelumnya mengenai <a href="https://tamatamvan.web.id/linux/fitur-baru-ubuntu-16-04-xenial-xerus/">Fitur Baru Ubuntu 16.04 LTS Xenial Xerus</a> untuk mengetahui berbagai fitur barunya, atau juga membaca artikel dari sumber lain yang terkait.</li>
+<li><p><strong>Check Update Terakhir yang Tersedia
+</strong>Menurut saya ini merupakan hal yang paling penting untuk dilakukan setelah install Ubuntu 16.04 LTS Xenial Xerus. Penting bagi kita untuk menjaga sistem yang kita gunakan tetap up-to-date untuk menjaga performa dan keamanannya. Selain untuk menginstall beberapa aplikasi yang kita butuhkan  pertama kali setelah install Ubuntu 16.04 LTS kita memang harus melakukan check update atau update reposiroty terlebih dahulu.Untuk melakukan check update pada Ubuntu 16.04 LTS dapat kita lakukan dengan cara menjalankan perintah <strong><code>sudo apt update</code></strong>, setelah itu apabila terdapat update yang tersedia dapat kita install dengan menjalankan perintah <strong><code>sudo apt dist-upgrade</code></strong>.</p>
+<p>[caption id=”attachment_635” align=”aligncenter” width=”697”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-27-19-56-38.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-27-19-56-38.png" alt="Software Updater pada Unity Dash - hal yang perlu dilakukan setelah install ubuntu 16.04"></a> Software Updater pada Unity Dash[/caption]</p>
+<p>Selain menggunakan command line pada terminal, kita juga dapat melakukkannya dengan menjalankan ‘Software Updater’. Cukup ketikkan ‘update’ pada unity dash, dan pilih ‘Software Updater’ untuk dijalankan. Secara otomatis software updater akan mengecheck update yang tersedia, setelah itu kita akan dimintai konfirmasi untuk menginstallnya atau tidak.</p>
+<p>[caption id=”attachment_636” align=”aligncenter” width=”481”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-27-19-49-38.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-27-19-49-38.png" alt="Software Updater - hal yang perlu dilakukan setelah install ubuntu 16.04"></a> Software Updater Berjalan[/caption]</p>
+</li>
+<li><strong><strong>Install Codec Multimedia Ubuntu (Ubuntu Restricted Extras)
+</strong></strong>“Ubuntu restricted extras” adalah sebuah paket yang terdiri dari beberapa codec yang tidak dimasukkan pada system Ubuntu secara default karena masalah legalitas pada beberapa negara.Untuk menghindari masalah legalitas, Ubuntu tidak memasukkan beberapa codec tersebut secara default dalam sistem mereka. Akan tetapi pihak Ubuntu menyediakan pake Ubuntu Restricted Extras ini secara terpisah sehingga pengguna dapa menginstallnya dengan mudah apabila diperlukan.Paket ini aman untuk diinstall, setelah menginstallnya kita akan dapat memutar berbagai format multimedia seperti MP3, MP4, AVI, MKV, dan lain sebagainya. Untuk menginstall Ubuntu Restricted Extras, cukup jalankan perintah <strong><code>sudo apt install ubuntu-restricted-extras</code></strong>pada terminal kita.</li>
+<li><p><strong>Install Propietary Driver
+</strong>Ubuntu mendukung sebagian besar Graphic Card Nvidia dan Intel dengan memberi anda opsi untuk menggunakan driver open source atau driver propietary yang dikeluarkan perusahaan hardware masing-masing.Ada baiknya untuk mendapatkan performa terbak dar sistem Ubuntu anda, anda dapat menggunaka driver propietary yang tersedia untuk perangkat atau komputer yang anda gunakan.Hal ini akan jadi cukup penting terutama apabila anda berniat menjalankan aplikasi yang membutuhkan performa grafis yang baik seperti Blender, atau bermain game dengan Steam.</p>
+<p>[caption id=”attachment_638” align=”aligncenter” width=”906”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-24-18-20-12-1.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-24-18-20-12-1.png" alt="Install Propietary Additional Drivers - hal yang perlu dilakukan setelah install ubuntu 16.04"></a> Install Propietary Additional Drivers[/caption]</p>
+<p>Untuk menginstall propietary driver yang tersedia silakan ikuti langkah-langkah berikut ini :</p>
+<ol>
+<li><strong>Buka dan jalankan  ‘Software &amp; Updates’ melalui Unity Dash</strong></li>
+<li><strong>Klik pada tab ‘Additional Drivers’</strong></li>
+<li><strong><strong>Klik, ceklist pada driver yang ingin anda install, ikuti setiap instruksi yang muncul, kemudian klik “install and apply any changes”</strong></strong></li>
+</ol>
+</li>
+<li><p><strong>Install Unity Tweak
+</strong>Unity  Tweak merupakan sebuah software yang memungkinkan anda untuk mengonfigurasi Unity seperti memindahkan posisi Unity Launcher, mengatur posisi menu bar, mengubah ukuran icon pada Unity Launcher, mengganti tema dan ikon, dll dengan mudah tanpa harus menjalankan perintah melalui command line.Unity Tweak tersedia pada reposiroty Ubuntu, untuk menginstallnya anda dapat mencarinya melalui Ubuntu Software atau mengetikkan perintah <strong><code>sudo apt install unity-tweak</code></strong>.</p>
+<p>[caption id=”attachment_640” align=”aligncenter” width=”703”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-28-14-52-50.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-28-14-52-50.png" alt="Unity Tweak Tool - hal yang perlu dilakukan setelah install ubuntu 16.04"></a> Unity Tweak Tool[/caption]</p>
+</li>
+<li><strong>Menentukan Posisi Unity Launcher
+</strong>Setelah selesai menginstall Unity Tweak Tool, kita dapat mengonfigurasi berbagai pengaturan pada Desktop Unity kita. Pada Ubuntu 16.04 LTS ini kita dapat mengubah posisi Unity Launcher pada sisi kiri layar atau sisi bawah layar desktop kita.  Untuk menentukan posisi tersebut dapat kita lakukan melalui Unity Tweak Tool dengan pada bagian _<strong>U**</strong>nity &gt; Launcher &gt; Posistion, lalu pilih ‘Left’ atau ‘Bottom’.</li>
+</ol>
+<hr>
+<pre><code>[caption id=&quot;attachment_641&quot; align=&quot;aligncenter&quot; width=&quot;500&quot;][![Memindah Posisi Unity Launcher - hal yang perlu dilakukan setelah install ubuntu 16.04](https://tamatamvan.web.id/wp-content/uploads/2016/04/2016-04-06-20_25_32.gif)](https://tamatamvan.web.id/wp-content/uploads/2016/04/2016-04-06-20_25_32.gif) Memindah Posisi Unity Launcher[/caption]
+
+Bisa juga dengan mengetikkan perintah :
+</code></pre><p><div class="arconix-column-one-half arconix-column-last"></div></p>
+<pre>**`gsettings set com.canonical.Unity.Launcher launcher-position Bottom`**</pre>
+
+7.  **Mengaktifkan fitur Minimize on Click pada Unity Launcher
+**Secara default, ketika kita klik pada salah satu icon pada Unity Laucher akan membuka atau menjalankan aplikasi yang kita klik icon-nya tersebut. Akan tetapi saat kita tidak bisa me-minimize aplikasi yang baru saja kita jalankan dengan klik kembali pada icon yang sama.
+
+    [caption id="attachment_642" align="aligncenter" width="516"][![Minimize on Click Unity Launcher - hal yang perlu dilakukan setelah install ubuntu 16.04](https://tamatamvan.web.id/wp-content/uploads/2016/04/unity-launcher.gif)](https://tamatamvan.web.id/wp-content/uploads/2016/04/unity-launcher.gif) Minimize on Click Unity Launcher[/caption]
+
+    &nbsp;
+<div>
+
+    Untuk melakukkannya kita perlu mengaktifkan fitur Minimize on Click pada Unity Laucher melalui Unity Tweak Tool  pada bagian **_Unity &gt; Launcher &gt; Minimize single window application on click_**. Atau anda juga dapat mengaktifkannya dengan menjalankan perintah :
+<div class="arconix-column-one-half">
+<pre>**`gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true`**</pre>
+</div>
+</div>
+8.  **Tentukan posisi app menu muncul
+**Secara default, app menu atau menu bar pada Ubuntu berapa pada top panel Unity dan tersembunyi secara otomatis setelah beberapa detik. Menu ini akan muncul jika anda mengarahkan cursor mouse anda ke atasnya.
+
+    [caption id="attachment_643" align="aligncenter" width="512"][![Posisi App Menu - hal yang perlu dilakukan setelah install ubuntu 16.04](https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-28-15-42-46-e1461833162813.png)](https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-28-15-42-46-e1461833162813.png) Posisi App Menu[/caption]
+
+    Ubuntu menyediakan pilihan pada _System Settings &gt; Appearance_ yang memungkinkan anda untuk menentukan dimana posisi dari App Menu atau menu bar ini akan muncul.Jika anda ingin menu bar tersebut muncul pada window aplikasi yang anda jalankan, silakan ikuti langkah berikut ini:
+
+    1.  **Buka ‘System Settings &gt; Appearance’**
+    2.  **Pilih tab ‘Behavior’**
+    3.  **Temukan bagian berjudul: ‘Show the Menus for a Window’**
+    4.  **Checklist (click) lingkaran disamping ‘In the window’s title bar’**
+Anda juga dapat membuat menu bar selalu tampak dengan mengikuti langkah dibawah ini:
+
+    1.  **Buka ‘System Settings &gt; Appearance’**
+    2.  **Pilih tab 'Behaviour'**
+    3.  **Temukan bagian berjudul: ‘Menus visibility’**
+    4.  **<strong>Checklist (click) lingkaran disamping ‘Always displayed’**</strong>
+
+9.  **Install berbagai aplikasi yang anda butuhkan**
+Tidak semua aplikasi yang anda butuhkan terisntall secara default pada sistem Ubuntu dan juga tersedia pada Ubuntu Software. Faktanya begitu banyak aplikasi linux yang bagus berada diluar repository utama Ubuntu. Anda dapat menginstall beberapa aplikasi tersebut dengan cara mengunduh file installer .deb nya sendiri.Untuk menginstall paket berekstensi .deb, anda dapat mengikuti tutorial yang sudah pernah saya tulis sebelumnya, [di sini](https://tamatamvan.web.id/linux/cara-install-paket-deb-ubuntu/).Selain itu, berikut daftar aplikasi yang saya rekomendasikan untuk anda install pada Ubuntu 16.04 LTS anda :
+
+    *   **[Google Chrome](http://google.com/chrome)** – Web browser with built-in, up-to-date Flash for Linux
+    *   **[Nylas N1](https://nylas.com/n1) **– A modern, stylish email client
+    *   **[Dropbox](https://www.dropbox.com/install?os=lnx)** – Cloud storage service
+    *   **[Spotify for Linux](http://spotify.com)** – Music streaming service
+    *   **[Lightworks Free](https://www.lwks.com/index.php?option=com_lwks&amp;view=download&amp;Itemid=206&amp;tab=1) –** Professional non-linear video editor
+    *   **[Viber](http://www.viber.com/en/)** – Cross-platform Skype alternative
+    *   **[Vivaldi](https://vivaldi.net/en-US/)** – Developer focused web browser
+    *   [**Xtreme Download Manager** ](http://xdman.sourceforge.net/)- Download Manager Open Source, sejenis IDM untuk linux.
+    *   **[Steam](http://store.steampowered.com/about/) - **Game distributors, install, manage, and play a lot of games.
+
+10.  **Kustomisasi tampilan Ubuntu 16.04 LTS sesuka hati Anda
+**Jika anda merasa kurang suka dengan tampilan default Ubuntu 16.04 LTS atau ingin suasana yang lebih _fresh _pada tampilan desktop anda, anda bisa mengubah tampilan desktop Ubuntu 16.04 LTS sesuka hati anda. Anda bisa mengganti icon, GTK Themes, Install aplikasi widget seperti Conky, atau bahkan menginstall Desktop Environment lain seperti XFCE, LXQt, Cinnamon, dsb.
+
+    [caption id="attachment_647" align="aligncenter" width="1024"][![Tampilan Ubuntu yang sudah dikustomisasi - Hal yang perlu dilakukan setelah install ubuntu 16.04 LTS](https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-23-20-40-35-1024x576.jpg)](https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-04-23-20-40-35.jpg) Tampilan Ubuntu yang sudah dikustomisasi[/caption]
+
+    Untuk mengkustomisasi tampilan Ubuntu 16.04 LTS seperti mengubah icon atau GTK Themes, saya merekomendasikan situs [Noobslab.com](http://www.noobslab.com/). Situs tersebut menyediakan berbagai Icon pack, GTK Themes, Conky, beserta tutorial cara instalasinya. Selain menyediakan berbagai icon packs, GTK Themes, Conky, dan berbagai macam hal untuk kustomisasi tampilan, pada situs tersebut juga terdapat info mengenai berbagai software menarik yang mungkin dapat meningkatkan produktifitas anda dengan Ubuntu.
+
+Sepuluh hal diatas adalah beberapa hal yang perlu dilakukan setelah install Ubuntu 16.04 LTS yang saya anggap sangat penting. Selain sepuluh hal diatas juga masih banyak hal yang bersifat optional menurut saya, akan tetapi bisa anda lakukan untuk meningkatkan performa Ubuntu anda seperti :
+
+1.  _**Install aplikasi pembersih sistem BleachBit** _(semacam CCleaner pada windows), cukup dengan ketikkan perintah :
+<pre>**`sudo apt install bleachbit` **</pre>
+
+<ol>
+<li><p><em><strong>Install dan lakukan syncronitation dengan layanan cloud storage</strong></em> yang anda gunakan pada Ubuntu. Berikut ada beberapa daftar layanan cloud storage yang bisa anda gunakan pada Ubuntu :</p>
+<ul>
+<li><strong><a href="https://www.dropbox.com/install" target="_blank" rel="external">Dropbox</a></strong> menyediakan aplikasi client Linux yang terupdate secara regular.</li>
+<li><strong><a href="https://owncloud.org/" target="_blank" rel="external">OwnCloud</a> </strong>layanan ini memungkinan anda membuat  personal cloud drive anda sendiri yang dapat anda kontrol sepenuhnya.</li>
+<li><strong>OneDrive</strong> dapat diakses melalui <a href="http://www.omgubuntu.co.uk/2014/06/one-drive-ubuntu-integration" target="_blank" rel="external">third-party scripts</a></li>
+<li><strong><a href="https://www.insynchq.com?utm_source=omgubuntu" target="_blank" rel="external">InSync</a></strong> menawarkan dukungan unofficial untuk Google Drive Linux (gratis)</li>
+<li><strong><a href="https://mega.nz/" target="_blank" rel="external">MEGA</a> </strong>menawarkan ruang penyimpanan gratis yang cukup besar, yaitu sebesar 50GB.Dari daftar tersebut, saya sendiri menggunakan Dropbox dan MEGA, dan yang saya rasakan performanya sejauh ini untuk keduanya cukup memuaskan, silakan anda pilih layanan cloud storage yang paling tepat untuk anda.</li>
+</ul>
+</li>
+<li><p><em><strong>Integrasikan Online Accounts</strong></em> yang anda miliki dengan Ubuntu 16.04 LTS. Anda dapat melakukannya dengan mengakses <strong>Settings</strong> &gt; <strong>Online Accounts</strong> dan tambahkan account yang anda inginkan.</p>
+<p>[caption id=”attachment_645” align=”aligncenter” width=”912”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-05-16-29-33.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/05/Screenshot-from-2016-05-05-16-29-33.png" alt="Online Accounts Integration - Hal yang perlu dilakukan setelah install Ubuntu 16.04 LTS"></a> Online Accounts Integration[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p><em><strong>Install Laptop Mode Tools.</strong></em> Jika anda menggunakan Ubuntu 16.04 LTS pada laptop, ada baiknya anda menginstall laptop mode tools untuk meningkatkan efisiensi konsumsi daya baterai pada laptop anda, sehingga usia dan kualitas baterai laptop akan menjadi lebih terjaga. Untuk menginstallnya cukup ketikkan perintah :</p>
+<pre>**`sudo apt install laptop-mode-tools`**</pre>
+</li>
+<li><p><strong><em>Install Java.</em></strong>_ _Banyak aplikasi open source pada linux berjalan dengan menggunakan Java. Terdapat beberapa versi Java yang anda gunakan pada Ubuntu 16.04 LTS, seperti OpenJDK, atau Oracle Java. Saya sendiri merekonmendasikan Oracle Java. Untuk menginstallnya anda dapat mengikuti <a href="https://tamatamvan.web.id/linux/cara-install-java-8-di-ubuntu/">tutorial Install Oracle Java pada Ubuntu</a>.</p>
+</li>
+</ol>
+<p>Nah, itu dia beberapa hal yang perlu dilakukan setelah install Ubuntu 16.04 LTS Xenial Xerus. Sebenarnya ada berbagai macam versi tentang hal apa saja yang perlu dilakukan setelah install Ubuntu. Anda bisa saja mencari referensi lainnya jika masih merasa ada yang kurang dangan artikel yang saya tuliskan ini. Saya sendiri mengambil referensi dari situs yang berbeda dan mengambil beberapa  point saja yang menurut saya benar-benar penting dan beberapa tambahan dari saya sendiri.</p>
+<p>Bagaimana dengan anda? Apakah anda memiliki tips dan trik tersendiri yang anda lakukan setelah install Ubuntu 16.04 LTS? Apakah anda memiliki kritik, saran, pertanyaan, atau tambahan untuk ini? Silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Saya berharap semoga artikel kali ini dapat bermanfaat bagi kita semua. Jangan lupa untuk mengajak sanak saudar, dan rekan-rekan kita untuk menggunakan software dan sistem operasi open source, salah satunya seperti Ubuntu ini.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><strong>Sumber Referensi :<br><a href="http://www.omgubuntu.co.uk/2016/04/10-things-to-do-after-installing-ubuntu-16-04-lts" target="_blank" rel="external"><em>http://www.omgubuntu.co.uk/2016/04/10-things-to-do-after-installing-ubuntu-16-04-lts</em></a></strong><br><a href="http://www.noobslab.com/2016/04/important-20-tweaksthings-to-do-after.html" target="_blank" rel="external"><em><strong>http://www.noobslab.com/2016/04/important-20-tweaksthings-to-do-after.html</strong></em></a><br><a href="http://itsfoss.com/things-to-do-after-installing-ubuntu-16-04/" target="_blank" rel="external"><em><strong>http://itsfoss.com/things-to-do-after-installing-ubuntu-16-04/</strong></em></a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alikum Wr. Wb. Bagi anda yang baru saja selesa menginstall Ubuntu 16.04 LTS Xenial Xerus mungkin masih mencari tahu tentang hal 
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Open Source" scheme="http://tamatamvan.web.id/tags/Open-Source/"/>
+    
+      <category term="Software" scheme="http://tamatamvan.web.id/tags/Software/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="Xenial Xerus" scheme="http://tamatamvan.web.id/tags/Xenial-Xerus/"/>
+    
+      <category term="16.04" scheme="http://tamatamvan.web.id/tags/16-04/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Download Ubuntu 16.04 LTS Melalui Mirror Lokal Indonesia</title>
+    <link href="http://tamatamvan.web.id/download-ubuntu-16-04-lts-melalui-mirror-lokal-indonesia/"/>
+    <id>http://tamatamvan.web.id/download-ubuntu-16-04-lts-melalui-mirror-lokal-indonesia/</id>
+    <published>2016-04-24T23:27:52.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamualaikum Wr. Wb. Ubuntu 16.04 LTS Xenial Xerus telah dirilis sejak tanggal 21 April 2016 yang lalu. Tentu benyak dari pengguna Ubuntu, atau bahkan orang-orang yang belum pernah menggunakan Ubuntu ingin untuk download Ubuntu 16.04 LTS ini dan mencoba untuk memakainya. Nah, kali ini saya akan berbagi sedikit mengenai mirror lokal Indonesia untuk download Ubuntu 16.04 LTS. Semoga saja dapat mempermudah anda untuk mendapatkan ISO Images dari Ubuntu 16.04 LTS Xenial Xerus ini.</p>
+<p>Bagi anda yang ingin download  Ubuntu 16.04 ini, saya sarankan apabila anda berada di wilayah Indonesia untuk download melaui mirror lokal yang tersedia. Ada beberapa alasan untuk hal tersebut, salah satunya adalah pada kecepatan koneksi. Jika anda mengunduh melalui Mirror Lokal Indonesia yang tentu saja jaraknya lebih dekat dengan server atau mirror ain yang ada luar negeri. Karenanya kecepatan transfer data saat download Ubuntu 16.04 LTS akan menjadi lebih cepat.</p>
+<p>Terdapat begitu banyak Mirror Lokal yang ada di Indonesia, tersebar di berbagai kota, dan biasanya dikelola oleh komunitas open source atau oleh beberapa universitas yang ada di Indonesia.</p>
+<p>Dari beberapa data yang saya kumpulkan sudah ada 6 mirror lokal yang menyediakan ISO Images dari Ubuntu 16.04 LTS Xenial Xerus. Mirror tersebut ada di beberapa kota antara lain Jakarta, Bandung, Surabaya, dan Yogyakarta. Anda dapat memilih salah satu yang lokasinya terdekat dengan tempat tinggal anda.</p>
+<h3 id="Daftar-Mirror-Lokal-untuk-Download-Ubuntu-16-04-LTS"><a href="#Daftar-Mirror-Lokal-untuk-Download-Ubuntu-16-04-LTS" class="headerlink" title="Daftar Mirror Lokal untuk Download Ubuntu 16.04 LTS"></a>Daftar Mirror Lokal untuk Download Ubuntu 16.04 LTS</h3><ul>
+<li><p>Jakarta :</p>
+<ul>
+<li><a href="http://kambing.ui.ac.id/iso/ubuntu/releases/xenial/" target="_blank" rel="external">http://kambing.ui.ac.id/iso/ubuntu/releases/xenial/</a></li>
+</ul>
+</li>
+<li><p>Bandung :</p>
+<ul>
+<li><a href="ftp://ftp.itb.ac.id/pub/ubuntu-releases/xenial/" target="_blank" rel="external">ftp://ftp.itb.ac.id/pub/ubuntu-releases/xenial/</a></li>
+</ul>
+</li>
+<li><p>Surabaya :</p>
+<ul>
+<li><a href="http://suro.ubaya.ac.id/pub/ubuntu/16.04/" target="_blank" rel="external">http://suro.ubaya.ac.id/pub/ubuntu/16.04/</a></li>
+<li><a href="http://buaya.klas.or.id/iso/ubuntu/releases/xenial/" target="_blank" rel="external">http://buaya.klas.or.id/iso/ubuntu/releases/xenial/</a></li>
+<li><a href="http://kebo.pens.ac.id/ubuntu-cd/releases/16.04/" target="_blank" rel="external">http://kebo.pens.ac.id/ubuntu-cd/releases/16.04/</a></li>
+</ul>
+</li>
+<li><p>Yogyakarta:</p>
+<ul>
+<li><a href="http://repo.ugm.ac.id/iso/ubuntu/releases/16.04/" target="_blank" rel="external">http://repo.ugm.ac.id/iso/ubuntu/releases/16.04/</a></li>
+</ul>
+</li>
+</ul>
+<p>Itu dia daftar dari beberapa Mirror lokal yang menyediakan ISO Images dari Ubuntu 16.04 LTS, daftar ini kedepannya akan saya update apabila ada repo lain yang saya temukan mulai menyediakan ISO Images Ubuntu 16.04 LTS.</p>
+<p>Sebagai informasi tambahan, pada mirror tersebut anda juga dapat menemukan ISO Images dari distro Linux lain dan juga repository lokal untuk beberapa distro Linux jika dibutuhkan.</p>
+<p>Sekian sedikit informasi mengenai daftar mirror lokal Indonesia untuk download ubuntu 16.04 LTS. Semoga informasi ini dapat bermanfaat bagi kita semua. Apabila anda punya tambahan, pertanyaan, kritik, atau saran, silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamualaikum Wr. Wb. Ubuntu 16.04 LTS Xenial Xerus telah dirilis sejak tanggal 21 April 2016 yang lalu. Tentu benyak dari pengguna Ubu
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="LTS" scheme="http://tamatamvan.web.id/tags/LTS/"/>
+    
+      <category term="Download" scheme="http://tamatamvan.web.id/tags/Download/"/>
+    
+      <category term="Indonesia" scheme="http://tamatamvan.web.id/tags/Indonesia/"/>
+    
+      <category term="Mirror" scheme="http://tamatamvan.web.id/tags/Mirror/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fitur Windows 10 Yang Terinspirasi Dari Linux</title>
+    <link href="http://tamatamvan.web.id/fitur-windows-10-yang-terinspirasi-dari-linux/"/>
+    <id>http://tamatamvan.web.id/fitur-windows-10-yang-terinspirasi-dari-linux/</id>
+    <published>2016-04-20T09:45:47.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Windows 10 merupakan sistem operasi besutan Microsoft yang paling baru dan bisa di bilang paling canggih saat ini. Dengan membawa berbagai fitur baru, Windows 10 tentu diharapkan dapat menjadi pilihan yang baik pagi para pecinta Windows. Tapi siapa sangka bila di antara berbagai fitur baru yang dibawa oleh Windows 10 diantaranya ternyata terdapat beberapa fitur yang telah ada dan digunakan pada sistem operasi berbasis Linux sejak beberapa tahun yang lalu sebelum Windows menggunakannya. Kali ini kita akan membahas berbagai fitur Windows 10 yang terinspirasi dari Linux.</p>
+<p>Apa sajakah berbagai fitur baru Windows 10 yang ternyata sudah pernah ada dan terinspirasi dari Linux tersebut, berikut daftar dari fitur Windows 10 yang terinspirasi dari Linux</p>
+<h2 id="7-Fitur-Windows-10-yang-Terinspirasi-dari-Linux"><a href="#7-Fitur-Windows-10-yang-Terinspirasi-dari-Linux" class="headerlink" title="7 Fitur Windows 10 yang Terinspirasi dari Linux"></a>7 Fitur Windows 10 yang Terinspirasi dari Linux</h2><ol>
+<li><p><strong>Multiple Desktop / Workspaces
+</strong>Fitur ini merupakan salah satu fitur baru Windows 10 yang paling banyak dibicarakan, yaitu tentang penggunakan <em>multiple virtual desktop</em>.  Di dunia Linux, fitur tersebut biasa disebut sebagai _workspaces, _dimana dengan fitur ini kita dapat menempatkan berbagai aplikasi atau program yang berjalan pada beberapa <em>virtual desktop</em> atau <em>workspaces</em> yang berbeda.</p>
+<p>[caption id=”attachment_616” align=”aligncenter” width=”700”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windows_10_Virtual_Desktop.jpeg"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windows_10_Virtual_Desktop.jpeg" alt="Virtual Desktop pada Windows 10 - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Virtual Desktop pada Windows 10[/caption]</p>
+<p>Apabila pada Windows fitur ini diperkenalkan pada tahun 2015 pada rilisan Windows 10, maka pada Linux fitur ini telah ada sejak sekitar tahun 1998 sejak KDE 1.0 dirilis. Kebanyakan dari distro Linux populer dan Desktop Environment populer memiliki fitur ini.</p>
+<p>[caption id=”attachment_619” align=”aligncenter” width=”1024”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-20-37-31.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-20-37-31-1024x576.png" alt="Workspaces pada Ubuntu - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Workspaces pada Ubuntu[/caption]</p>
+</li>
+<li><p><strong>Task View / Window Spread
+</strong>Windows 10 memiliki fitur bernama ‘Task View’ dimana ketika kita meng-klik pada tombol ‘Task View’ akan menampilkan daftar dari beberapa program atau aplikasi yang sedang berjalan.</p>
+<p>[caption id=”attachment_615” align=”aligncenter” width=”700”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windpws_10_Task_View.jpeg"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windpws_10_Task_View.jpeg" alt="Task View pada Windows 10 - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Task View pada Windows 10[/caption]</p>
+<p>Pada Linux, fitur ini disebut _Window Spread. _Fitur ini tersedia pada berbagai desktop environment modern seperti Gnome 3, Unity, Cinnamon, KDE. Fitur ini diperkenalkan sejak lamadi Linux, dan mulai populer sejak digunakan pada Gnome 3, meskipun sebelumnya KDE 4 sudah memiliki fitur ini.</p>
+<p>[caption id=”attachment_617” align=”aligncenter” width=”698”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-22-50-17-1.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-22-50-17-1-1024x576.png" alt="Window Spread pada Ubuntu - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Window Spread pada Ubuntu[/caption]</p>
+</li>
+<li><p><strong>Desktop Dengan Online Search</strong><br>Windows 10 memiliki peningkatan pada fitur pencarian atau _search. _Dimana ketika kita memasukkan kata kunci pada kolom pencarian akan menampilkan hasil pencarian berupa file pada komputer kita,, aplikasi yang terisntall atau yang tersedia pada Windows Store atau dari internet (yang akan dibuka melalui Internet Explorer).</p>
+<p>[caption id=”attachment_611” align=”aligncenter” width=”700”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/windows-10-search.jpg"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/windows-10-search.jpg" alt="Online Search pada Windows 10 - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Online Search pada Windows 10[/caption]</p>
+<p>Sebelumnya, Ubuntu telah melakukan hal yang sama dengan Unity Dash dan lenses/scopes nya. Ketika anda mencari sesuatu pada Unity Dash, maka akan ditampilkan hasil pencarian dari file dari komputer lokal kita, aplikasi yang terinstall dan tersedia pada Ubuntu Software Center, pencarian produk pada Amazon, dan beberapa link social media seperti foto facebook, youtube, dan referensi dari wikipedia.<br><a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-22-49-06.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-22-49-06-1024x716.png" alt="Online Search pada Ubuntu - Fitur Windows 10 yang Terinspirasi dari Linux"></a>Online Search pada Ubuntu - Fitur Windows 10 yang Terinspirasi dari Linux</p>
+</li>
+<li><p><strong>Borderless Windows &amp; Flat Icons
+</strong>Ini mungkin bukan fitur yang terlihat begitu mencolok, akan tetapi yang jelas _window _pada Windows 10 akan hadir dengan tampilan _border-less _atau tanpa bingkai yang menghasilkan tampilan yang lebih baik.</p>
+<p>[caption id=”attachment_609” align=”aligncenter” width=”700”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/windows10-flat-icons-no-borders-redesigned-look-file-explorer.jpeg"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/windows10-flat-icons-no-borders-redesigned-look-file-explorer.jpeg" alt="Border-less Windows pada Windows 10 - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Border-less Windows pada Windows 10[/caption]</p>
+<p>Fitur ini juga hadir pada Linux beberapa saat sebelum Windows 10 dirilis dimana fitur ini merupakan salah satu fitur baru yang ada pada rilis Ubuntu 14.04 LTS Trusty Tahr.</p>
+<p>[caption id=”attachment_610” align=”aligncenter” width=”699”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-21-00-51.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-20-21-00-51.png" alt="Border-less Window pada Ubuntu - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Border-less Window pada Ubuntu[/caption]</p>
+</li>
+<li><p><strong>Convergence pada Mobile dan Desktop OS
+</strong>Convergence merupakan sebuah fitur yang memungkinkan satu sistem operasi untuk digunakan pada berbagai perangkat mulai dari smartphone, tablet, komputer desktop, hingga smart TV.</p>
+<p>[caption id=”attachment_608” align=”aligncenter” width=”700”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windows_10_Convergence.jpeg"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windows_10_Convergence.jpeg" alt="Convergence pada Windows 10 - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Convergence pada Windows 10[/caption]</p>
+<p>Windows 10 sendiri menjanjikan pengalaman dan kualitas convergence yang lebih baik pada berbagai perangkat dari smartphone hingga komputer desktop.</p>
+<p>[caption id=”attachment_607” align=”alignnone” width=”700”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/ubuntu-tv-pc-smartphone-tablet.jpg"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/ubuntu-tv-pc-smartphone-tablet.jpg" alt="Convergence pada Ubuntu - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Convergence pada Ubuntu[/caption]</p>
+<p>Ubuntu adalah sistem operasi pertama yang memandang tentang kebutuhan perangkat convergence pertama kali. Kini Ubuntu telah meluncurkan beberapa produk smartphone dengan Ubuntu Phone memalui vendor smartphone Bq dan juga Meizu. Rencananya juga Ubuntu akan mengahadirkan produk tabletnya meskipun sampai saat ini perilisannya masih di tunda.</p>
+</li>
+<li><p><strong>Package Manager</strong><br>Windows 10 akan hadir dengan <em>package manager</em> nya sendiri. Yang berarti penggunanya akan dapat menginstall software aplikasi melalui command line pada PowerShell. Hal tersebut dibuktikan dengan penampakan gambar yang ditunjukkan oleh situs HowToGeek.</p>
+<p>[caption id=”attachment_606” align=”aligncenter” width=”650”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windows_10_package_Manager.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Windows_10_package_Manager.png" alt="Package Manager pada WIndows 10 - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Package Manager pada WIndows 10[/caption]</p>
+<p>Pada gambar tersebut ditunjukkan instalasi Firefox melalui package manager Windows 10.</p>
+<p>[caption id=”attachment_586” align=”aligncenter” width=”732”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-15-11-35-25.png"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-15-11-35-25.png" alt="Paket Manager apt pada Ubuntu - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Paket Manager apt pada Ubuntu[/caption]</p>
+<p>Fitur Package manager tentu sudah tak asing bagi pengguna Linux, pada Linux sendiri ada berbagai macam paket manager, seperti apt pada Debian, Ubuntu serta turunannya, yum dan dnf pada fedora, pacman pada Arch Lnux, zypper pada OpenSuse, dsb.</p>
+</li>
+<li><p><strong>Bash Shell
+</strong>Bash shell merupakan sebuah standar pada distribusi Linux dan juga OSX sebagai sebuah antar muka command line (berbasis text). Kini Windows 10 menghadirkan fitur Bash Shell dengan bantuan Cannonical (perusahaan di balik Ubuntu), sehingga pengguna Windows 10 dapat menjalankan Bash Script pada Windows 10 sebagaimana mereka menjalankannya pada sistem operasi Ubuntu.Bash akan hadir pada Windows 10 pada Windows 10 Aniversary Update pada musim panas tahun ini.</p>
+<p>[caption id=”attachment_605” align=”aligncenter” width=”1024”]<a href="https://tamatamvan.web.id/wp-content/uploads/2016/04/o92a2876.jpg"><img src="https://tamatamvan.web.id/wp-content/uploads/2016/04/o92a2876-1024x683.jpg" alt="Bash pada Windows 10 - Fitur Windows 10 yang Terinspirasi dari Linux"></a> Bash pada Windows 10[/caption]</p>
+<p>&nbsp;</p>
+</li>
+</ol>
+<p>Nah, itu dia sedikit informasi mengenai beberapa fitur Windows 10 yang terinspirasi dari Linux. Dunia teknologi memang selalu berkembang, dan berbagai perubahan akan terus ada untuk meningkatkan User Experience pada pengguna dari setiap teknologi tersebut, termasuk pada Windows dan juga Linux.</p>
+<p>Semoga informasi kali ini dapat bermanfaat bagi kita semua, apabila anda memiliki pertanyaan, kritik, atau saran, silakan sampaikan melalui kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><em><strong>Sumber referensi :</strong></em><br><a href="http://itsfoss.com/windows-10-inspired-linux/" target="_blank" rel="external">http://itsfoss.com/windows-10-inspired-linux/</a><br><a href="http://techcrunch.com/2016/03/30/be-very-afraid-hell-has-frozen-over-bash-is-coming-to-windows-10/" target="_blank" rel="external">http://techcrunch.com/2016/03/30/be-very-afraid-hell-has-frozen-over-bash-is-coming-to-windows-10/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Windows 10 merupakan sistem operasi besutan Microsoft yang paling baru dan bisa di bilang paling canggih saat in
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Software" scheme="http://tamatamvan.web.id/tags/Software/"/>
+    
+      <category term="Windows" scheme="http://tamatamvan.web.id/tags/Windows/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Sistem Operasi" scheme="http://tamatamvan.web.id/tags/Sistem-Operasi/"/>
+    
+      <category term="Bash" scheme="http://tamatamvan.web.id/tags/Bash/"/>
+    
+      <category term="windows 10" scheme="http://tamatamvan.web.id/tags/windows-10/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Seberapa Banyak Dan Dimana Saja Penggunaan Ubuntu</title>
+    <link href="http://tamatamvan.web.id/berapa-dan-dimana-saja-penggunaan-ubuntu%2010.08.49%20PM/"/>
+    <id>http://tamatamvan.web.id/berapa-dan-dimana-saja-penggunaan-ubuntu 10.08.49 PM/</id>
+    <published>2016-04-12T08:47:23.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Ubuntu merupakan salah satu distro Linux yang paling populer saat ini. Distro yang pertama kali rilis pada tahun 2004 kini telah menjadi salah satu distro terbesar Linux dan juga telah menurunkan begitu banyak distro lain seperti Linux Mint, ZorinOS, Deepin, dll. Ubuntu juga mengalami perkembangan dari waktu ke waktu, hingga saat ini ada berbagai varian Ubuntu termasuk Ubuntu Server, dan Ubuntu Phone untuk tablet PC dan smartphone. Dan kali ini kita akan membahas mengenai penggunaan Ubuntu, di mana saja Ubuntu digunakan, dan seberapa banyak Ubuntu digunakan.</p>
+<h3 id="Berapa-banyak-orang-menggunakan-Ubuntu-Ada-sangat-banyak"><a href="#Berapa-banyak-orang-menggunakan-Ubuntu-Ada-sangat-banyak" class="headerlink" title="Berapa banyak orang menggunakan Ubuntu? Ada sangat banyak!"></a>Berapa banyak orang menggunakan Ubuntu? Ada sangat banyak!</h3><p>Cannonical membagikan beberapa statistik yang menarik dalam sebuah infografik (yang akan anda lihat di bawah) yang menawarkan wawasan lebih jauh kepada anda tetang seberapa banyak dan dimana saja penggunaan Ubuntu ada.</p>
+<p>Satu <em>cloud instace </em> Ubuntu diluncurkan setiap detiknya.</p>
+<p>Ubuntu digunakan di berbagai tempat,  dari stasiun luar angkasa dan kendaraan Mars rovers, hingga robot dan ruter, juga server websites, dan computer seperti yang anda gunakan.</p>
+<h3 id="Penggunaan-Ubuntu-benar-benar-ada-di-mana-saja"><a href="#Penggunaan-Ubuntu-benar-benar-ada-di-mana-saja" class="headerlink" title="Penggunaan Ubuntu benar-benar ada di mana saja."></a>Penggunaan Ubuntu benar-benar ada di mana saja.</h3><p>Ubuntu sebenarnya begitu banyak digunakan oleh orang-orang. Begitu banyak orang menggunakan dan mengakses Ubuntu baik secara langsung atau tidak langsung, bahkan tanpa mereka sadari!</p>
+<p>Ubuntu berjalan _di belakang layar di _Walmart dan Netflix dan membantu proses selfie pada Snapchar dan juga entri data pada Instagram. Ubuntu menjadi <em>otak</em> dari supercomputer paling <em>powrful </em> di dunia dan menjadi <em>otot</em> di balik ensiklopedia online terbesar.</p>
+<p>Akan tetapi mendeteksi dan mencari tahu seberapa banyak orang menggunakan Ubuntu bukanlah hal yang mudah, sebagai mana Cannonical, perusahaan di balik Ubuntu mengakui :</p>
+<p>“Pengguna tidak perlu mendaftarkan instalasi mereka, berbagai perangkat <em>pre-load</em> dengan software dan server yang ditenagai dengan Ubuntu.”</p>
+<p>Akan tetapi statistik mereka dapat menunjukkan jejak global, dengan ratusan juta PC, server, dan bergai perangkat, virtual machine, dan container memanfaat kan open-source OS (Ubuntu).</p>
+<p>Dan bukan tidak mungkin penggunaan Ubuntu akan semakin meningkat, mengingat perkembangan Ubuntu yang semakin mencakup berbagai penggunaan, yang kini bahkan juga telah hadir Ubuntu Phone untuk smartphone, dimana kita bahkan bisa menginstallnya sendiri pada perangkat smartphone atau tablet Google Nexus. Selain itu teknologi cloud computing dan IoT (Internet of Things) juga semakin mendukung perkembangan Ubuntu.</p>
+<p>&nbsp;</p>
+<p>Infografik di bawah menyoroti berbagai kasus penggunaan Ubuntu yang belum terlalu banyak diketahui.</p>
+<p>[caption id=”” align=”aligncenter” width=”608”]<a href="https://assets.ubuntu.com/v1/dc3b301a-Infographic_Ubuntu-Everywhere_%28Alexia%29_02.16_AW-01.png?w=608" target="_blank" rel="external"><img src="https://assets.ubuntu.com/v1/dc3b301a-Infographic_Ubuntu-Everywhere_%28Alexia%29_02.16_AW-01.png?w=608" alt="Infografik Penggunaan Ubuntu"></a> Infografik Penggunaan Ubuntu[/caption]</p>
+<p>Itu dia sekilas informasi mengenai dimana saja dan seberapa banyak penggunaan Ubuntu di dunia ini. Semoga teknologi open source akan terus berkembang ke arah yang lebih baik seperti yang terjadi pada Ubuntu.</p>
+<p>Semoga informasi kali ini dapat bermanfaat bagi kita semua.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p>Sumber Referensi :</p>
+<ul>
+<li><a href="http://www.omgubuntu.co.uk/2016/04/ubuntu-infographic" target="_blank" rel="external">http://www.omgubuntu.co.uk/2016/04/ubuntu-infographic</a></li>
+<li><a href="http://insights.ubuntu.com/2016/04/07/ubuntu-is-everywhere/?utm_source=omgubuntu" target="_blank" rel="external">http://insights.ubuntu.com/2016/04/07/ubuntu-is-everywhere/?utm_source=omgubuntu</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Ubuntu merupakan salah satu distro Linux yang paling populer saat ini. Distro yang pertama kali rilis pada tahun
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+      <category term="Open Source Software" scheme="http://tamatamvan.web.id/categories/Linux/Open-Source-Software/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Open Source" scheme="http://tamatamvan.web.id/tags/Open-Source/"/>
+    
+      <category term="server" scheme="http://tamatamvan.web.id/tags/server/"/>
+    
+      <category term="Software" scheme="http://tamatamvan.web.id/tags/Software/"/>
+    
+      <category term="Cloud" scheme="http://tamatamvan.web.id/tags/Cloud/"/>
+    
+      <category term="Infografik" scheme="http://tamatamvan.web.id/tags/Infografik/"/>
+    
+      <category term="IoT" scheme="http://tamatamvan.web.id/tags/IoT/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Perintah Dasar Linux Yang Harus Diketahui</title>
+    <link href="http://tamatamvan.web.id/perintah-dasar-linux-harus-diketahui%2010.08.49%20PM/"/>
+    <id>http://tamatamvan.web.id/perintah-dasar-linux-harus-diketahui 10.08.49 PM/</id>
+    <published>2016-04-10T06:23:44.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr.Wb. Salah satu kelebihan sistem berbasis Linux adalah kita bisa mengatur keseluruhan sistem melalui terminal emulator menggunakan command line. Keuntungan dari menggunakan command line ialah anda dapat menggunakan pengetahuan dan skill yang sama untuk mengatur berbagai distribusi linux lain. Karena itu kali ini kita akan membahas mengenai berbagai perintah dasar Linux yang harus kita ketahui.</p>
+<p>Untuk mengatur mengatur setiap distribusi Linux  yang berbeda dengan cara yang sama dengan graphical user interface (GUI) tidaklah memungkinkan, mengingat setiap distro dan desktop environment (DE) memiliki user interface-nya masing-masing yang berbeda. Perlu di ingat bahwa sekalipun menggunakan command line, ada beberapa kasus dimana kita harus menggunakan perintah yang berbedan pada setiap distribusi Lnux, tetapi tetap dengan inti dan konsep perintah yang sama.</p>
+<p>Artikel kali ini akan membahas beberapa perintah dasar Linux yang harus kita ketahui, meliputi perintah untuk mengupdate sistem, memanage software, memanipulasi file, dan masuk ke mode root pada command Linux pada tiga distribusi besar yang populer: Ubuntu (Termasuk turunannya, dan juga Debian), OpenSuse, dan Fedora.</p>
+<h3 id="Perintah-Dasar-Linux-untuk-Update-Sistem"><a href="#Perintah-Dasar-Linux-untuk-Update-Sistem" class="headerlink" title="Perintah Dasar Linux untuk Update Sistem"></a>Perintah Dasar Linux untuk Update Sistem</h3><p>Design dan cara kerja Linux menjadikannya sebuah sistem yang aman, akan tetapi fakta bahwa setiap software memiliki bug dan itu dapat menjadi celah keamanan. Karena itulah sangat penting bagi kita untuk menjaga sistem kita tetap <em>up to date.</em> Dapat kita analogikan bahwa menjalankan sistem yang <em>out-of-date</em> bagaikan mengendarai tank berlapis baja dengan pintu yang terbuka. _ _Sehingga setiap orang dapat mask melalui pintu tersebut dan menyebabkan berbagai masalah. Sama seperti kita menjalankan sebuah sistem operasi. Selain itu salah satu keunggulan opern source ialah komunitas yang relatfi cepat dalam memperbaiki berbagai celah keamanan dibanding software propietary, sehingga menjalankan sistem yang _up-to-date _akan menjaga sistem anda tetap aman.</p>
+<p><strong>Ubuntu: </strong>Satu hal yang perlu kita ingat, adalah kita perlu mengupdate repository sebelum kita mengupdate sistem kita. Pad ubuntu anda dapat mengupdate reposistory dengan menjalankan perintah berikut:</p>
+<pre><code>**sudo apt-get update**`&lt;/pre&gt;
+
+Setelah repository telah terupdate, anda dapat mengupdate sistem dengan menjalankan perintah:
+
+&lt;pre&gt;`**sudo apt-get upgrade**`&lt;/pre&gt;
+
+akan tetapi perintah di atas tidak mengupdate kernel dan beberapa paket software, sehingga anda juga perl menjalankan perintah berikut:
+
+&lt;pre&gt;`**sudo apt-get dist-upgrade**`&lt;/pre&gt;
+
+**openSUSE: **Jika anda menggunakan openSUSE, anda dapat mengeupdate sistem dengan perintah berikut (seperti biasa, perintah pertama untuk mengupdate repo)
+
+&lt;pre&gt;`**sudo zypper refresh
+sudo zypper up**`&lt;/pre&gt;
+
+**Fedora**: Jika anda menggunakan Fedora, untuk mengupdate sistem silakan gunakan perintah &apos;dnf&apos; yang berfungsi sama seperti &apos;zypper&apos; dan &apos;apt-get&apos; pada openSuse dan Ubuntu :
+
+&lt;pre&gt;`**sudo dnf update
+sudo dnf upgrade**`&lt;/pre&gt;
+
+### Perintah Dasar Linux untuk Install dan Uninstall Software
+
+Anda dapat menginstall berbagai paket software yang ada pada repository yang tersedia pada  repository anda. Beberapa distribusi biasanya sejak awal memiliki beberapa repository official dan juga dari pihak ketiga sejak awal instalasi.
+
+**Ubuntu**: Untuk menginstall paket software pada Ubuntu, pastika repository telah terupdate, dan gunakan peintah dengan sintaks di bawah:
+
+&lt;pre&gt;`**sudo apt-get install [nama_paket_software]**`&lt;/pre&gt;
+
+Contoh:
+
+&lt;pre&gt;`**sudo apt-get install gimp**`&lt;/pre&gt;
+
+**openSUSE**: pada openSuse sintaks perintahnya sebagai berikut:
+
+&lt;pre&gt;`**sudo zypper install [nama_paket_software]**`&lt;/pre&gt;
+
+**Fedora**: kini Fedora telah menggunakan dnf untuk software management nya, sintaks perintah untuk install software pada Fedora adalah sebagai berikut:
+
+&lt;pre&gt;`**sudo dnf install [nama_paket_software]**`&lt;/pre&gt;
+
+Untuk menghapus atau menguninstall software, prosedurnya sama seperti saat kita menginstall, hanya cukup mengganti &apos;install&apos; dengan &apos;remove&apos;.
+
+**Ubuntu:**
+
+&lt;pre&gt;`**sudo apt-get remove [nama_paket_software]**`&lt;/pre&gt;
+
+**openSUSE:**
+
+&lt;pre&gt;`**sudo zypper remove [nama_paket_software]**`&lt;/pre&gt;
+
+**Fedora:**
+
+&lt;pre&gt;`**sudo dnf remove [nama_paket_software]**`&lt;/pre&gt;
+
+### Perintah dasar Linux untuk memanage software pihak ketiga
+
+Ada banyak komunitas pengembang software yang menawarkan software mereka kepada pengguna Linux. Setiap distribusi menggunakan mekanisme yang berbeda untuk menyediakan aplikasi software pihak ketiga kepada penggunanya. Ini juga bergantung pada bagaimana pengembang tersebut menawarkan software mereka kepada pengguna; beberapa menawarkannya melalui paket binaries, dan yang lainnya melalui repository.
+
+Dalam menyediakan software pihak ketiga, ubuntu sangatlag bergantung pada PPA (personal package archives) tetapi sayangnya, tidak ada alat atau software bawaan yang membantu kita dalam mencari PPA yang tersedia. Kita akan perlu mencari PPA tersebut melalui search engine seperti Google dan kemudian menambahkan reposirtory-nya secara manual sebelum menginstall software. Berikut perintah dasar Linux untuk menambahkan PPA ke sistem **Ubuntu** anda :
+
+&lt;pre&gt;`**sudo add-apt-repository ppa:&amp;lt;repository-name&amp;gt;**`&lt;/pre&gt;
+
+Contoh: Misalnya kita ingin menambahkan PPA dari LibreOffice, maka kita perlu mencari PPA tersebut melalui Google atau search engine lainnya, kemudian setelah itu kita dapatkan nama PPA nya melalui launchpad, yang kali ini namanya adalah &quot;libreoffice/ppa&quot;, maka kita masukkan PPA tersebut ke sistem kita dengan perintah:
+
+&lt;pre&gt;`**sudo add-apt-repository ppa:libreoffice/ppa**`&lt;/pre&gt;
+
+Setelah itu, kita akan diminta untuk menekan tombol enter untuk mengimport key nya, selanjutnya gunakan perintah &apos;`sudo apt-get update`&apos; untuk update repository, kemudian install paket software yang kita inginkan.
+
+**openSUSE **memiliki solusi yang elegant untuk memanage software pihak ketika. Anda dapat mengunjungi [software.opensuse.org](https://software.opensuse.org) dan mencari paket software yang ingin anda install dan anda dapat menginstallnya dengan sekali klik. Secara otomatis repository dari software pihak ketiga terebuta akan ditambahkan ke sistem openSUSE yang anda gunakan. Jika anda ingin menambahkan reposirory tersebut secara manual, gunakan perintah di bawah:
+
+&lt;pre&gt;`**sudo zypper ar -f url_of_the_repo name_of_repo
+**`&lt;/pre&gt;
+
+Contoh (menambahkan repository libreOffice) :
+
+&lt;pre&gt;`**sudo zypper ar -f [http://download.opensuse.org/repositories/LibreOffice](http://download.opensuse.org/repositories/LibreOffice):Factory/openSUSE_13.2/LibreOffice:Factory.repo LOF**`&lt;/pre&gt;
+
+Kemudian update repo, dan install paket software yang anda inginkan (contoh LibreOffice):
+
+&lt;pre&gt;`**sudo zypper refresh
+sudo zypper install libreoffice**`&lt;/pre&gt;
+
+**Untuk pengguna Fedora** dapat menambahkan RPM  Fusion (Free dan non-free repo)yang memiliki beberapa aplikasi utama untuk di install.  Apabila anda ingin menambahkan repository  secara manual, masukkan perintah dibawah (ganti link http://www.example.com/example.repo dengan link repo yan akan anda masukkan):
+
+&lt;pre&gt;`**dnf config-manager --add-repo [http://www.example.com/example.repo](http://www.example.com/example.repo)**`&lt;/pre&gt;
+
+Selanjutnya lakukan update repository dengan &quot;sudo dnf update&quot;.
+
+### Beberapa Perintah Dasar Linux yang bersifat umum
+
+Ada beberapa perintah dasar linux yang dapat diterapkan pada semua distribusi Linux. Berikut beberapa dianta perintah dasar Linux tersebut :
+
+Copy file atau direktori/folder ke lokasi folder yang baru:
+
+&lt;pre&gt;`**cp lokasi_awal_file lokasi_baru_file_setelah_di_copy/**`&lt;/pre&gt;
+
+Copy seluruh file dalam sebuah direktori/folder ke lokasi yang baru (perhatikan tanda bintang [*] dan slash [/] yang menunjukkan seluruh file dalam folder):
+
+&lt;pre&gt;`**cp lokasi_awal_file/* lokasi_folder_baru_tempat_file_akan_dicopy/**`&lt;/pre&gt;
+
+Memindahkan(move) file dari suatu direktori/folder lain (tanda slash [/] menunjukkan bahwa file akan dimasukkan ke direktori/folder tersebut):
+
+&lt;pre&gt;`**mv lokasi_awal_file lokasi_direktori_tempat_file_akan_pindah/**`&lt;/pre&gt;
+
+Memindahkan (move) semua file dari suatu direktori/folder lain (tanda slash [/] menunjukkan bahwa file akan dimasukkan ke direktori/folder tersebut) (tanda bintang [*] menunjukkan seluruh file dalam folder):
+
+&lt;pre&gt;`**mv lokasi_awal_file/* lokasi_direktori_tempat_file_akan_pindah/**`&lt;/pre&gt;
+
+Untuk menghapus sebuah file gunakan perintah berikut:
+
+&lt;pre&gt;`**rm lokasi_file_yg_akan_dihapus**`&lt;/pre&gt;
+
+Menghapus direktori:
+
+&lt;pre&gt;`**rm -r lokasi_folder/**`&lt;/pre&gt;
+
+Menghapus semua konten dan file dari suatu direktori/folder dan menyisakan direktori/folder kosong:
+
+&lt;pre&gt;`**rm -r lokasi_direktori_yg_akan_dihapus/***`&lt;/pre&gt;
+
+### Perintah Dasar Linux untuk Membuat Direktori atau Folder Baru
+
+Untuk membuat direktori atau folder baru, pertama masuk ke lokasi dimana anda ingin membuat direktori baru tersebut.  Sebagai contoh saya akan membuat direktori &apos;tutorial&apos; didalam folder &apos;Documents&apos; yang saya miliki. Maka saya akan mencoba masuk ke lokasi folder &apos;Documents&apos; dengan perintah berikut:
+
+&lt;pre&gt;`**cd /home/tamatamvan/Documents**`&lt;/pre&gt;
+
+(ganti &apos;tamatamvan&apos; dengan nama username anda)
+
+Kemudian buat direktori/folder &apos;tutorial&apos; dengan perintah mkdir:
+
+&lt;pre&gt;`**mkdir tutorial**`&lt;/pre&gt;
+
+Anda bisa membuat direktori/folder dari berbagai lokasi, dengan memberi lokasi lengkap tempat folder yang akan anda buat, sebagai contoh:
+
+&lt;pre&gt;`**mkdir /home/tamatamvan/Documents/tutorial**`&lt;/pre&gt;
+
+Jika anda ingin membuat sebuah folder di dalam direktori/folder lain, gunakan opsi -p pada perintah mkdir seperti contoh dibawah:
+
+&lt;pre&gt;`**mkdir -p /home/tamatamvan/Documents/linux/tutorial**`&lt;/pre&gt;
+
+### Perintah Dasar Linux untuk menjadi Root
+
+Anda perlu untuk menjadi root atau user yang memiliki hak administrator melalui sudo untuk melakukan beberapa tugas administratif seperti memanage paket software atau membuat perubahan direktori/folder, atau file konfigurasi pada direktori root. Sebagai contoh ketika kita ingin mengedit file &apos;fstab&apos; yang menyimpan data dari hard drive yang di mount. Di mana file tersebut berada dalam direktori &apos;etc&apos; di dalam direktori root. Anda hanya dapat melakukan perubahan tersebut dengan menjadi root atau menggunakan sudo. Untuk menjadi root pada Linux, anda dapat menggunakan perintah berikut :
+
+&lt;pre&gt;`**sudo su **`&lt;/pre&gt;
+
+atau
+
+&lt;pre&gt;`**su **`&lt;/pre&gt;
+
+_Ket : Untuk menggunakan perintah &apos;su&apos; pada Ubuntu ada beberapa hal yang perlu dilakukan yang sebelumnya saya bahas pada [artikel berikut](http://tamatamvan.web.id/linux/cara-login-user-root-ubuntu/). _
+
+Setelah memasukkan perintah di atas anda akan diminta untuk memasukkan password dan setelah itu anda mendapatkan hak akses root. Satu hal yang perlu di ingat : bahwa kita harus benar-benar berhati-hati ketika menggunakan akses root karna kesalahan yang kita buat dapat menyebabkan kerusakan sistem. Selain itu ketika kita melakukan modifikasi terhadap file atau direktori dengan menggunakan akses root, kepemilikan file dan/atau direktori tersebut bisa berubah menjadi milik root. Untuk mengubah kepemilikan file tersebut seperti semula, gunakan perintah di bawah ini :
+
+&lt;pre&gt;`**sudo chown -R user:user /path_of_file_or_directory**
+</code></pre><p>Anda mungkin saja sering kali membutuhkan perintah ini jika memiliki partisi dari distribusi Linux lain ter-mount pada sistem anda. Ketika anda mencoba mengaksesnya mungkin akan memberi anda masalah mengenai p<em>ermission denied error</em>. Bisa saja anda mengganti kepemilikan atau hak akses dari file atau konten tersebut. Hati-hati, jangan ganti hak akses atau kepemilikan dari direktori root.</p>
+<p>Itu dia beberapa perintah dasar Linux yang perlu kita ketahui. Semoga dapat bermanfaat bagi kita semua. Apabila ada pertanyaan, tambahan, kritik, atau saran dari anda, silakan sampaikan melalui kolom komentar di bawah ini.</p>
+<p>Terimakasih &amp; Wassalamu’alaikum Wr. Wb.</p>
+<p><strong><em>(Sumber Refensi : <a href="https://www.linux.com/learn/must-know-linux-commands-new-users" target="_blank" rel="external">https://www.linux.com/learn/must-know-linux-commands-new-users</a>)</em></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr.Wb. Salah satu kelebihan sistem berbasis Linux adalah kita bisa mengatur keseluruhan sistem melalui terminal emulator
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="debian" scheme="http://tamatamvan.web.id/tags/debian/"/>
+    
+      <category term="OpenSuse" scheme="http://tamatamvan.web.id/tags/OpenSuse/"/>
+    
+      <category term="Fedora" scheme="http://tamatamvan.web.id/tags/Fedora/"/>
+    
+      <category term="Command Line" scheme="http://tamatamvan.web.id/tags/Command-Line/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Menambahkan User Account Baru Ubuntu</title>
+    <link href="http://tamatamvan.web.id/menambahkan-user-account-baru-ubuntu/"/>
+    <id>http://tamatamvan.web.id/menambahkan-user-account-baru-ubuntu/</id>
+    <published>2016-04-09T11:02:33.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamualaikum Wr. Wb. Ubuntu merupakan salah satu distro Linux yang paling populer, bahkan dari kepopuleran Ubuntu menjadikan banyak distro baru yang merupakan turunannya bermunculan. Hal ini tidak lain karena sifat Ubuntu yang relatif user friendly sehingga cocok untuk pengguna Linux pemula. Kali ini saya akan membahas sebuah tutorial sederhana untuk pemula Ubuntu, yaitu sebuah tutorial tentang cara menambahkan user account baru Ubuntu.</p>
+<p>Penggunaan lebih dari satu user account terkadang diperlukan ketika sebuah komputer atau PC digunakan oleh lebih dari satu orang. Dengan adanya lebih dari satu user, biasanya setiap user atau pengguna memiliki karakter masing-masing, dan keperluan yang berbeda dalam penggunaan komputer. Oleh sebab itu terkadang diperlukan adanya lebih dari satu user account pada sistem operasi yang kita jalankan pada komputer kita, sehingga setiap user dapat mengatur data, aplikasi, dan segala keperluan pekerjaan-nya masing-masing dengan komputer tersebut dengan lebih leluasa.</p>
+<p>Bagi anda yang baru saja menggunakan sistem operasi Ubuntu dan ingin menambahkan user account baru Ubuntu pada sistem anda, anda dapat mengikuti tutorial di bawah ini.</p>
+<h2 id="Menambahkan-User-Account-Baru-Ubuntu"><a href="#Menambahkan-User-Account-Baru-Ubuntu" class="headerlink" title="Menambahkan User Account Baru Ubuntu"></a>Menambahkan User Account Baru Ubuntu</h2><ol>
+<li><p>Langkah pertama silakan klik pada icon panel unity di sebelah kanan atas, lalu pilih menu “System Settings…”</p>
+<p>[caption id=”attachment_552” align=”aligncenter” width=”488”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-09-46.png" alt="Pilih Menu System Settings "> Pilih Menu System Settings - Menambahkan User Account Baru Ubuntu[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Selanjutnya, setelah <em>window </em>“System Settings” terbuka, silakan klik “User Accounts” pada submenu System yang berada di bagian paling bawah. (Pada gambar sudah saya beri kotak merah)</p>
+<p>[caption id=”attachment_549” align=”aligncenter” width=”856”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-10-25.png" alt="Pilih User Accounts "> Pilih User Accounts - Menambahkan User Account Baru Ubuntu[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Selanjutnya, setelah anda klik, maka akan muncul <em>window </em>“User Accounts”, klik pada tombol “Unlock” pada bagian kanan atas window tersebut. (Pada gambar sudah saya beri kotak merah).</p>
+<p>[caption id=”attachment_551” align=”aligncenter” width=”932”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-10-42.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-10-42.png" alt="Klik tombol &quot;Unlock&quot; - Menambahkan User Account Baru Ubuntu"></a> Klik tombol “Unlock”[/caption]</p>
+</li>
+<li><p>Selanjutnya, silakan masukkan password user administrator (user utama yang anda gunakan) seperti pada gambar di bawah ini.</p>
+<p>[caption id=”attachment_544” align=”aligncenter” width=”863”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-10-54.png" alt="Masukkan Password User Administrator - Masukkan Password User Administrator"> Masukkan Password User Administrator[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Kemudian klik tombol (+) Create user account pada bagian kiri bawah _window “_User Accounts” untuk menambahkan user baru. (Pada gambar sudah saya beri kotak merah)</p>
+<p>[caption id=”attachment_545” align=”aligncenter” width=”930”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-11-02.png" alt="klik tombol (+) Create user account - Menambahkan User Account Baru Ubuntu"> Klik tombol (+) Create user account[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Kemudian pilih type user account baru yang anda inginkan, pilih standard untuk user biasa (tidak punya hak untuk merubah system), atau administrator untuk user administrator (memiliki hak untuk mengubah system). Lalu isikan juga nama user, dan username yang akan digunakan untuk login. Jika sudah klik tombol “Add”.</p>
+<p>[caption id=”attachment_546” align=”aligncenter” width=”856”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-11-55-1.png" alt="Isikan data user account - Menambahkan User Account Baru Ubuntu"> Isikan data user account[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Akun sudah berhasil dibuat, akan tetapi status-nya masih “Account Disabled”, dan juga belum memiliki password, untuk menambahkan password, klik pada tulisan “Account Disabled” seperti pada gambar di bawah. (Pada gambar sudah saya beri kotak merah)</p>
+<p>[caption id=”attachment_547” align=”aligncenter” width=”859”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-12-17.png" alt="Klik tulisan &quot;Account disabled&quot; - Menambahkan user account baru ubuntu"> Klik tulisan “Account disabled”[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Kemudian, pilih action “Set a password now” lalu isikan password yang anda inginkan pada kolom “New password”, dan isikan kemballi password tersebut pada kolom “Confirm password”. Jika sudah klik tombol “Change”.</p>
+<p>[caption id=”attachment_548” align=”aligncenter” width=”859”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-13-33.png" alt="Set Password untuk user baru ubuntu - Menambahkan User Account Baru Ubuntu"> Set Password untuk user baru ubuntu[/caption]</p>
+<p>&nbsp;</p>
+</li>
+<li><p>Terakhir, apabila anda ingin user tersebut secara otomatis langsung login ketika komputer dihidupkan, klik pada tombol “Automatic Login” seperti pada gambar di bawah. Jika anda ingin dapat memilih user untuk login ketika komputer dihidupkan, abaikan tombol tersebut. (Pada gambar sudah saya beri kotak merah)</p>
+<p>[caption id=”attachment_550” align=”aligncenter” width=”857”]<img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-05-20-13-55.png" alt="Klik tombol Auto Login - Menambahkan user Accountu baru Ubuntu"> Klik tombol Auto Login[/caption]</p>
+<p>&nbsp;</p>
+</li>
+</ol>
+<p>Nah itu dia tutorial mengenai cara menambahkan user account baru ubuntu. Semoga tutorial kali ini dapat bermanfaat bagi kita semua.</p>
+<p>Apablia anda memiliki pertanyaan, kritik, atau saran, silakan sampaikan melalui kolom komentar di bawah ini.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p>## </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamualaikum Wr. Wb. Ubuntu merupakan salah satu distro Linux yang paling populer, bahkan dari kepopuleran Ubuntu menjadikan banyak di
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mengganti Batasan Ukuran Upload File Pada PHP</title>
+    <link href="http://tamatamvan.web.id/mengganti-batasan-ukuran-upload-file-php/"/>
+    <id>http://tamatamvan.web.id/mengganti-batasan-ukuran-upload-file-php/</id>
+    <published>2016-04-01T05:20:49.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Saat ini perkembangan teknologi telah menghadirkan berbagai teknologi baru yang mutakhir, termasuk dengan munculnya berbagai bahasa pemrograman baru, yang juga meliputi bahasa pemrograman untuk pengembangan website. Sekalipun telah muncul berbagai teknologi dan bahasa pemrograman baru, PHP sebagai bahasa pemrograman website masih eksis dan banyak digunakan oleh developer web. Kali ini saya akan membahas mengenai cara mengganti batasan ukuran upload file pada PHP.</p>
+<p>Secara default setelah saat pertama instalasi PHP hanya mengizinkan pengguna untuk mengupload file dengan ukuran tidak lebih dari 2 MB. Selain itu juga ukuran data yang dapat dikirim dengan metode POST dengan ukuran data tidak lebih 8 MB.</p>
+<p>Dalam beberapa kasus, beberapa aplikasi tentu saja tidak akan bekerja optimal apabila hanya dapat mengupload file tidak lebih dari 2 MB dan mengirim data tidak lebih 8 MB. Konfigurasi ini sebenarnya dapat diubah apabila diperlukan. Berikut ini adalah cara untuk mengganti batasan ukuran upload file pada PHP.</p>
+<h2 id="Mengganti-batasan-ukuran-upload-file-pada-PHP"><a href="#Mengganti-batasan-ukuran-upload-file-pada-PHP" class="headerlink" title="Mengganti batasan ukuran upload file pada PHP"></a>Mengganti batasan ukuran upload file pada PHP</h2><p>Untuk mengganti batasan ukuran upload file pada PHP yang perlu kita edit ialah file konfigurasi php.ini . Pada Linux biasanya file ini berada pada direktori “/etc/php/”, sedangkan apabila anda menggunakan XAMPP pada windows, lokasinya berada pada folder php di dalam direktori XAMPP.</p>
+<ul>
+<li>Langkah pertama yang perlu kita lakukan tentu saja masuk kedalam direktori atau folder tempat file php.ini berada. Yaitu seperti yang saya sebutkan di atas, pada Linux file tersebut berada pada direktori “/etc/php/”, dan pada XAMPP Windows berada pada <a href="file:///C:/xampp/php" target="_blank" rel="external">C:/xampp/php</a> (Drive <a href="file:///C:/" target="_blank" rel="external">C:/</a> dapat anda ganti sesuai dengan drive yang anda gunakan untuk menyimpan data instalasi XAMPP.)</li>
+<li>Untuk mengedit file php.ini anda dapat menggunakan text editor favorit anda, akan tetapi apabila anda menggunakan Linux, pastikan anda menjalankan text editor anda dalam mode super user atau root karena file php.ini ini sendiri berada pada direktori root.</li>
+<li>Setelah anda membuka file php.ini pada text editor anda silakan gunakan fasilitas search (Ctrl+F), dan masukkan “upload_max_filesize=2M” pada kolom pencarian.<a href="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-31-22-22-32.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-31-22-22-32.png" alt="upload_max_filesize sebelum diubah - mengganti batasan ukuran upload file pada php"></a></li>
+<li>Pada line “upload_max_filesize=2M” tersebut menunjukkan bahwa ukuran maksimal dari file yang dapat kita upload adalah sebesar 2MB, jika ingin menggantinya kita hanya perlu mengganti nilai 2 dengan nilai yang kita inginkan. Misalkan jika kita inginkan PHP untuk dapat mengupload file hingga 1GB, maka kita ubah line tersebut menjadi “upload_max_filesize=1000M”<a href="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-01-17-13-49.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-01-17-13-49.png" alt="upload_max_filesize setelah diubah - mengganti batasan ukuran upload file pada php"></a></li>
+</ul>
+<h2 id="Mengganti-Batasan-Ukuran-Data-yang-Dapat-Dikirimkan-dengan-PHP"><a href="#Mengganti-Batasan-Ukuran-Data-yang-Dapat-Dikirimkan-dengan-PHP" class="headerlink" title="Mengganti Batasan Ukuran Data yang Dapat Dikirimkan dengan PHP"></a>Mengganti Batasan Ukuran Data yang Dapat Dikirimkan dengan PHP</h2><p>Setelah mengganti ukuran batas maksimal ukuran file yang dapat kita upload, kita juga akan mengganti batas ukuran data yang dapat dikirimkan dengan metode POST. Hal ini juga diperlukan, karena berdasarkan pengalaman saya, sekalipun batasan ukuran file yang dapat diupload sudah kita ubah tapi masih melebihi batas maksimal ukuran file yang dapat kita kirim dengan metode post ini juga, maka proses upload file dapat menjadi gagal.</p>
+<ul>
+<li><p>Untuk menggati batasan ukuran data yang dapat dikirimkan dengan PHP file yang perlu kita edit masihlah file yang sama, yaitu php.ini. Jika anda sudah membuka file PHP ini dengan teks editor anda, silakan gunakan fitur search (Ctrl+F) kembali, dan masukkan “post_max_size=8M” pada kolom search text editor anda.</p>
+<p><a href="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-03-31-22-41-59.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-03-31-22-41-59.png" alt="post_max_filesize sebelum diubah - mengganti batasan ukuran upload file pada php"></a></p>
+</li>
+<li><p>Nilai angka 8M, menujukkan bahwa maksimal data yang bisa kita kirim dengan metode post adalah sebesar 8MB, kita dapat menggantinya dengan nilai yang kita inginkan sama seperti “upload_max_size”, sedangkan untuk menghilangkan sama sekali atau men-disable batasan tersebut, anda dapat mengganti nilai 8M menjadi 0, sehingga line tersebut menjadi “post_max_size=0”</p>
+<p><a href="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-01-17-12-43.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/04/Screenshot-from-2016-04-01-17-12-43.png" alt="post_max_filesize setelah diubah - mengganti batasan ukuran upload file pada php"></a></p>
+</li>
+<li>Apabila sudah, silakan save file php.ini yang sudah anda edit, lalu lakukan pengujian dengan mengupload data berukuran besar pada aplikasi web yang berjalan di web server anda.</li>
+<li>Selamat Mencoba dan semoga berhasil!</li>
+</ul>
+<p>Baiklah itu dia cara untuk mengganti batasan ukuran upload file pada PHP dan mengganti atau menghilangkan batasan ukuran data yang dapat dikirimkan dengan metode POST pada PHP. Apabila anda memiliki pertanyaan, kritik, atau saran silakan sampaikan melalui kolom komentar dibawah.</p>
+<p>Semoga tutorial kali ini dapat bermanfaat bagi kita semua.</p>
+<p>Wassalamu’alaikum Wr. Wb.</p>
+<p>&nbsp;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Saat ini perkembangan teknologi telah menghadirkan berbagai teknologi baru yang mutakhir, termasuk dengan muncul
+    
+    </summary>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
+    
+    
+      <category term="Open Source" scheme="http://tamatamvan.web.id/tags/Open-Source/"/>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
+    
+      <category term="PHP" scheme="http://tamatamvan.web.id/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mengganti Document Root Apache Di Debian</title>
+    <link href="http://tamatamvan.web.id/mengganti-document-root-apache-di-debian/"/>
+    <id>http://tamatamvan.web.id/mengganti-document-root-apache-di-debian/</id>
+    <published>2016-03-30T07:58:14.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. Web server Apache merupakan salah satu web server paling populer yang paling di gunakan saat ini. Web Server Apache memiliki berbagai fitur dan kelebihan yang bisa kita manfaatkan. Kali ini saya akan membahas mengenai cara untuk mengganti document root Apache di Debian. Document Root adalah sebuah direktori atau folder tempat semua data aplikasi web atau website disimpan pada sebuah web server. Tutorial ini selain dapat diterapkan pada debian juga dapat diterapkan pada distro Linux lain berbasis Debian seperti Ubuntu.</p>
+<p>Secara default lokasi document root pada web server Apache biasanya berada pada direktori atau folder “<code>/var/www&quot;</code>, akan tetapi apabila kita inginkan kita dapat mengganti lokasi document root Apache  pada direktori atau folder yang lain. Untuk mengetahui caranya, silakan ikuti langkah-langkah di bawah ini untuk mengganti document root Apache di Debian dan turunannya.</p>
+<h2 id="Mengganti-Document-Root-Apache-di-Debian"><a href="#Mengganti-Document-Root-Apache-di-Debian" class="headerlink" title="Mengganti Document Root Apache di Debian"></a>Mengganti Document Root Apache di Debian</h2><ol>
+<li><strong>Pastikan anda memiliki web server Apache terinstall pada sistem operasi Debian atau turunanya</strong> (contoh : Ubuntu) yang anda miliki. Apabila belum, anda dapat mengikuti <a href="http://tamatamvan.web.id/linux/tutorial-cara-install-lamp-di-ubuntu-dan-konfigurasinya/">tutorial berikut</a> yang dapat anda terapkan pada sistem operasi Linux Debian beserta turunannya.</li>
+<li><strong>Login sebagai user root atau administrator</strong> pada sistem operasi Debian milik anda.</li>
+<li><strong>Masuk ke direktori “<code>/etc/Apache2/sites-available/&quot;</code> </strong> dengan perintah <kbd><strong>cd /etc/Apache2/sites-available/</strong></kbd>, direktori ini merupakan lokasi site atau virtual host yang dijalankan pada web server Apache, kita bisa memilih site mana yang akan kita ganti lokasi document root-nya.</li>
+<li><p><strong>Periksa file konfigurasi site</strong> yang akan kita ganti pada direktori “<code>/etc/Apache2/sites-available/&quot;</code> menggunakan perintah <strong><kbd>ls</kbd></strong>, pada web server saya terdapat file “<code>default</code>“ yang merupakan site bawaan atau default dari Apache, beberapa dari anda mungkin memilikinya dengan nama file “<code>000-default</code>“, silakan menyesuaikan jika terdapat perbedaan.</p>
+<p>[caption id=”attachment_477” align=”aligncenter” width=”639”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-20-57-33.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-20-57-33.png" alt="Isi Direktori Sites Avaiable - mengganti document root apache di debian"></a> Isi Direktori Sites Avaiable[/caption]</p>
+</li>
+<li><strong>Edit file konfigurasi site yang akan kita ganti lokasi document root-nya</strong>. Di sini saya akan mengganti lokasi document root dari site “<code>default&quot;</code>,  jadi file default tersebut saya edit dengan menggunakan text editor nano dengan perintah <strong><kbd>nano default</kbd></strong>, apabila anda ingin menggunakan text editor lain silakan menyesuaikan perintahnya.</li>
+<li><p><strong>Ganti tulisan “/var/www” setelah “Document Root” dan “Directory”</strong> dengan lokasi document root baru yang kita inginkan. Misalkan di sini saya ingin mengganti lokasi document root dari “<code>/var/www</code>“ menjadi “<code>/var/www-data</code>“<strong> </strong>. Misalkan anda ingin lokasinya ke direktori “<code>/usr/share/www</code>“, tinggal mengganti tulisan “<code>/var/www</code>“ setelah tulisan “Document Root” dan “Directory” dengan “<code>/usr/share/www</code>“. Berikut contoh perbandingan file konfigurasi site default sebelum dan sesudah diganti lokasi document root-nya. Anda dapat mengabaikan bagian Server Admin, ServerName, dan ServerAlias pada gambar.</p>
+<p>[caption id=”attachment_480” align=”aligncenter” width=”629”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-12-55.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-12-55.png" alt="File Site Default Sebelum di Edit - mengganti document root apache di debian"></a> File Site Default Sebelum di Edit[/caption]</p>
+<p>[caption id=”attachment_478” align=”aligncenter” width=”633”]<a href="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-13-14.png"><img src="http://tamatamvan.web.id/wp-content/uploads/2016/03/Screenshot-from-2016-03-30-21-13-14.png" alt="File Site Default Sesudah di Edit - mengganti document root apache di debian"></a> File Site Default Sesudah di Edit[/caption]</p>
+</li>
+<li><strong>Simpan file site default yang telah kita edit</strong>, apabila menggunakan nano tekan tombol <kbd>Ctrl+O<span style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;">, </span></kbd><kbd>Enter </kbd>untuk menyimpan file, lalu tekan <kbd>Ctrl+X</kbd> untuk keluar dari text editor nano.</li>
+<li><strong>Restart Web Server Apache</strong> dengan perintah <strong><kbd>service Apache2 restart</kbd></strong>. Selesai, lakukan pengujian dengan memasukkan file web site atau aplikasi web anda ke document root yang baru. Selamat mencoba!</li>
+</ol>
+<p>Baiklah, itu dia tutorial mengenai cara mengganti document root Apache di Debian. Semoga tutorial ini dapat bermanfaat bagi kita semua. Apabila anda memiliki pertanyaan, kritik, atau saran, silakan sampaikan pada kolom komentar di bawah.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p>&nbsp;</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. Web server Apache merupakan salah satu web server paling populer yang paling di gunakan saat ini. Web Server Apa
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://tamatamvan.web.id/categories/Linux/"/>
+    
+    
+      <category term="Ubuntu" scheme="http://tamatamvan.web.id/tags/Ubuntu/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="apache2" scheme="http://tamatamvan.web.id/tags/apache2/"/>
+    
+      <category term="web server" scheme="http://tamatamvan.web.id/tags/web-server/"/>
+    
+      <category term="debian" scheme="http://tamatamvan.web.id/tags/debian/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cara Redirect URL Dengan .Htaccess</title>
+    <link href="http://tamatamvan.web.id/cara-redirect-url-dengan-htaccess%2010.08.49%20PM/"/>
+    <id>http://tamatamvan.web.id/cara-redirect-url-dengan-htaccess 10.08.49 PM/</id>
+    <published>2016-03-29T06:27:10.000Z</published>
+    <updated>2017-06-21T14:49:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Assalamu’alaikum Wr. Wb. , Terkadang dalam membuat atau mengatur suatu website atau aplikasi berbasis web karena beberapa alasan kita ingin ketika sesorang mencoba membuka sebuah link URL atau alamat tertentu untuk kemudian dialihkan ke alamat lainnya. Misalnya untuk website yang baru saja berganti domain seperti TamaTamvan’s Note ini, redirecting atau mengalihkan dari URL atau alamat domain web lama ke  alamat domain yang baru merupakan pilihan yang cukup bagus untuk masa transisi ke alamat domain web yang baru tersebut. Ketika sesorang berusaha membuka alamat domain lama anda, maka secara otomatis akan dialihkan menuju alamat domain anda yang baru. Karena itulah kali ini saya akan membahas mengenai cara salah satu cara redirect URL, yaitu <em><strong>Cara Redirect URL dengan .htaccess </strong></em>.</p>
+<h2 id="Cara-Redirect-URL-dengan-htaccess"><a href="#Cara-Redirect-URL-dengan-htaccess" class="headerlink" title="Cara Redirect URL dengan .htaccess"></a>Cara Redirect URL dengan .htaccess</h2><p>Ada beberapa langkah yang harus kita lakukan untuk melakukan redirecting atau pengalihan URL dengan .htaccess. Cara redirect url dengan .htaccess adalah sebagai berikut :</p>
+<ol>
+<li><strong>Pastikan website atau aplikasi web anda berjalan pada web server apache</strong>, hal ini sangatlah penting dikarenakan tidak semua web server mendukung penggunaan file .htaccess. Jika anda tidak yakin mengenai hal ini, anda dapat menghubungi penyedia layanan hosting anda untuk menanyakannya.</li>
+<li><strong>Periksa root directory dari website anda</strong> (folder tempat semua file website atau aplikasi web anda disimpan), pastikan tidak ada file yang disembunyikan, check apakah ada file .htaccess atau tidak, apabila ada silakan lakukan pengeditan terhadap file tersebut.</li>
+<li><strong>Buat file .htaccess.</strong> Apabila anda tidak menemukan file .htaccess, anda dapat membuat file .htaccess yang yang baru menggunakan aplikasi text editor seperti notepad atau yang lainnya.  Pastikan file anda simpan dengan nama “<em>.htaccess</em>“, jangan lupakan tanda titik (.) pada awal nama file. Pastikan juga file tersebut tidak memiliki ekstensi di belakang nama file-nya seperti .txt.</li>
+<li><p><strong>Ketikkan code .htaccess </strong>yang akan kita gunakan untuk melakukan redirecting. Ketikkan format code berikut pada file .htaccess yang akan kita buat: <strong><code>redirect 301 /old/url_lama.com http://www.url_baru.com</code></strong></p>
+<ul>
+<li>Ganti bagian “<code>url_lama.com</code>“ dengan link atau URL yang ingin anda alihkan, pastikan anda tidak menambahkan “<code>http://www.</code> “ pada bagian setelah “<code>/old/</code>“.</li>
+<li>Ganti bagian “url_baru.com” dengan link atau URL baru anda.</li>
+<li>Pastikan antara bagian “/old/url_lama.com” dengan “<a href="http://www.url_baru.com" target="_blank" rel="external">http://www.url_baru.com</a>“ terdapat satu spasi.</li>
+<li>Contoh, apabila saya ingin mengalihkan pengunjung <code>[tamatamvan.xyz](http://tamatamvan.xyz)</code> menuju <code>[tamatamvan.web.id](http://tamatamvan.web.id)</code>maka code yang saya ketikkan pada file .htaccess saya adalah sebagai berikut <code>redirect 301 /old/tamatamvan.xyz http://tamatamvan.web.id</code>atau <code>redirect 301 /old/tamatamvan.xyz http://www.tamatamvan.web.id</code>, terserah pada kita apabila ingin mengalihkan link ke URL baru yang menggunakan “<code>www</code>“ atau tidak. Namun sekali lagi perlu diingat, untuk tidak menambahkan “http://“ atau “www” pada URL lama atau URL perujuk.</li>
+</ul>
+</li>
+<li><p><strong>Simpan atau upload file .htaccess</strong> yang telah kita buat kedalam root directory web server kita. Pastikan sebelumnya kita telah melakukan backup terhadap file .htaccess yang lama jika ada.</p>
+</li>
+<li><strong>Terakhir, lakukan pengujian </strong>dengan membuka link lama yang ingin kita alihkan. Ada baiknya bagi kita untuk melakukan pengujian dengan menggunakan mode <em>Incognito</em> atau _Private Browsing _untuk memastikan web browser anda langsung mengakses file redirect yang baru daripada mengakses cache yang ada pada web browser. Atau anda bisa menghapus semua cache yang ada pada browser anda melalui pengaturan web browser anda.</li>
+<li><strong>Selamat mencoba, dan semoga berhasil!</strong></li>
+</ol>
+<p>&nbsp;</p>
+<p>Baiklah, itu dia tutorial mengenai cara redirect url dengan .htaccess. Semoga tutorial ini dapat bermanfaat bagi kita semua. Apabila anda memiliki pertanyaan, kritik, atau saran, silakan sampaikan pada kolom komentar dibawah ini.</p>
+<p>Terimakasih dan Wassalamu’alaikum Wr. Wb.</p>
+<p><strong>Referensi : <a href="http://www.wikihow.com/Redirect-a-URL" target="_blank" rel="external">http://www.wikihow.com/Redirect-a-URL</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Assalamu’alaikum Wr. Wb. , Terkadang dalam membuat atau mengatur suatu website atau aplikasi berbasis web karena beberapa alasan kita ing
+    
+    </summary>
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/categories/Pemrograman/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/categories/Pemrograman/Pemrograman-Web/"/>
+    
+    
+      <category term="Pemrograman" scheme="http://tamatamvan.web.id/tags/Pemrograman/"/>
+    
+      <category term="Tutorial" scheme="http://tamatamvan.web.id/tags/Tutorial/"/>
+    
+      <category term="Pemrograman Web" scheme="http://tamatamvan.web.id/tags/Pemrograman-Web/"/>
+    
+      <category term=".htaccess" scheme="http://tamatamvan.web.id/tags/htaccess/"/>
+    
+      <category term="apache" scheme="http://tamatamvan.web.id/tags/apache/"/>
+    
+      <category term="web server" scheme="http://tamatamvan.web.id/tags/web-server/"/>
+    
+  </entry>
+  
 </feed>
